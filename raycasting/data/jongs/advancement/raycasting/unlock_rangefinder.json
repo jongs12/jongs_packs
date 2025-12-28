@@ -1,0 +1,37 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"got_the_item":
+		{
+		"trigger": "minecraft:inventory_changed",
+		"conditions":
+			{
+        	"items":
+				[{"items": "minecraft:iron_ingot"}]
+      		}
+		},
+	"has_the_recipe":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:raycasting/rangefinder"
+      		}
+    	}
+	},
+"requirements":
+	[
+    	[
+		"got_the_item",
+    	"has_the_recipe"
+    	]
+	],
+"rewards":
+	{
+	"recipes":
+		[
+    	"jongs:raycasting/rangefinder"
+    	]
+	}
+}

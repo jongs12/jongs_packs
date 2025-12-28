@@ -1,0 +1,2 @@
+execute positioned ~-0.5 ~-0.5 ~-0.5 if items entity @e[type=item,dx=0] contents minecraft:wind_charge run function jongs:sword_dash/upgrade/increase_distance
+execute positioned ~-0.5 ~-0.5 ~-0.5 if items entity @e[type=item,dx=0] contents minecraft:fire_charge if predicate jongs:sword_dash/is_dashing_sword run function jongs:sword_dash/upgrade/increase_damage

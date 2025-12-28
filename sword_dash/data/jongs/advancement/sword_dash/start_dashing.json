@@ -1,0 +1,24 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"start_dashing":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"sword_dash"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:sword_dash/dashing/check"
+	}
+}

@@ -1,0 +1,24 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"metamorphosis":
+		{
+		"trigger": "minecraft:used_totem",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:rinne/metamorphosis/costume"
+	}
+}

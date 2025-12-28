@@ -1,0 +1,14 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"joined_server":
+		{
+		"trigger": "minecraft:location"
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:start_copper/spawn_bonus"
+	}
+}

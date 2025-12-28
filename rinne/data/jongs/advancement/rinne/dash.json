@@ -1,0 +1,25 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"dash":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"items": "minecraft:mace",
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_dash"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:rinne/dash/check"
+	}
+}

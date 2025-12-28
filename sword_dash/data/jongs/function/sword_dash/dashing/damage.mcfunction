@@ -1,0 +1,2 @@
+$execute as @e[tag=jongs_sword_dash_hit] run damage @s $(damage) minecraft:trident by @p[scores={jongs_sword_dash_click=1,jongs_sword_dash_hold=0}]
+tag @e[tag=jongs_sword_dash_hit] remove jongs_sword_dash_hit

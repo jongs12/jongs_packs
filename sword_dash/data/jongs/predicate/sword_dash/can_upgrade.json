@@ -1,0 +1,44 @@
+{
+"condition": "all_of",
+"terms":
+	[
+		{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate":
+			{
+			"slots":
+				{
+				"contents":
+					{
+					"items": "#jongs:sword_dash/can_upgrade"
+					}
+				}
+			}
+		},
+		{
+		"condition": "inverted",
+		"term":
+			{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate":
+				{
+				"nbt":
+					{
+					"Item":
+						{
+						"components":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"do_not_copy"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

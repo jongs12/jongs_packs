@@ -1,0 +1,25 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"boom":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"items": "#minecraft:swords",
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_dash"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:rinne/boom/check"
+	}
+}

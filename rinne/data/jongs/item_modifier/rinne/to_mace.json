@@ -1,0 +1,12 @@
+[
+	{
+	"function": "set_item",
+	"item": "mace"
+	},
+	{
+	"function": "set_name",
+	"name": [{"translate":"jongs.rinne.i","italic":false,"color":"white","click_event":{"action":"open_url","url":"https://youtu.be/3iUgKH8c7p4"}}, {"translate":"jongs.rinne.ma","color":"light_purple"}, {"translate":"jongs.rinne.su"}, {"translate":"jongs.rinne.gu","color":"light_purple"}, {"translate":"jongs.rinne.rin"}, {"translate":"jongs.rinne.ne","color":"light_purple"}, {"text":"☆","color":"yellow"}],
+	"entity": "this",
+	"target": "custom_name"
+	}
+]

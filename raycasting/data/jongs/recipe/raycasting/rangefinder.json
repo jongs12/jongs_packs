@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:iron_ingot",
+    "C": "minecraft:quartz",
+    "D": "minecraft:glass"
+  },
+  "pattern": [
+    "BCB",
+    "ADA",
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:item_model": "jongs:raycasting/rangefinder",
+      "minecraft:item_name": {"translate":"jongs.raycasting.rangefinder"},
+      "minecraft:max_stack_size": 1,
+      "minecraft:consumable": {"consume_seconds":2147483647,"animation":"none","sound":{"sound_id":""},"has_consume_particles":false},
+      "minecraft:rarity": "rare",
+      "minecraft:custom_data": {"jongs":[{"purpose":"rangefinder"}]}
+    }
+  }
+}

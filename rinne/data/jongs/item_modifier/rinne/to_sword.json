@@ -1,0 +1,12 @@
+[
+	{
+	"function": "set_item",
+	"item": "diamond_sword"
+	},
+	{
+	"function": "set_name",
+	"name": [{"translate":"jongs.rinne.i","italic":false,"color":"light_purple","click_event":{"action":"open_url","url":"https://youtu.be/3iUgKH8c7p4"}}, {"translate":"jongs.rinne.ma","color":"white"}, {"translate":"jongs.rinne.su"}, {"translate":"jongs.rinne.gu","color":"white"}, {"translate":"jongs.rinne.rin"}, {"translate":"jongs.rinne.ne","color":"white"}, {"text":"☆","color":"yellow"}],
+	"entity": "this",
+	"target": "custom_name"
+	}
+]

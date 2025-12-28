@@ -1,0 +1,6 @@
+scoreboard objectives add jongs_raycasting_distance dummy
+scoreboard players set 거리제한 jongs_raycasting_distance -2000
+scoreboard players set 상수_10 jongs_raycasting_distance 10
+scoreboard objectives add jongs_raycasting_success dummy
+scoreboard objectives add jongs_raycasting_rangefinder_cooldown dummy
+scoreboard players set 거리측정_쿨타임 jongs_raycasting_rangefinder_cooldown 16

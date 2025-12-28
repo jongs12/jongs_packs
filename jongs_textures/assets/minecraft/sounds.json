@@ -1,0 +1,10 @@
+{
+"jongs.rinne.ima_sugu_rinne":
+	{
+	"sounds":
+		[
+		{"name":"jongs/rinne/intro","volume":0.6}
+		],
+		"subtitle": "jongs.rinne.player_metamorphose"
+	}
+}

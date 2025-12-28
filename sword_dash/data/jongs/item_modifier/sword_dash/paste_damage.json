@@ -1,0 +1,18 @@
+[
+	{
+	"function": "copy_custom_data",
+	"source":
+		{
+		"type": "storage",
+		"source": "jongs:sword_dash"
+		},
+	"ops":
+		[
+			{
+			"source": "damage",
+			"target": "jongs[{purpose:sword_dash}].levels.damage",
+			"op": "replace"
+			}
+		]
+	}
+]

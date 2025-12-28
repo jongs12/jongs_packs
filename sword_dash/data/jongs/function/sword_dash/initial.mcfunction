@@ -1,0 +1,4 @@
+scoreboard objectives add jongs_sword_dash_click dummy
+scoreboard objectives add jongs_sword_dash_hold dummy
+scoreboard objectives add jongs_sword_dash_distance dummy
+scoreboard objectives add jongs_sword_dash_done dummy

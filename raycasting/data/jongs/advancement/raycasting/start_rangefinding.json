@@ -1,0 +1,24 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"start_rangefinding":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"rangefinder"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:raycasting/rangefinder/start"
+	}
+}

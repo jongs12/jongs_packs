@@ -1,0 +1,18 @@
+[
+	{
+	"function": "copy_custom_data",
+	"source":
+		{
+		"type": "storage",
+		"source": "jongs:sword_dash"
+		},
+	"ops":
+		[
+			{
+			"source": "distance",
+			"target": "jongs[{purpose:sword_dash}].levels.distance",
+			"op": "replace"
+			}
+		]
+	}
+]

@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft:replaceable",
+    "#minecraft:climbable",
     "#minecraft:flowers",
     "#minecraft:saplings",
     "minecraft:sugar_cane"

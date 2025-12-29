@@ -12,7 +12,7 @@
 				"items": "#minecraft:swords",
 				"predicates":
 					{
-					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_dash"}]}
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_wand"}]}
 					}
 				}
 			}

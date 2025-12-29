@@ -9,7 +9,7 @@
     "count": 1,
     "id": "minecraft:diamond",
     "components": {
-      "minecraft:custom_data": {"jongs":[{"purpose":"rinne"}]},
+      "minecraft:custom_data": {"jongs":[{"purpose":"rinne_metamorphosis"}]},
       "minecraft:max_stack_size": 1,
       "minecraft:item_name": [{"translate":"jongs.rinne.me","italic":true,"color":"yellow"},{"translate":"jongs.rinne.ta","color":"aqua"},{"translate":"jongs.rinne.mo","color":"yellow"},{"translate":"jongs.rinne.r","color":"aqua"},{"translate":"jongs.rinne.pho","color":"yellow"},{"translate":"jongs.rinne.se","color":"aqua"}],
       "minecraft:damage_resistant": {"types": "#jongs:rinne/all"},

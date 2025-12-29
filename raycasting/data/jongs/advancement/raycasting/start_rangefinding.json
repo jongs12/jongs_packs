@@ -11,7 +11,7 @@
 				{
 				"predicates":
 					{
-					"minecraft:custom_data": {"jongs":[{"purpose":"rangefinder"}]}
+					"minecraft:custom_data": {"jongs":[{"purpose":"raycasting_rangefinder"}]}
 					}
 				}
 			}

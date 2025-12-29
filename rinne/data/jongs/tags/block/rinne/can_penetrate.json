@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft:replaceable",
+    "#minecraft:climbable",
     "#minecraft:leaves",
     "#minecraft:flowers",
     "#minecraft:saplings",

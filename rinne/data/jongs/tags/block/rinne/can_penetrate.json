@@ -1,11 +1,13 @@
 {
   "values": [
-    "#minecraft:replaceable",
-    "#minecraft:climbable",
+    "#jongs:rinne/dashable",
+    "minecraft:big_dripleaf",
+    "#minecraft:fence_gates",
+    "minecraft:snow",
     "#minecraft:leaves",
-    "#minecraft:flowers",
     "#minecraft:saplings",
-    "minecraft:bamboo",
-    "minecraft:sugar_cane"
+    "minecraft:lily_pad",
+    "minecraft:ladder",
+    "minecraft:cactus"
   ]
 }

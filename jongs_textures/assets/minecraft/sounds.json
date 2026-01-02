@@ -3,8 +3,15 @@
 	{
 	"sounds":
 		[
-		{"name":"jongs/rinne/intro","volume":0.6}
+		{"name":"jongs/rinne/intro", "volume":0.6}
 		],
 		"subtitle": "jongs.rinne.player_metamorphose"
+	},
+"music.overworld.infinite_amethyst":
+	{
+	"sounds":
+		[
+		{"name":"music/game/infinite_amethyst", "stream":true}
+		]
 	}
 }

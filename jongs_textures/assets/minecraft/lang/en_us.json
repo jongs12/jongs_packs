@@ -1,4 +1,12 @@
 {
+	"jongs.ranged_weapons.assault_rifle": "Assault Rifle",
+	"jongs.ranged_weapons.pistol": "Pistol",
+	"jongs.ranged_weapons.shotgun": "Shotgun",
+	"jongs.ranged_weapons.sniper_rifle": "Sniper Rifle",
+	"jongs.ranged_weapons.assault_rifle_desc": "Keep firing by holding 'interact' key.",
+	"jongs.ranged_weapons.pistol_desc": "Penetrates shield.",
+	"jongs.ranged_weapons.shotgun_desc": "Shoots 9 bullets at once.",
+	"jongs.ranged_weapons.sniper_rifle_desc": "Press and release 'interact' key to fire.",
 	"jongs.rinne.miku": "Hatsune Miku",
 	"jongs.rinne.nakiso": "なきそ",
 	"jongs.rinne.s_song": "'s song",
@@ -284,5 +292,6 @@
 	"merchant.level.2": "Apprentice (Level 2)",
 	"merchant.level.3": "Journeyman (Level 3)",
 	"merchant.level.4": "Expert (Level 4)",
-	"merchant.level.5": "Master (Max Level)"
+	"merchant.level.5": "Master (Max Level)",
+	"death.fell.accident.water": "%s fell off water... somehow"
 }

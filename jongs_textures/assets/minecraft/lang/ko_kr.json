@@ -1,4 +1,12 @@
 {
+	"jongs.ranged_weapons.assault_rifle": "돌격소총",
+	"jongs.ranged_weapons.pistol": "권총",
+	"jongs.ranged_weapons.shotgun": "산탄총",
+	"jongs.ranged_weapons.sniper_rifle": "저격소총",
+	"jongs.ranged_weapons.assault_rifle_desc": "상호작용 키를 홀드하여 연사합니다.",
+	"jongs.ranged_weapons.pistol_desc": "방패를 관통합니다.",
+	"jongs.ranged_weapons.shotgun_desc": "한번에 9발을 발사합니다.",
+	"jongs.ranged_weapons.sniper_rifle_desc": "상호작용 키를 눌렀다 떼어 발사합니다.",
 	"jongs.rinne.miku": "하츠네 미쿠",
 	"jongs.rinne.nakiso": "나키소",
 	"jongs.rinne.s_song": "의 곡",
@@ -285,8 +293,14 @@
 	"merchant.level.3": "기능공 (레벨 3)",
 	"merchant.level.4": "전문가 (레벨 4)",
 	"merchant.level.5": "달인 (최대 레벨)",
-	"commands.spawnpoint.success.multiple": "%s, %s, %s [%s]을(를) %s 내 플레이어 %s명의 스폰 지점으로 설정했습니다",
-	"commands.spawnpoint.success.multiple.new": "%s, %s, %s [%s, %s]을(를) %s 내 플레이어 %s명의 스폰 지점으로 설정했습니다",
-	"commands.spawnpoint.success.single": "%s, %s, %s [%s]을(를) %s 내 %s의 스폰 지점으로 설정했습니다",
-	"commands.spawnpoint.success.single.new": "%s, %s, %s [%s, %s]을(를) %s 내 %s의 스폰 지점으로 설정했습니다"
+	"death.fell.accident.water": "%s이(가) 물에서 떨어졌습니다... 어떻게든요",
+	"commands.spawnpoint.success.multiple": "플레이어 %6$s명의 스폰 지점을 %5$s의 %1$s, %2$s, %3$s [%4$s](으)로 설정했습니다",
+	"commands.spawnpoint.success.multiple.new": "플레이어 %7$s명의 스폰 지점을 %6$s의 %1$s, %2$s, %3$s [%4$s, %5$s](으)로 설정했습니다",
+	"commands.spawnpoint.success.single": "%6$s의 스폰 지점을 %5$s의 %1$s, %2$s, %3$s [%4$s](으)로 설정했습니다",
+	"commands.spawnpoint.success.single.new": "%7$s의 스폰 지점을 %6$s의 %1$s, %2$s, %3$s [%4$s, %5$s](으)로 설정했습니다",
+	"commands.attribute.base_value.get.success": "%2$s 개체의 %1$s 특성 기초 값은 %3$s입니다",
+	"commands.attribute.base_value.reset.success": "%2$s 개체의 %1$s 특성 기초 값을 기본값 %3$s(으)로 초기화했습니다",
+	"commands.attribute.base_value.set.success": "%2$s 개체의 %1$s 특성 기초 값을 %3$s(으)로 설정했습니다",
+	"commands.attribute.modifier.value.get.success": "%3$s 개체의 %2$s 특성의 %1$s 변경자 값은 %4$s입니다",
+	"commands.attribute.value.get.success": "%2$s 개체의 %1$s 특성 값은 %3$s입니다"
 }

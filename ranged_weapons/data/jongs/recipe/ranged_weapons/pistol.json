@@ -14,7 +14,7 @@
     "count": 1,
     "id": "minecraft:clock",
     "components": {
-      "attribute_modifiers": [{"amount": 0.5, "id": "jongs:weapon_speed", "slot": "mainhand", "type": "minecraft:movement_speed", "operation": "add_multiplied_base"}],
+      "attribute_modifiers": [{"amount": 0.5, "id": "jongs:weapon_speed", "slot": "mainhand", "type": "minecraft:movement_speed", "operation": "add_multiplied_base"},{"amount": 1, "id": "jongs:weapon_knockback", "slot": "mainhand", "type": "minecraft:attack_knockback", "operation": "add_value"}],
       "minecraft:item_model": "jongs:ranged_weapons/pistol",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.pistol"},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.pistol_desc"}],

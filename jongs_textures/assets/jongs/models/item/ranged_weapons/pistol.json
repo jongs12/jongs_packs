@@ -1,0 +1,6 @@
+{
+  "parent": "jongs:item/ranged_weapons/handheld",
+  "textures": {
+    "layer0": "jongs:item/ranged_weapons/pistol"
+  }
+}

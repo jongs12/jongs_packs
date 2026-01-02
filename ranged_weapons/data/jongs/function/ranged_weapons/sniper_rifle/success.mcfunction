@@ -1,0 +1,2 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,nbt=!{UUID:$(UUID)}] run tag @s add jongs_ranged_weapons_hit
+particle minecraft:block{block_state:{Name:"minecraft:emerald_block"}} ~ ~ ~ 0.1 0.1 0.1 1 3 normal

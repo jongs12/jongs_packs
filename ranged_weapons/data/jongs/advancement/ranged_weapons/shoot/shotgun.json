@@ -1,0 +1,24 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"shotgun":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons_shotgun"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/shotgun/check"
+	}
+}

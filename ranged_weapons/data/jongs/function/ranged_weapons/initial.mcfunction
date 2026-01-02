@@ -1,0 +1,15 @@
+scoreboard objectives add jongs_ranged_weapons_distance dummy
+scoreboard players set 거리제한_assault_rifle jongs_ranged_weapons_distance -200
+scoreboard players set 거리제한_pistol jongs_ranged_weapons_distance -160
+scoreboard players set 거리제한_shotgun jongs_ranged_weapons_distance -80
+scoreboard players set 거리제한_sniper_rifle jongs_ranged_weapons_distance -600
+scoreboard objectives add jongs_ranged_weapons_success dummy
+scoreboard objectives add jongs_ranged_weapons_hit dummy
+scoreboard objectives add jongs_ranged_weapons_click dummy
+scoreboard objectives add jongs_ranged_weapons_hold dummy
+scoreboard objectives add jongs_ranged_weapons_assault_rifle_cooldown dummy
+scoreboard players set 공격속도 jongs_ranged_weapons_assault_rifle_cooldown 2
+scoreboard objectives add jongs_ranged_weapons_shotgun_cooldown dummy
+scoreboard players set 공격속도 jongs_ranged_weapons_shotgun_cooldown 12
+scoreboard objectives add jongs_ranged_weapons_sniper_rifle_cooldown dummy
+scoreboard players set 공격속도 jongs_ranged_weapons_sniper_rifle_cooldown 30

@@ -1,0 +1,23 @@
+{
+  "values": [
+    "#jongs:ranged_weapons/can_pierce",
+    "minecraft:big_dripleaf",
+    "#minecraft:fence_gates",
+    "minecraft:snow_block",
+    "minecraft:ice",
+    "minecraft:frosted_ice",
+    "#minecraft:leaves",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+    "minecraft:lily_pad",
+    "minecraft:cactus",
+    "minecraft:bamboo",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:pale_moss_block",
+    "minecraft:pale_moss_carpet",
+    "minecraft:ladder",
+    "minecraft:slime_block",
+    "minecraft:honey_block"
+  ]
+}

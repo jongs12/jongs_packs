@@ -1,0 +1,20 @@
+{
+"condition": "entity_properties",
+"entity": "this",
+"predicate":
+	{
+	"nbt":
+		{
+		"SelectedItem":
+			{
+			"components":
+				{
+				"minecraft:custom_data":
+					{
+					"jongs": [{"purpose":"ranged_weapons_sniper_rifle"}]
+					}
+				}
+			}
+		}
+	}
+}

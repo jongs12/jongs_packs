@@ -1,0 +1,24 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"sniper_rifle":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons_sniper_rifle"}]}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/sniper_rifle/check"
+	}
+}

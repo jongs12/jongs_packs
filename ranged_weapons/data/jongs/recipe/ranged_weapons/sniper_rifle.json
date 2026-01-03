@@ -4,14 +4,13 @@
   "key": {
     "A": "#minecraft:planks",
     "B": "minecraft:iron_ingot",
-    "C": "minecraft:gunpowder",
     "D": "minecraft:barrel",
     "E": "minecraft:tripwire_hook"
   },
   "pattern": [
-    "BBD",
+    " BB",
     "AAA",
-    "CCE"
+    " DE"
   ],
   "result": {
     "count": 1,

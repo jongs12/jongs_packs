@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:tnt",
+    "D": "minecraft:copper_chest",
+    "F": "minecraft:red_dye"
+  },
+  "pattern": [
+    "CFC",
+    "CDC",
+    "CCC"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:iron_nugget",
+    "components": {
+      "minecraft:use_effects": {"speed_multiplier":1},
+      "minecraft:item_model": "jongs:ranged_weapons/shotgun_ammo_box",
+      "minecraft:item_name": {"translate":"jongs.ranged_weapons.shotgun_ammo_box"},
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.ammo_box_desc"}],
+      "minecraft:max_stack_size": 16,
+      "minecraft:consumable": {"consume_seconds":3,"animation":"block","sound":{"sound_id":"block.chain.break"},"has_consume_particles":true},
+      "minecraft:use_cooldown": {"seconds":4.8,"cooldown_group":"jongs:ranged_weapons_shotgun"},
+      "minecraft:rarity": "uncommon",
+      "minecraft:use_remainder": {
+        "id": "minecraft:copper_nugget",
+        "count": 8,
+        "components": {
+          "minecraft:item_model": "jongs:ranged_weapons/shotgun_ammo",
+          "minecraft:item_name": {"translate":"jongs.ranged_weapons.shotgun_ammo"},
+          "minecraft:max_stack_size": 8,
+          "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons_shotgun_ammo"}]}
+        }
+      }
+    }
+  }
+}

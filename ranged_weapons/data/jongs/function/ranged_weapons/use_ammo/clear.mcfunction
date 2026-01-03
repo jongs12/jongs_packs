@@ -1,0 +1,1 @@
+$clear @s $(id)[minecraft:custom_data=$(data)] 1

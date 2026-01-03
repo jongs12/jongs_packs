@@ -3,12 +3,10 @@
   "category": "equipment",
   "key": {
     "B": "minecraft:iron_ingot",
-    "C": "minecraft:gunpowder",
     "D": "minecraft:barrel",
     "E": "minecraft:tripwire_hook"
   },
   "pattern": [
-    "CCC",
     "BBB",
     "DDE"
   ],
@@ -20,7 +18,7 @@
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.shotgun"},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.shotgun_desc"}],
       "minecraft:max_stack_size": 1,
-      "minecraft:consumable": {"consume_seconds":2147483647,"animation":"none","sound":{"sound_id":""},"has_consume_particles":false},
+      "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spear","sound":{"sound_id":""},"has_consume_particles":false},
       "minecraft:rarity": "epic",
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons_shotgun"}]}
     }

@@ -19,6 +19,6 @@
 	},
 "rewards":
 	{
-	"function": "jongs:ranged_weapons/assault_rifle/start"
+	"function": "jongs:ranged_weapons/assault_rifle/check"
 	}
 }

@@ -8,7 +8,7 @@
 		"conditions":
 			{
         	"items":
-				[{"items": "minecraft:gunpowder"}]
+				[{"items": "minecraft:iron_ingot"}]
       		}
 		},
 	"has_the_recipe_1":

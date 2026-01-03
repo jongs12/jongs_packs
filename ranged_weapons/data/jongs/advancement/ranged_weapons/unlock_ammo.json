@@ -1,0 +1,77 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"got_the_item_1":
+		{
+		"trigger": "minecraft:inventory_changed",
+		"conditions":
+			{
+        	"items":
+				[{"items": "minecraft:gunpowder"}]
+      		}
+		},
+	"got_the_item_2":
+		{
+		"trigger": "minecraft:inventory_changed",
+		"conditions":
+			{
+        	"items":
+				[{"items": "minecraft:tnt"}]
+      		}
+		},
+	"has_the_recipe_1":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/assault_rifle_ammo_box"
+      		}
+    	},
+	"has_the_recipe_2":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/pistol_ammo_box"
+      		}
+    	},
+	"has_the_recipe_3":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/shotgun_ammo_box"
+      		}
+    	},
+	"has_the_recipe_4":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/sniper_rifle_ammo_box"
+      		}
+    	}
+	},
+"requirements":
+	[
+    	[
+		"got_the_item_1",
+		"got_the_item_2",
+    	"has_the_recipe_1",
+    	"has_the_recipe_2",
+    	"has_the_recipe_3",
+    	"has_the_recipe_4"
+    	]
+	],
+"rewards":
+	{
+	"recipes":
+		[
+    	"jongs:ranged_weapons/assault_rifle_ammo_box",
+		"jongs:ranged_weapons/pistol_ammo_box",
+		"jongs:ranged_weapons/shotgun_ammo_box",
+		"jongs:ranged_weapons/sniper_rifle_ammo_box"
+    	]
+	}
+}

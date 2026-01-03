@@ -1,2 +1,3 @@
 $clear @s $(id)[minecraft:custom_data=$(data)]
-execute if data entity @s Inventory[{components:{"minecraft:custom_data":{jongs:[{purpose:"rinne_exclusive"}]}}}] run function jongs:rinne/item_remove/store
+execute if data entity @s Inventory[{components:{"minecraft:custom_data":{jongs:[{purpose:"rinne_exclusive"}]}}}] run function jongs:rinne/item_remove/store {slot:'Inventory[{components:{"minecraft:custom_data":{jongs:[{purpose:"rinne_exclusive"}]}}}]'}
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".jongs[{purpose:"rinne_exclusive"}] run function jongs:rinne/item_remove/store {slot:'equipment.offhand.components."minecraft:custom_data".jongs[{purpose:"rinne_exclusive"}]'}

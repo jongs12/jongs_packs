@@ -18,6 +18,7 @@
     "minecraft:pale_moss_carpet",
     "minecraft:ladder",
     "minecraft:slime_block",
-    "minecraft:honey_block"
+    "minecraft:honey_block",
+    "#minecraft:bars"
   ]
 }

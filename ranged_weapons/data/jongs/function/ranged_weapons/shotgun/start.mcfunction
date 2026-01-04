@@ -1,4 +1,4 @@
-playsound minecraft:entity.generic.explode player @a ~ ~ ~ 2 1.5
+playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 2 1.5
 data modify storage jongs:ranged_weapons UUID set from entity @s UUID
 data modify storage jongs:ranged_weapons x_delta set value 0
 data modify storage jongs:ranged_weapons y_delta set value 0

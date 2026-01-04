@@ -20,7 +20,7 @@
         "death_effects": [
           {"type":"apply_effects", "effects":[{"id":"minecraft:saturation","duration":-1,"ambient":true,"show_particles":false,"show_icon":false},{"id":"minecraft:instant_health","amplifier":1,"duration":50,"ambient":true,"show_particles":false,"show_icon":false},{"id":"minecraft:fire_resistance","duration":1200,"show_particles":false},{"id":"minecraft:resistance","amplifier":2,"duration":200,"show_particles":false},{"id":"minecraft:night_vision","duration":600,"show_particles":false},{"id":"minecraft:water_breathing","duration":600,"show_particles":false}]},
           {"type":"remove_effects", "effects":["minecraft:slowness","minecraft:mining_fatigue","minecraft:instant_damage","minecraft:nausea","minecraft:blindness","minecraft:hunger","minecraft:weakness","minecraft:poison","minecraft:wither","minecraft:unluck","minecraft:darkness","minecraft:wind_charged","minecraft:weaving","minecraft:oozing","minecraft:infested","minecraft:levitation","minecraft:slow_falling"]},
-          {"type":"play_sound", "sound":{"sound_id":"minecraft:jongs.rinne.ima_sugu_rinne"}}
+          {"type":"play_sound", "sound":{"sound_id":"jongs:rinne.ima_sugu_rinne"}}
         ]
       }
     }

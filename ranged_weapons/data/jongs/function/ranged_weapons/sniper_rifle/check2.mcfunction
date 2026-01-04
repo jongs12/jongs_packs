@@ -4,3 +4,4 @@ execute as @s[gamemode=creative] if score @s jongs_ranged_weapons_loaded matches
 execute if score @s jongs_ranged_weapons_loaded matches 0 if data entity @s Inventory[{components:{"minecraft:custom_data":{jongs:[{purpose:"ranged_weapons_sniper_rifle_ammo"}]}}}] run function jongs:ranged_weapons/use_ammo/store {slot:'Inventory[{components:{"minecraft:custom_data":{jongs:[{purpose:"ranged_weapons_sniper_rifle_ammo"}]}}}]'}
 execute if score @s jongs_ranged_weapons_loaded matches 0 if data entity @s equipment.offhand.components."minecraft:custom_data".jongs[{purpose:"ranged_weapons_sniper_rifle_ammo"}] run function jongs:ranged_weapons/use_ammo/store {slot:'equipment.offhand'}
 execute if score @s jongs_ranged_weapons_loaded matches 1 run function jongs:ranged_weapons/sniper_rifle/start
+execute if score @s jongs_ranged_weapons_loaded matches 0 run function jongs:ranged_weapons/use_ammo/display {color:"dark_green"}

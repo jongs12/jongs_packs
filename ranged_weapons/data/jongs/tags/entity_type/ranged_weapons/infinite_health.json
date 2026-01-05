@@ -1,5 +1,6 @@
 {
   "values": [
+    "minecraft:area_effect_cloud",
     "#minecraft:impact_projectiles",
     "minecraft:block_display",
     "minecraft:item_display",
@@ -18,6 +19,8 @@
     "minecraft:marker",
     "minecraft:painting",
     "minecraft:tnt",
-    "minecraft:shulker_bullet"
+    "minecraft:shulker_bullet",
+    "minecraft:item",
+    "minecraft:experience_orb"
   ]
 }

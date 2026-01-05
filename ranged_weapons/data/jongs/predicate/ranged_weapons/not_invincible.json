@@ -1,0 +1,32 @@
+{
+"condition": "inverted",
+"term":
+	{
+	"condition": "any_of",
+	"terms":
+		[
+			{
+			"condition": "entity_scores",
+			"entity": "this",
+			"scores":
+				{
+				"jongs_ranged_weapons_hurt_time":
+					{
+					"min": 1
+					}
+				}
+			},
+			{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate":
+				{
+				"nbt":
+					{
+					"Invulnerable": true
+					}
+				}
+			}
+		]
+	}
+}

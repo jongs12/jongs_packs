@@ -3,11 +3,11 @@
 "entity": "this",
 "predicate":
 	{
-	"nbt":
+	"slots":
 		{
-		"Item":
+		"contents":
 			{
-			"components":
+			"predicates":
 				{
 				"minecraft:custom_data":
 					{

@@ -3,11 +3,11 @@
 "entity": "this",
 "predicate":
 	{
-	"nbt":
+	"slots":
 		{
-		"SelectedItem":
+		"weapon.mainhand":
 			{
-			"components":
+			"predicates":
 				{
 				"minecraft:custom_data":
 					{

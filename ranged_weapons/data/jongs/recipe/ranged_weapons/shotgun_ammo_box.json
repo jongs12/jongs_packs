@@ -4,7 +4,7 @@
   "key": {
     "C": "minecraft:tnt",
     "D": "minecraft:copper_chest",
-    "F": "minecraft:red_dye"
+    "F": "minecraft:redstone"
   },
   "pattern": [
     "CFC",
@@ -13,7 +13,7 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:iron_nugget",
+    "id": "minecraft:gunpowder",
     "components": {
       "minecraft:use_effects": {"speed_multiplier":1},
       "minecraft:item_model": "jongs:ranged_weapons/shotgun_ammo_box",

@@ -16,7 +16,7 @@
     "count": 1,
     "id": "minecraft:spyglass",
     "components": {
-      "attribute_modifiers": [{"amount": -0.25, "id": "jongs:weapon_speed", "slot": "mainhand", "type": "minecraft:movement_speed", "operation": "add_multiplied_base"}],
+      "attribute_modifiers": [{"amount": -0.25, "id": "jongs:weapon_speed", "slot": "hand", "type": "minecraft:movement_speed", "operation": "add_multiplied_base"}],
       "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.sniper_rifle"},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.sniper_rifle_desc"}],

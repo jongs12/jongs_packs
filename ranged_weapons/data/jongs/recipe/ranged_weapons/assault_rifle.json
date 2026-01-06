@@ -15,6 +15,23 @@
     "count": 1,
     "id": "minecraft:clock",
     "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "amount": 5,
+          "id": "jongs:weapon_damage",
+          "slot": "mainhand",
+          "type": "minecraft:attack_damage",
+          "operation": "add_value"
+        },
+        {
+          "amount": -0.75,
+          "id": "jongs:weapon_attack_speed",
+          "slot": "mainhand",
+          "type": "minecraft:attack_speed",
+          "operation": "add_multiplied_base"
+        }
+      ],
+      "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:item_model": "jongs:ranged_weapons/assault_rifle",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.assault_rifle"},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.assault_rifle_desc"}],

@@ -23,7 +23,7 @@
           "operation": "add_value"
         },
         {
-          "amount": -0.75,
+          "amount": -0.6,
           "id": "jongs:weapon_attack_speed",
           "slot": "mainhand",
           "type": "minecraft:attack_speed",

@@ -18,14 +18,14 @@
     "components": {
       "minecraft:attribute_modifiers": [
         {
-          "amount": 6,
+          "amount": 7,
           "id": "jongs:weapon_damage",
           "slot": "mainhand",
           "type": "minecraft:attack_damage",
           "operation": "add_value"
         },
         {
-          "amount": -0.8,
+          "amount": -0.7,
           "id": "jongs:weapon_attack_speed",
           "slot": "mainhand",
           "type": "minecraft:attack_speed",

@@ -1,2 +1,7 @@
 particle minecraft:dust_color_transition{from_color:[0.333,1,0.333],to_color:[0.667,0,0.667],scale:2} ~ ~ ~ 0.5 0.5 0.5 1 5
-function jongs:raycasting/calculate
+scoreboard players operation @p[scores={jongs_raycasting_success=1}] jongs_raycasting_distance -= 거리제한 jongs_raycasting_distance
+scoreboard players operation 정수 jongs_raycasting_distance = @p[scores={jongs_raycasting_success=1}] jongs_raycasting_distance
+scoreboard players operation 정수 jongs_raycasting_distance /= 상수_10 jongs_raycasting_distance
+scoreboard players operation 소수 jongs_raycasting_distance = @p[scores={jongs_raycasting_success=1}] jongs_raycasting_distance
+scoreboard players operation 소수 jongs_raycasting_distance %= 상수_10 jongs_raycasting_distance
+tellraw @p[scores={jongs_raycasting_success=1}] [{"translate":"jongs.raycasting.the_distance_to_the","color":"aqua"}, {"translate":"jongs.raycasting.entity","color":"light_purple"}, {"text":"(","color":"dark_purple","italic":true}, {"selector":"@s","color":"dark_purple","italic":true}, {"text":")","color":"dark_purple","italic":true}, {"translate":"jongs.raycasting.is","color":"aqua"}, {"score":{"name":"정수","objective":"jongs_raycasting_distance"},"color":"gold","bold":true}, {"text":".","color":"gold","bold":true}, {"score":{"name":"소수","objective":"jongs_raycasting_distance"},"color":"gold","bold":true}, {"translate":"jongs.raycasting.meters","color":"gold","bold":false}, {"translate":"jongs.raycasting.period","color":"aqua"}]

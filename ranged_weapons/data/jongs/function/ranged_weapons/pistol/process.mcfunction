@@ -1,4 +1,4 @@
-$execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,nbt=!{UUID:$(UUID)},type=!#jongs:ranged_weapons/infinite_health,predicate=jongs:ranged_weapons/not_invulnerable] run function jongs:ranged_weapons/pistol/success with entity @s
+$execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,nbt=!{UUID:$(UUID)},type=!#jongs:ranged_weapons/infinite_health,predicate=jongs:ranged_weapons/not_invulnerable] positioned ~0.5 ~0.5 ~0.5 run function jongs:ranged_weapons/pistol/success with entity @s
 execute unless loaded ~ ~ ~ run function jongs:ranged_weapons/pistol/failed
 execute unless block ~ ~ ~ #jongs:ranged_weapons/can_pierce run function jongs:ranged_weapons/pistol/failed
 scoreboard players add @s jongs_ranged_weapons_distance 1

@@ -13,7 +13,6 @@
     "count": 1,
     "id": "minecraft:clock",
     "components": {
-      "minecraft:attribute_modifiers": [{"amount": 1, "id": "jongs:weapon_knockback", "slot": "mainhand", "type": "minecraft:attack_knockback", "operation": "add_value"}],
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1},
       "minecraft:item_model": "jongs:ranged_weapons/pistol",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.pistol"},

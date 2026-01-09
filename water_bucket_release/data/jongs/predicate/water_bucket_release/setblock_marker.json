@@ -1,0 +1,14 @@
+{
+"condition": "entity_properties",
+"entity": "this",
+"predicate":
+	{
+	"nbt":
+		{
+		"data":
+			{
+			"jongs":[{"purpose":"water_bucket_release_setblock"}]
+			}
+		}
+	}
+}

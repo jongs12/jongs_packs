@@ -1,0 +1,1 @@
+scoreboard objectives add jongs_water_bucket_release dummy

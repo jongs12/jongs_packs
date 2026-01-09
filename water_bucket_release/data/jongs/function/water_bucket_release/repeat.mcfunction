@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,predicate=jongs:water_bucket_release/setblock_marker] if predicate jongs:water_bucket_release/no_vehicle at @s run function jongs:water_bucket_release/replace

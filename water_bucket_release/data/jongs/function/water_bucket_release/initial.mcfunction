@@ -1,1 +1,5 @@
 scoreboard objectives add jongs_water_bucket_release dummy
+scoreboard objectives add jongs_water_bucket_release_x dummy
+scoreboard objectives add jongs_water_bucket_release_x_pre dummy
+scoreboard objectives add jongs_water_bucket_release_z dummy
+scoreboard objectives add jongs_water_bucket_release_z_pre dummy

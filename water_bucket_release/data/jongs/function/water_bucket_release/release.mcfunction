@@ -12,9 +12,11 @@ kill @e[type=minecraft:marker,predicate=jongs:water_bucket_release/motion_marker
 scoreboard players operation 변화_x jongs_water_bucket_release -= 위치_x jongs_water_bucket_release 
 scoreboard players operation 변화_y jongs_water_bucket_release -= 위치_y jongs_water_bucket_release 
 scoreboard players operation 변화_z jongs_water_bucket_release -= 위치_z jongs_water_bucket_release 
-execute store result score 위치_x jongs_water_bucket_release run data get entity @s Motion[0] 100
+scoreboard players operation 위치_x jongs_water_bucket_release = @s jongs_water_bucket_release_x
+scoreboard players operation 위치_x jongs_water_bucket_release -= @s jongs_water_bucket_release_x_pre
 execute store result score 위치_y jongs_water_bucket_release run data get entity @s Motion[1] 100
-execute store result score 위치_z jongs_water_bucket_release run data get entity @s Motion[2] 100
+scoreboard players operation 위치_z jongs_water_bucket_release = @s jongs_water_bucket_release_x
+scoreboard players operation 위치_z jongs_water_bucket_release -= @s jongs_water_bucket_release_x_pre
 execute store result storage jongs:water_bucket_release x float 0.01 run scoreboard players operation 변화_x jongs_water_bucket_release += 위치_x jongs_water_bucket_release 
 execute store result storage jongs:water_bucket_release y float 0.01 run scoreboard players operation 변화_y jongs_water_bucket_release += 위치_y jongs_water_bucket_release 
 execute store result storage jongs:water_bucket_release z float 0.01 run scoreboard players operation 변화_z jongs_water_bucket_release += 위치_z jongs_water_bucket_release 

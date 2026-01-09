@@ -4,7 +4,7 @@ data modify storage jongs:water_bucket_release UUID set from entity @s UUID
 execute store result score 위치_x jongs_water_bucket_release run data get entity @s Pos[0] 100
 execute store result score 위치_y jongs_water_bucket_release run data get entity @s Pos[1] 100
 execute store result score 위치_z jongs_water_bucket_release run data get entity @s Pos[2] 100
-summon minecraft:marker ^ ^ ^3 {data:{jongs:[{purpose:water_bucket_release_motion}]}}
+summon minecraft:marker ^ ^ ^4 {data:{jongs:[{purpose:water_bucket_release_motion}]}}
 execute as @e[type=minecraft:marker,predicate=jongs:water_bucket_release/motion_marker,limit=1] at @s run execute store result score 변화_x jongs_water_bucket_release run data get entity @s Pos[0] 100
 execute as @e[type=minecraft:marker,predicate=jongs:water_bucket_release/motion_marker,limit=1] at @s run execute store result score 변화_y jongs_water_bucket_release run data get entity @s Pos[1] 100
 execute as @e[type=minecraft:marker,predicate=jongs:water_bucket_release/motion_marker,limit=1] at @s run execute store result score 변화_z jongs_water_bucket_release run data get entity @s Pos[2] 100

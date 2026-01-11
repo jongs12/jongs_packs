@@ -14,4 +14,4 @@ scoreboard players set 공격속도 jongs_ranged_weapons_assault_rifle_cooldown 
 scoreboard objectives add jongs_ranged_weapons_shotgun_cooldown dummy
 scoreboard players set 공격속도 jongs_ranged_weapons_shotgun_cooldown 12
 scoreboard objectives add jongs_ranged_weapons_sniper_rifle_cooldown dummy
-scoreboard players set 공격속도 jongs_ranged_weapons_sniper_rifle_cooldown 30
+scoreboard players set 공격속도 jongs_ranged_weapons_sniper_rifle_cooldown 28

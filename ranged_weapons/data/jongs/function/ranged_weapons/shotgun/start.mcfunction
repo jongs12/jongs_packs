@@ -1,3 +1,5 @@
+scoreboard players set @s jongs_ranged_weapons_loaded 1
+scoreboard players set @s jongs_ranged_weapons_reload 0
 scoreboard players operation @s jongs_ranged_weapons_shotgun_cooldown = 공격속도 jongs_ranged_weapons_shotgun_cooldown
 playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 2 1.5
 data modify storage jongs:ranged_weapons UUID set from entity @s UUID

@@ -3,8 +3,9 @@ scoreboard players set 거리제한_assault_rifle jongs_ranged_weapons_distance 
 scoreboard players set 거리제한_pistol jongs_ranged_weapons_distance -160
 scoreboard players set 거리제한_shotgun jongs_ranged_weapons_distance -80
 scoreboard players set 거리제한_sniper_rifle jongs_ranged_weapons_distance -600
-scoreboard objectives add jongs_ranged_weapons_hit dummy
+scoreboard objectives add jongs_ranged_weapons_reload dummy
 scoreboard objectives add jongs_ranged_weapons_loaded dummy
+scoreboard objectives add jongs_ranged_weapons_hit dummy
 scoreboard objectives add jongs_ranged_weapons_hurt_time dummy
 scoreboard objectives add jongs_ranged_weapons_click dummy
 scoreboard objectives add jongs_ranged_weapons_hold dummy

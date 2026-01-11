@@ -1,3 +1,5 @@
+scoreboard players set @s jongs_ranged_weapons_loaded 1
+scoreboard players set @s jongs_ranged_weapons_reload 0
 scoreboard players operation @s jongs_ranged_weapons_sniper_rifle_cooldown = 공격속도 jongs_ranged_weapons_sniper_rifle_cooldown
 scoreboard players operation @s jongs_ranged_weapons_distance = 거리제한_sniper_rifle jongs_ranged_weapons_distance
 playsound minecraft:entity.iron_golem.death player @a ~ ~ ~ 2 0.8

@@ -1,0 +1,23 @@
+{
+"condition": "entity_properties",
+"entity": "this",
+"predicate":
+	{
+	"slots":
+		{
+		"weapon.mainhand":
+			{
+			"predicates":
+				{
+				"minecraft:damage":
+					{
+					"durability":
+						{
+						"min": 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

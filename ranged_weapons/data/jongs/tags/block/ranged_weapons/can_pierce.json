@@ -1,7 +1,8 @@
 {
   "values": [
-    "#minecraft:rails",
     "#minecraft:air",
+    "#minecraft:rails",
+    "minecraft:ladder",
     "minecraft:bamboo_sapling",
     "#minecraft:wall_post_override",
     "#minecraft:all_hanging_signs",

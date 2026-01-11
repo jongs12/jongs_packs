@@ -1,9 +1,10 @@
 {
-"music.overworld.infinite_amethyst":
+"music.menu":
 	{
+	"replace": false,
 	"sounds":
 		[
-		{"name":"music/game/infinite_amethyst", "stream":true}
+		{"name":"music/game/infinite_amethyst", "stream":true, "weight":1}
 		]
 	}
 }

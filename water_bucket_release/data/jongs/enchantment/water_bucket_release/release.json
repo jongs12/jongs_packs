@@ -2,7 +2,7 @@
   "description": {
     "text": "Release!"
   },
-  "supported_items": [],
+  "supported_items": "minecraft:water_bucket",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -22,7 +22,7 @@
       {
         "effect": {
             "type": "minecraft:run_function",
-            "function": "jongs:water_bucket_release/release"
+            "function": "jongs:water_bucket_release/bucket/release"
         }
       }
     ]

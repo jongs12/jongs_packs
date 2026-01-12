@@ -5,4 +5,5 @@ kill @e[type=creeper, distance=0.001..9]
 execute as @e[distance=0.001..9] run damage @s 1 minecraft:player_attack by @p[scores={jongs_rinne_click=1,jongs_rinne_hold=0}]
 execute as @e[distance=0.001..9] if items entity @s weapon.mainhand * at @s run function jongs:rinne/boom/drop_item {delay:40,slot:"weapon.mainhand"}
 effect give @e[distance=0.001..9] minecraft:weakness 2 99 false
+effect clear @s minecraft:mining_fatigue
 scoreboard players set @s jongs_rinne_hold 1

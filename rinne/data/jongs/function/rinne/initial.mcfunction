@@ -1,3 +1,3 @@
-scoreboard objectives add jongs_rinne_click dummy
-scoreboard objectives add jongs_rinne_hold dummy
-scoreboard objectives add jongs_rinne_ground dummy
+scoreboard objectives add jongs.rinne.click dummy
+scoreboard objectives add jongs.rinne.hold dummy
+scoreboard objectives add jongs.rinne.ground dummy

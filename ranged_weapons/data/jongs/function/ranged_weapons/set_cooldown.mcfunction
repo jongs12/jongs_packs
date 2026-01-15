@@ -1,2 +1,2 @@
-scoreboard players set @s jongs_ranged_weapons_shotgun_cooldown 0
-scoreboard players set @s jongs_ranged_weapons_sniper_rifle_cooldown 0
+scoreboard players set @s jongs.ranged_weapons.cooldown.shotgun 0
+scoreboard players set @s jongs.ranged_weapons.cooldown.sniper_rifle 0

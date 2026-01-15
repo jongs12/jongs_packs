@@ -1,6 +1,6 @@
-scoreboard objectives add jongs_water_bucket_release dummy
-scoreboard players set 상수_275 jongs_water_bucket_release 275
-scoreboard objectives add jongs_water_bucket_release_x dummy
-scoreboard objectives add jongs_water_bucket_release_x_pre dummy
-scoreboard objectives add jongs_water_bucket_release_z dummy
-scoreboard objectives add jongs_water_bucket_release_z_pre dummy
+scoreboard objectives add jongs.water_bucket_release.main dummy
+scoreboard players set #상수.275 jongs.water_bucket_release.main 275
+scoreboard objectives add jongs.water_bucket_release.x.cur dummy
+scoreboard objectives add jongs.water_bucket_release.x.pre dummy
+scoreboard objectives add jongs.water_bucket_release.z.cur dummy
+scoreboard objectives add jongs.water_bucket_release.z.pre dummy

@@ -1,3 +1,3 @@
-scoreboard players operation @s jongs_raycasting_distance = 거리제한 jongs_raycasting_distance
+scoreboard players operation @s jongs.raycasting.distance = #거리제한.raycasting jongs.raycasting.distance
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function jongs:raycasting/rangefinder/process with entity @s
-scoreboard players operation @s jongs_raycasting_rangefinder_cooldown = 거리측정_쿨타임 jongs_raycasting_rangefinder_cooldown
+scoreboard players operation @s jongs.raycasting.cooldown.rangefinder = #쿨타임.거리측정 jongs.raycasting.cooldown.rangefinder

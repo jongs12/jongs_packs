@@ -10,7 +10,7 @@
 			"entity": "this",
 			"scores":
 				{
-				"jongs_ranged_weapons_hurt_time":
+				"jongs.ranged_weapons.hurt_time":
 					{
 					"min": 1
 					}

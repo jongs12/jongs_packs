@@ -11,7 +11,7 @@
 				{
 				"predicates":
 					{
-					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_metamorphosis"}]}
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne.metamorphosis"}]}
 					}
 				}
 			}

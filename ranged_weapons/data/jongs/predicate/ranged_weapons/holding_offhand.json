@@ -11,7 +11,7 @@
 				{
 				"minecraft:custom_data":
 					{
-					"jongs": [{"purpose":"ranged_weapons_guns"}]
+					"jongs": [{"purpose":"ranged_weapons.guns"}]
 					}
 				}
 			}

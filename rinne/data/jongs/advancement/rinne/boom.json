@@ -12,7 +12,7 @@
 				"items": "#minecraft:swords",
 				"predicates":
 					{
-					"minecraft:custom_data": {"jongs":[{"purpose":"rinne_wand"}]}
+					"minecraft:custom_data": {"jongs":[{"purpose":"rinne.wand"}]}
 					}
 				},
 			"player":
@@ -25,7 +25,7 @@
 							{
 							"minecraft:custom_data":
 								{
-								"jongs": [{"purpose":"rinne_wand"}]
+								"jongs": [{"purpose":"rinne.wand"}]
 								}
 							}
 						}

@@ -16,6 +16,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 그 외에 아이템 마법부여 시 레벨 255까지 정상적으로 출력되도록 해 줍니다.
 
+현재 메뉴 파노라마 테스트 중입니다.
+바뀐 이미지가 마음에 들지 않는다면 assets/minecraft/textures 폴더를 삭제해 주세요.
+
 # start_copper
 <img width="128" height="128" alt="start_copper" src="https://github.com/user-attachments/assets/7679f591-0cb4-4a5e-998b-2c53437f8067" />
 

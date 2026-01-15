@@ -1,4 +1,5 @@
 scoreboard objectives add jongs_water_bucket_release dummy
+scoreboard players set 상수_275 jongs_water_bucket_release 275
 scoreboard objectives add jongs_water_bucket_release_x dummy
 scoreboard objectives add jongs_water_bucket_release_x_pre dummy
 scoreboard objectives add jongs_water_bucket_release_z dummy

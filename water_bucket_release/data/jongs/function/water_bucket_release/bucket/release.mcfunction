@@ -4,11 +4,9 @@ data modify storage jongs:water_bucket_release UUID set from entity @s UUID
 execute store result score 위치_x jongs_water_bucket_release run data get entity @s Pos[0] 100
 execute store result score 위치_y jongs_water_bucket_release run data get entity @s Pos[1] 100
 execute store result score 위치_z jongs_water_bucket_release run data get entity @s Pos[2] 100
-summon minecraft:marker ^ ^ ^4 {Tags:["jongs_water_bucket_release_motion"]}
-execute as @e[type=minecraft:marker,tag=jongs_water_bucket_release_motion,limit=1] at @s run execute store result score 변화_x jongs_water_bucket_release run data get entity @s Pos[0] 100
-execute as @e[type=minecraft:marker,tag=jongs_water_bucket_release_motion,limit=1] at @s run execute store result score 변화_y jongs_water_bucket_release run data get entity @s Pos[1] 100
-execute as @e[type=minecraft:marker,tag=jongs_water_bucket_release_motion,limit=1] at @s run execute store result score 변화_z jongs_water_bucket_release run data get entity @s Pos[2] 100
-kill @e[type=minecraft:marker,tag=jongs_water_bucket_release_motion,limit=1]
+execute store result score 수직각도 jongs_water_bucket_release run data get entity @s Rotation[1] 1.39
+execute store result storage jongs:water_bucket_release motion float 0.01 run scoreboard players operation 수직각도 jongs_water_bucket_release += 상수_275 jongs_water_bucket_release
+function jongs:water_bucket_release/bucket/set_motion with storage jongs:water_bucket_release
 scoreboard players operation 변화_x jongs_water_bucket_release -= 위치_x jongs_water_bucket_release 
 scoreboard players operation 변화_y jongs_water_bucket_release -= 위치_y jongs_water_bucket_release 
 scoreboard players operation 변화_z jongs_water_bucket_release -= 위치_z jongs_water_bucket_release 

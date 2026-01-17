@@ -1,0 +1,40 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"rocket_launcher":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.rocket_launcher"}]}
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"ranged_weapons.rocket_launcher"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/rocket_launcher/check"
+	}
+}

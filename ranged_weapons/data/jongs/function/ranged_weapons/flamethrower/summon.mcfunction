@@ -1,0 +1,3 @@
+$summon minecraft:small_fireball ^ ^ ^0.5 {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:fire_charge,components:{item_model:air}},acceleration_power:-0.02,Tags:["jongs.ranged_weapons.summoned","jongs.ranged_weapons.limit_duration"]}
+scoreboard players set @e[type=minecraft:small_fireball,limit=1,tag=jongs.ranged_weapons.summoned] jongs.ranged_weapons.distance 30
+return run tag @e[type=minecraft:small_fireball,limit=1,tag=jongs.ranged_weapons.summoned] remove jongs.ranged_weapons.summoned

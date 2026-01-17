@@ -1,0 +1,40 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"flamethrower":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.flamethrower"}]}
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"ranged_weapons.flamethrower"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/flamethrower/check"
+	}
+}

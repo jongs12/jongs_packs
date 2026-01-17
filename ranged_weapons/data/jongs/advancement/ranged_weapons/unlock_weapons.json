@@ -42,6 +42,22 @@
 			{
     		"recipe": "jongs:ranged_weapons/sniper_rifle"
       		}
+    	},
+	"has_the_recipe_5":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/flamethrower"
+      		}
+    	},
+	"has_the_recipe_6":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/rocket_launcher"
+      		}
     	}
 	},
 "requirements":
@@ -51,7 +67,9 @@
     	"has_the_recipe_1",
     	"has_the_recipe_2",
     	"has_the_recipe_3",
-    	"has_the_recipe_4"
+    	"has_the_recipe_4",
+    	"has_the_recipe_5",
+    	"has_the_recipe_6"
     	]
 	],
 "rewards":
@@ -61,7 +79,9 @@
     	"jongs:ranged_weapons/assault_rifle",
 		"jongs:ranged_weapons/pistol",
 		"jongs:ranged_weapons/shotgun",
-		"jongs:ranged_weapons/sniper_rifle"
+		"jongs:ranged_weapons/sniper_rifle",
+		"jongs:ranged_weapons/flamethrower",
+		"jongs:ranged_weapons/rocket_launcher"
     	]
 	}
 }

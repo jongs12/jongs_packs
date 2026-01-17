@@ -10,10 +10,6 @@ scoreboard objectives add jongs.ranged_weapons.hurt_time dummy
 scoreboard objectives add jongs.ranged_weapons.click dummy
 scoreboard objectives add jongs.ranged_weapons.hold dummy
 scoreboard objectives add jongs.ranged_weapons.cooldown.assault_rifle dummy
-scoreboard players set #공격속도 jongs.ranged_weapons.cooldown.assault_rifle 2
 scoreboard objectives add jongs.ranged_weapons.cooldown.shotgun dummy
-scoreboard players set #공격속도 jongs.ranged_weapons.cooldown.shotgun 12
 scoreboard objectives add jongs.ranged_weapons.cooldown.sniper_rifle dummy
-scoreboard players set #공격속도 jongs.ranged_weapons.cooldown.sniper_rifle 28
 scoreboard objectives add jongs.ranged_weapons.cooldown.rocket_launcher dummy
-scoreboard players set #공격속도 jongs.ranged_weapons.cooldown.rocket_launcher 18

@@ -44,7 +44,7 @@
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.sniper_rifle"},
-      "minecraft:lore": [{"translate":"jongs.ranged_weapons.sniper_rifle_desc","color":"yellow"}],
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.sniper_rifle.desc","color":"yellow"}],
       "minecraft:max_stack_size": 1,
       "minecraft:rarity": "rare",
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.sniper_rifle"}]}

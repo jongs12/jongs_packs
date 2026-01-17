@@ -42,7 +42,7 @@
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:item_model": "jongs:ranged_weapons/rocket_launcher",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.rocket_launcher"},
-      "minecraft:lore": [{"translate":"jongs.ranged_weapons.rocket_launcher_desc","color":"aqua"}],
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.rocket_launcher.desc","color":"aqua"}],
       "minecraft:max_stack_size": 1,
       "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spear","sound":{"sound_id":""},"has_consume_particles":false},
       "minecraft:rarity": "epic",

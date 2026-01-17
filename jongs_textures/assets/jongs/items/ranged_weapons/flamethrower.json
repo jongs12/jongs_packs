@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jongs:item/ranged_weapons/flamethrower"
+  },
+  "swap_animation_scale": 0.2
+}

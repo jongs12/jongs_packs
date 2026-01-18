@@ -4,7 +4,7 @@
   "key": {
     "B": "minecraft:iron_ingot",
     "C": "minecraft:lead",
-    "D": "minecraft:lantern",
+    "D": "#minecraft:lanterns",
     "E": "minecraft:tripwire_hook"
   },
   "pattern": [

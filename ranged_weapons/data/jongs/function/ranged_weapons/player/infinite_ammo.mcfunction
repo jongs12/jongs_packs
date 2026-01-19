@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:damage":0,"minecraft:unbreakable":{},"minecraft:enchantment_glint_override":true}}

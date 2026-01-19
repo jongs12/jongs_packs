@@ -46,7 +46,13 @@
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.sniper_rifle","color":"light_purple","shadow_color":[0,0,0,1]},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.sniper_rifle.desc","color":"dark_purple"}],
       "minecraft:max_stack_size": 1,
-      "minecraft:rarity": "rare",
+      "minecraft:rarity": "epic",
+      "minecraft:tool": {
+        "damage_per_block":0,
+        "rules": [
+          {"blocks":"#minecraft:mineable/axe","speed":6,"correct_for_drops":false}
+        ]
+      },
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.sniper_rifle"}]}
     }
   }

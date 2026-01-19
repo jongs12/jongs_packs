@@ -39,7 +39,13 @@
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.assault_rifle.desc","color":"gold"}],
       "minecraft:max_stack_size": 1,
       "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spear","sound":{"sound_id":""},"has_consume_particles":false},
-      "minecraft:rarity": "uncommon",
+      "minecraft:rarity": "epic",
+      "minecraft:tool": {
+        "damage_per_block":0,
+        "rules": [
+          {"blocks":"#minecraft:mineable/axe","speed":6,"correct_for_drops":false}
+        ]
+      },
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.assault_rifle"}]}
     }
   }

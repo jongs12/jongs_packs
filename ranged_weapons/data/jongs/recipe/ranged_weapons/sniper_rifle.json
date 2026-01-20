@@ -6,7 +6,7 @@
     "B": "minecraft:barrel",
     "C": "minecraft:tripwire_hook",
     "D": "minecraft:lever",
-    "E": "#minecraft:impermeable"
+    "E": "minecraft:glass"
   },
   "pattern": [
     "EED",

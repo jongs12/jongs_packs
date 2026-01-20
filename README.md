@@ -152,9 +152,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 돌격소총
 
-<img width="240" height="135" alt="assault_rifle" src="https://github.com/user-attachments/assets/1312bece-4dd8-4b46-9e0a-57fef6d127f3" />
+<img width="240" height="135" alt="assault_rifle" src="https://github.com/user-attachments/assets/e5a8b13e-32e9-4186-b03a-c28d0a8f2485" />
 
-철괴 2개, 판자 1개, 통 1개, 철사 덫 갈고리 1개로 조합합니다.
+철괴 3개, 통 1개, 철사 덫 갈고리 1개로 제작합니다.
 
 손에 들고 우클릭하면 조준하는 방향으로 발사하며, 우클릭을 누르고 있으면 2틱마다 1번씩 계속 발사합니다.
 공격은 다른 (체력값이 존재하는)엔티티 또는 통과할 수 없는 블록에 닿거나, 최대 사거리에 도달할 때까지 계속 나아갑니다.
@@ -166,9 +166,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 권총
 
-<img width="240" height="135" alt="pistol" src="https://github.com/user-attachments/assets/b857b85d-f8e8-4cf7-a300-ef74c581fc92" />
+<img width="240" height="135" alt="pistol" src="https://github.com/user-attachments/assets/1d48b7b9-3fbd-44b5-bc83-76910214a4f9" />
 
-철괴 2개, 철사 덫 갈고리 1개로 조합하며 2x2 공간에서도 조합할 수 있습니다.
+철괴 2개, 철사 덫 갈고리 1개로 제작하며 2x2 공간에서도 제작이 가능합니다.
 
 손에 들고 우클릭하면 조준하는 방향으로 발사하며, 우클릭을 떼었다가 1틱 이상 지나고 다시 누르면
 바로 다시 발사할 수 있습니다. 최대 공격 속도는 위의 돌격소총과 같습니다.
@@ -181,9 +181,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 산탄총
 
-<img width="240" height="135" alt="shotgun" src="https://github.com/user-attachments/assets/9ad1bb85-1506-4cc6-8149-b6d630ad9cc1" />
+<img width="240" height="135" alt="shotgun" src="https://github.com/user-attachments/assets/0e1a9b88-1efb-4df1-9c0e-6d1346a99c10" />
 
-철괴 3개, 통 2개, 철사 덫 갈고리 1개로 조합합니다.
+철괴 2개, 통 1개, 철사 덫 갈고리 1개, 레버 1개, 철 다락문 1개로 제작합니다.
 
 손에 들고 우클릭하면 조준하는 방향으로 1발, 상하좌우로 15도씩 벌어져서 8발, 총 9발을 발사합니다.
 한번 발사하면 12틱(0.6초) 동안 다시 발사할 수 없으며, 해당 시간이 지나면 소리를 통해 발사 가능 여부를 알려줍니다.
@@ -198,9 +198,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 저격소총
 
-<img width="240" height="135" alt="sniper_rifle" src="https://github.com/user-attachments/assets/a76ba669-1a6c-4ff3-b533-3028877bf608" />
+<img width="240" height="135" alt="sniper_rifle" src="https://github.com/user-attachments/assets/b1dcd97e-7663-4d12-a7b2-9ee0d95719af" />
 
-철괴 2개, 판자 3개, 통 1개, 철사 덫 갈고리 1개로 조합합니다.
+철괴 3개, 통 1개, 철사 덫 갈고리 1개, 레버 1개, 유리 2개로 제작합니다.
 
 손에 들고 우클릭하면 망원경처럼 화면이 확대되며, 그 상태로 우클릭을 놓으면 발사하고,
 숫자키를 누르거나 마우스 휠을 굴려 다른 아이템으로 전환하면 발사가 취소됩니다.
@@ -216,9 +216,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 화염방사기
 
-<img width="240" height="135" alt="flamethrower" src="https://github.com/user-attachments/assets/c53ee865-9f16-4c5b-9910-46c2dfef41ee" />
+<img width="240" height="135" alt="flamethrower" src="https://github.com/user-attachments/assets/42787492-df29-4e7d-80e1-5ab41d5a203d" />
 
-철괴 3개, 랜턴 1개, 끈 1개, 철사 덫 갈고리 1개로 조합합니다.
+철괴 3개, 랜턴 1개, 철사 덫 갈고리 1개, 끈 1개로 제작합니다.
 
 손에 든 채로 우클릭을 누르고 있으면 매 틱 조준하는 방향으로 화염을 발사합니다.
 화염은 블레이즈의 화염구처럼 몹 또는 블록에 닿으면 불을 붙이지만,
@@ -231,9 +231,9 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 - 로켓 발사기
 
-<img width="240" height="135" alt="rocket_launcher" src="https://github.com/user-attachments/assets/10a4b615-0e6f-4670-84cc-27ed38ad6dba" />
+<img width="240" height="135" alt="rocket_launcher" src="https://github.com/user-attachments/assets/b0472b93-5305-4c67-be28-4a35ca7bd84b" />
 
-철 블록 3개, 철괴 1개, 철사 덫 갈고리 1개로 조합합니다.
+철괴 1개, 철 블록 3개, 철사 덫 갈고리 1개로 제작합니다.
 
 손에 들고 우클릭하면 조준하는 방향으로 로켓 1발을 발사합니다. 발사된 로켓은 틱당 2블록의 속력으로
 다른 엔티티 또는 통과할 수 없는 블록에 닿거나, 최대 사거리에 도달할 때까지 계속 나아가다 폭발합니다.
@@ -245,7 +245,9 @@ TNT 폭발과 같은 판정이기에 방패에 막히며, 폭발로부터 보호
 
 - 유탄 발사기
 
-철괴 3개, 철 블록 1개, 철사 덫 갈고리 1개, 철 다락문 1개로 조합합니다.
+<img width="240" height="135" alt="grenade_launcher" src="https://github.com/user-attachments/assets/25bd9b85-33aa-4ac6-938c-721a6dcb02d6" />
+
+철괴 3개, 철 블록 1개, 철사 덫 갈고리 1개, 철 다락문 1개로 제작합니다.
 
 손에 들고 우클릭하면 조준하는 방향으로 유탄 1발을 발사합니다.
 한번 발사하면 18틱(0.9초) 동안 다시 발사할 수 없으며, 발사 가능 여부를 알려주는 소리가 나면

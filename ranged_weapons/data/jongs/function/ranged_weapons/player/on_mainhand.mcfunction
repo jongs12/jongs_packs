@@ -4,3 +4,4 @@ execute as @s[predicate=jongs:ranged_weapons/holding_shotgun] run function jongs
 execute as @s[predicate=jongs:ranged_weapons/holding_sniper_rifle] run function jongs:ranged_weapons/sniper_rifle/holding
 execute as @s[predicate=jongs:ranged_weapons/holding_flamethrower] run function jongs:ranged_weapons/flamethrower/holding
 execute as @s[predicate=jongs:ranged_weapons/holding_rocket_launcher] run function jongs:ranged_weapons/rocket_launcher/holding
+execute as @s[predicate=jongs:ranged_weapons/holding_grenade_launcher] run function jongs:ranged_weapons/grenade_launcher/holding

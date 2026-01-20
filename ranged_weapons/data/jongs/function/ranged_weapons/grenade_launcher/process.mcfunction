@@ -1,0 +1,3 @@
+execute unless loaded ~ ~ ~ run return run function jongs:ranged_weapons/grenade_launcher/explosion with entity @s data.jongs[{purpose:"ranged_weapons.shot_rocket"}]
+execute if predicate jongs:ranged_weapons/no_vehicle run return run function jongs:ranged_weapons/grenade_launcher/explosion with entity @s data.jongs[{purpose:"ranged_weapons.shot_rocket"}]
+return run particle minecraft:cloud ~ ~ ~ 0.2 0.2 0.2 0.1 2 normal

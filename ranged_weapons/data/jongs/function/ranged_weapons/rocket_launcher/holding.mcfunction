@@ -1,4 +1,4 @@
-execute if score @s jongs.ranged_weapons.reload matches 6055 run title @s actionbar {"translate":"jongs.ranged_weapons.reloading","color":"dark_green"}
+execute if score @s jongs.ranged_weapons.reload matches 6055 run title @s actionbar {"translate":"jongs.ranged_weapons.reloading","color":"#AA5555"}
 execute if score @s jongs.ranged_weapons.reload matches 6054 run playsound minecraft:entity.ender_dragon.hurt player @a ~ ~ ~ 1.5 0.6
 execute if score @s jongs.ranged_weapons.reload matches 6002 run playsound minecraft:block.chain.fall player @a ~ ~ ~ 1.5 0.7
 execute if score @s jongs.ranged_weapons.reload matches 6001 store success score @s jongs.ranged_weapons.reload run item modify entity @s weapon.mainhand jongs:ranged_weapons/fully_loaded

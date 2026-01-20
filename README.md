@@ -140,7 +140,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 *변신* 상태의 방어구에는 귀속 저주와 소실 저주가 붙어 있어 서바이벌 플레이어가 해당 방어구를 장착 해제하거나 다른 플레이어에게 넘겨줄 수는 없습니다.
 
 # ranged_weapons
-<img width="128" height="128" alt="ranged_weapons" src="https://github.com/user-attachments/assets/7e94c40b-2aa6-45ab-8d74-cfa7b0a4dce2" />
+<img width="128" height="128" alt="ranged_weapons" src="https://github.com/user-attachments/assets/fcce9897-3f60-4ebb-9ecd-ecaca7ec41c3" />
 
 **리소스 팩 필요**
 

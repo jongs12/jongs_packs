@@ -2,14 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "A": "#minecraft:planks",
-    "B": "minecraft:iron_ingot",
-    "D": "minecraft:barrel",
-    "E": "minecraft:tripwire_hook"
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:barrel",
+    "C": "minecraft:tripwire_hook"
   },
   "pattern": [
-    "ABB",
-    "D E"
+    "AAA",
+    "B C"
   ],
   "result": {
     "count": 1,

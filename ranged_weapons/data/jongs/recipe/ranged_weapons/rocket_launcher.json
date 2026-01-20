@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:iron_ingot",
-    "C": "minecraft:iron_block",
-    "E": "minecraft:tripwire_hook"
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:iron_block",
+    "C": "minecraft:tripwire_hook"
   },
   "pattern": [
-    "CCC",
-    "B E"
+    "BBB",
+    "A C"
   ],
   "result": {
     "count": 1,

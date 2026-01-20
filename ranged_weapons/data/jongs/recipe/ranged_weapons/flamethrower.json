@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:iron_ingot",
-    "C": "minecraft:lead",
-    "D": "#minecraft:lanterns",
-    "E": "minecraft:tripwire_hook"
+    "A": "minecraft:iron_ingot",
+    "B": "#minecraft:lanterns",
+    "C": "minecraft:tripwire_hook",
+    "D": "minecraft:lead"
   },
   "pattern": [
-    " DC",
-    "BBB",
-    "  E"
+    " BD",
+    "AAA",
+    "  C"
   ],
   "result": {
     "count": 1,

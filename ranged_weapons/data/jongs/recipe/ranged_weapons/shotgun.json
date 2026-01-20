@@ -2,13 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:iron_ingot",
-    "D": "minecraft:barrel",
-    "E": "minecraft:tripwire_hook"
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:barrel",
+    "C": "minecraft:tripwire_hook",
+    "D": "minecraft:lever",
+    "E": "minecraft:iron_trapdoor"
   },
   "pattern": [
-    "BBB",
-    "DDE"
+    "EAA",
+    "DBC"
   ],
   "result": {
     "count": 1,

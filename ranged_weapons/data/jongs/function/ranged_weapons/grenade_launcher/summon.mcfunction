@@ -1,1 +1,1 @@
-$summon minecraft:snowball ^ ^ ^ {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:fire_charge},Passengers:[{id:"minecraft:marker",data:{jongs:[{purpose:"ranged_weapons.shot_rocket",shooter:$(UUID)}]},Tags:["jongs.ranged_weapons.summoned"]}]}
+$summon minecraft:snowball ^ ^ ^ {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:fire_charge},Passengers:[{id:"minecraft:marker",data:{jongs:[{purpose:"ranged_weapons.shot_rocket",shooter:$(UUID)}]},Tags:["jongs.ranged_weapons.summoned"],Rotation:[0,90]}]}

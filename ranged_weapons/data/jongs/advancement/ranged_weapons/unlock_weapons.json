@@ -8,7 +8,7 @@
 		"conditions":
 			{
         	"items":
-				[{"items": "minecraft:iron_ingot"}]
+				[{"items": "minecraft:tripwire_hook"}]
       		}
 		},
 	"has_the_recipe_1":
@@ -58,6 +58,14 @@
 			{
     		"recipe": "jongs:ranged_weapons/rocket_launcher"
       		}
+    	},
+	"has_the_recipe_7":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/grenade_launcher"
+      		}
     	}
 	},
 "requirements":
@@ -69,7 +77,8 @@
     	"has_the_recipe_3",
     	"has_the_recipe_4",
     	"has_the_recipe_5",
-    	"has_the_recipe_6"
+    	"has_the_recipe_6",
+    	"has_the_recipe_7"
     	]
 	],
 "rewards":
@@ -81,7 +90,8 @@
 		"jongs:ranged_weapons/shotgun",
 		"jongs:ranged_weapons/sniper_rifle",
 		"jongs:ranged_weapons/flamethrower",
-		"jongs:ranged_weapons/rocket_launcher"
+		"jongs:ranged_weapons/rocket_launcher",
+		"jongs:ranged_weapons/grenade_launcher"
     	]
 	}
 }

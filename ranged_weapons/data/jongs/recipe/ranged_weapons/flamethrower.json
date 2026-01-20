@@ -45,7 +45,7 @@
       "minecraft:tool": {
         "damage_per_block":0,
         "rules": [
-          {"blocks":"#minecraft:mineable/axe","speed":6,"correct_for_drops":false}
+          {"blocks":"#minecraft:mineable/axe","speed":2,"correct_for_drops":false}
         ]
       },
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.flamethrower"}]}

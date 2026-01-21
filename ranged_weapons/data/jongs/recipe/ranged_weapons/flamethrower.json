@@ -18,14 +18,14 @@
     "components": {
       "minecraft:attribute_modifiers": [
         {
-          "amount": 5,
+          "amount": 3,
           "id": "jongs:weapon_damage",
           "slot": "mainhand",
           "type": "minecraft:attack_damage",
           "operation": "add_value"
         },
         {
-          "amount": -0.6,
+          "amount": -0.4,
           "id": "jongs:weapon_attack_speed",
           "slot": "mainhand",
           "type": "minecraft:attack_speed",
@@ -37,15 +37,15 @@
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":0.5},
       "minecraft:item_model": "jongs:ranged_weapons/flamethrower",
-      "minecraft:item_name": {"translate":"jongs.ranged_weapons.flamethrower","color":"white","shadow_color":[0,0,0,1]},
-      "minecraft:lore": [{"translate":"jongs.ranged_weapons.flamethrower.desc","color":"gray"}],
+      "minecraft:item_name": {"translate":"jongs.ranged_weapons.flamethrower","color":"#FFFF00","shadow_color":[0,0,0,1]},
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.flamethrower.desc","color":"#AAAA00"}],
       "minecraft:max_stack_size": 1,
       "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spear","sound":{"sound_id":""},"has_consume_particles":false},
       "minecraft:rarity": "epic",
       "minecraft:tool": {
         "damage_per_block":0,
         "rules": [
-          {"blocks":"#minecraft:mineable/axe","speed":6,"correct_for_drops":false}
+          {"blocks":"#minecraft:mineable/axe","speed":2,"correct_for_drops":false}
         ]
       },
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.flamethrower"}]}

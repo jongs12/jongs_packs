@@ -1,9 +1,9 @@
-execute if score @s jongs.ranged_weapons.reload matches 4043 run title @s actionbar {"translate":"jongs.ranged_weapons.reloading","color":"dark_purple"}
-execute if score @s jongs.ranged_weapons.reload matches 4042 run playsound minecraft:block.chain.place player @a ~ ~ ~ 1.5 0.8
+execute if score @s jongs.ranged_weapons.reload matches 4041 run title @s actionbar {"translate":"jongs.ranged_weapons.reloading","color":"#717171"}
+execute if score @s jongs.ranged_weapons.reload matches 4040 run playsound minecraft:block.chain.place player @a ~ ~ ~ 1.5 0.8
 execute if score @s jongs.ranged_weapons.reload matches 4002 run playsound minecraft:block.chain.fall player @a ~ ~ ~ 1.5 0.7
 execute if score @s jongs.ranged_weapons.reload matches 4001 store success score @s jongs.ranged_weapons.reload run item modify entity @s weapon.mainhand jongs:ranged_weapons/fully_loaded
 execute if score @s[predicate=!jongs:ranged_weapons/can_shoot] jongs.ranged_weapons.reload matches 4001..4999 run return run scoreboard players remove @s jongs.ranged_weapons.reload 1
-execute as @s[predicate=!jongs:ranged_weapons/can_shoot] run return run scoreboard players set @s jongs.ranged_weapons.reload 4043
+execute as @s[predicate=!jongs:ranged_weapons/can_shoot] run return run scoreboard players set @s jongs.ranged_weapons.reload 4041
 execute if score @s jongs.ranged_weapons.cooldown.sniper_rifle matches 1 run playsound minecraft:item.armor.equip_netherite player @s ~ ~ ~ 1.5 0.5
 execute if score @s jongs.ranged_weapons.cooldown.sniper_rifle matches 1.. run return run scoreboard players remove @s jongs.ranged_weapons.cooldown.sniper_rifle 1
 execute unless score @s jongs.ranged_weapons.hold matches 1 run return 0

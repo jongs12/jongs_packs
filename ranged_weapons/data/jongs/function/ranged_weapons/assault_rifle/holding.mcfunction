@@ -6,3 +6,4 @@ execute if score @s[predicate=!jongs:ranged_weapons/can_shoot] jongs.ranged_weap
 execute as @s[predicate=!jongs:ranged_weapons/can_shoot] run return run scoreboard players set @s jongs.ranged_weapons.reload 1041
 execute if score @s jongs.ranged_weapons.cooldown.assault_rifle matches 1 run advancement revoke @s only jongs:ranged_weapons/shoot/assault_rifle
 execute if score @s jongs.ranged_weapons.cooldown.assault_rifle matches 1.. run return run scoreboard players remove @s jongs.ranged_weapons.cooldown.assault_rifle 1
+return 0

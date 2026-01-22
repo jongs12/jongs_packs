@@ -4,3 +4,4 @@ execute if score @s jongs.ranged_weapons.reload matches 2002 run playsound minec
 execute if score @s jongs.ranged_weapons.reload matches 2001 store success score @s jongs.ranged_weapons.reload run item modify entity @s weapon.mainhand jongs:ranged_weapons/reloaded
 execute if score @s[predicate=!jongs:ranged_weapons/can_shoot] jongs.ranged_weapons.reload matches 2001..2999 run return run scoreboard players remove @s jongs.ranged_weapons.reload 1
 execute as @s[predicate=!jongs:ranged_weapons/can_shoot] run return run scoreboard players set @s jongs.ranged_weapons.reload 2023
+return 0

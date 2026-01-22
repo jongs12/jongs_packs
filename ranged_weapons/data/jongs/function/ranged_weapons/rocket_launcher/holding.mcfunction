@@ -6,3 +6,4 @@ execute if score @s[predicate=!jongs:ranged_weapons/can_shoot] jongs.ranged_weap
 execute as @s[predicate=!jongs:ranged_weapons/can_shoot] run return run scoreboard players set @s jongs.ranged_weapons.reload 6055
 execute if score @s jongs.ranged_weapons.cooldown.rocket_launcher matches 1 run playsound minecraft:item.armor.equip_netherite player @s ~ ~ ~ 1.5 0.7
 execute if score @s jongs.ranged_weapons.cooldown.rocket_launcher matches 1.. run return run scoreboard players remove @s jongs.ranged_weapons.cooldown.rocket_launcher 1
+return 0

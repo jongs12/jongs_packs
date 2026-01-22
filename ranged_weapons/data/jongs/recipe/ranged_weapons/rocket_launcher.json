@@ -52,7 +52,7 @@
           {"blocks":"#minecraft:mineable/axe","speed":4,"correct_for_drops":false}
         ]
       },
-      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.guns"},{"purpose":"ranged_weapons.rocket_launcher"}]}
+      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.no_reload"},{"purpose":"ranged_weapons.rocket_launcher"}]}
     }
   }
 }

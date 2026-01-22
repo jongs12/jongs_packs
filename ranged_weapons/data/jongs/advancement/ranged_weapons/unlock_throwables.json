@@ -1,0 +1,37 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"got_the_item":
+		{
+		"trigger": "minecraft:inventory_changed",
+		"conditions":
+			{
+        	"items":
+				[{"items": "minecraft:fire_charge"}]
+      		}
+		},
+	"has_the_recipe":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/sticky_mine"
+      		}
+    	}
+	},
+"requirements":
+	[
+    	[
+		"got_the_item",
+    	"has_the_recipe"
+    	]
+	],
+"rewards":
+	{
+	"recipes":
+		[
+    	"jongs:ranged_weapons/sticky_mine"
+    	]
+	}
+}

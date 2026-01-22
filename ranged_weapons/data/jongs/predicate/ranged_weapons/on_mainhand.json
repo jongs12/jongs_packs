@@ -1,20 +1,46 @@
 {
-"condition": "entity_properties",
-"entity": "this",
-"predicate":
-	{
-	"slots":
+"condition": "any_of",
+"terms":
+	[
 		{
-		"weapon.mainhand":
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate":
 			{
-			"predicates":
+			"slots":
 				{
-				"minecraft:custom_data":
+				"weapon.mainhand":
 					{
-					"jongs": [{"purpose":"ranged_weapons.guns"}]
+					"predicates":
+						{
+						"minecraft:custom_data":
+							{
+							"jongs": [{"purpose":"ranged_weapons.guns"}]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate":
+			{
+			"slots":
+				{
+				"weapon.mainhand":
+					{
+					"predicates":
+						{
+						"minecraft:custom_data":
+							{
+							"jongs": [{"purpose":"ranged_weapons.no_reload"}]
+							}
+						}
 					}
 				}
 			}
 		}
-	}
+	]
 }

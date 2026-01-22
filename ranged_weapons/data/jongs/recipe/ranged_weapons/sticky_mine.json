@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:black_stained_glass",
+    "B": "minecraft:fire_charge"
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:max_damage": 3,
+      "minecraft:damage": 0,
+      "minecraft:item_model": "jongs:ranged_weapons/sticky_mine",
+      "minecraft:item_name": {"translate":"jongs.ranged_weapons.sticky_mine","color":"#000000","shadow_color":[1,1,1,1]},
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.sticky_mine.desc","color":"#000000","shadow_color":[1,1,1,1]}],
+      "minecraft:max_stack_size": 1,
+      "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spyglass","sound":{"sound_id":""},"has_consume_particles":false},
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.no_reload"},{"purpose":"ranged_weapons.sticky_mine"}]}
+    }
+  }
+}

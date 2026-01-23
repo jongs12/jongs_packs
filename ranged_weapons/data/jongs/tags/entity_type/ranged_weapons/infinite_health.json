@@ -19,8 +19,6 @@
     "minecraft:marker",
     "minecraft:painting",
     "minecraft:tnt",
-    "minecraft:shulker_bullet",
-    "minecraft:item",
-    "minecraft:experience_orb"
+    "minecraft:shulker_bullet"
   ]
 }

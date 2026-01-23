@@ -21,6 +21,7 @@
     "minecraft:tnt",
     "minecraft:shulker_bullet",
     "minecraft:item",
-    "minecraft:experience_orb"
+    "minecraft:experience_orb",
+    "minecraft:armor_stand"
   ]
 }

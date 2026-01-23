@@ -2,7 +2,6 @@ tag @s add jongs.ranged_weapons.loaded
 scoreboard players set @s jongs.ranged_weapons.reload 0
 scoreboard players set @s jongs.ranged_weapons.cooldown.shotgun 12
 playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 3 1.5
-data modify storage jongs:ranged_weapons UUID set from entity @s UUID
 data modify storage jongs:ranged_weapons x_delta set value 0
 data modify storage jongs:ranged_weapons y_delta set value 0
 data modify storage jongs:ranged_weapons z_delta set value 0.5

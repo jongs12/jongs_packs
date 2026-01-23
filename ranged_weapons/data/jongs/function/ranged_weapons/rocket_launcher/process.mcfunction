@@ -1,4 +1,4 @@
-$execute if score @s jongs.ranged_weapons.distance matches ..0 at @s run return run function jongs:ranged_weapons/rocket_launcher/explosion {"UUID":$(shooter)}
+$execute if score @s jongs.ranged_weapons.distance matches ..0 run return run function jongs:ranged_weapons/rocket_launcher/explosion {"UUID":$(shooter)}
 $execute unless loaded ^ ^ ^1 run return run function jongs:ranged_weapons/rocket_launcher/explosion {"UUID":$(shooter)}
 $execute store success score @s jongs.ranged_weapons.success positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,nbt=!{UUID:$(shooter)},type=!#jongs:ranged_weapons/infinite_health] run damage @s 50 minecraft:player_explosion by @p[nbt={UUID:$(shooter)}]
 $execute if score @s jongs.ranged_weapons.success matches 1 run return run function jongs:ranged_weapons/rocket_launcher/explosion {"UUID":$(shooter)}

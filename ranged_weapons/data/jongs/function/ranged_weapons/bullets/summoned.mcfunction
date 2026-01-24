@@ -1,0 +1,2 @@
+execute as @s[type=minecraft:splash_potion,predicate=jongs:ranged_weapons/no_vehicle] run return run setblock ~ ~ ~ minecraft:fire keep
+execute as @s[type=minecraft:marker] run return run function jongs:ranged_weapons/grenade_launcher/process/check

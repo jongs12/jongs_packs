@@ -19,14 +19,14 @@
       "minecraft:attribute_modifiers": [
         {
           "amount": 5,
-          "id": "jongs:weapon_damage",
+          "id": "jongs:ranged_weapons.mainhand.attack_damage",
           "slot": "mainhand",
           "type": "minecraft:attack_damage",
           "operation": "add_value"
         },
         {
           "amount": -0.6,
-          "id": "jongs:weapon_attack_speed",
+          "id": "jongs:ranged_weapons.mainhand.attack_speed",
           "slot": "mainhand",
           "type": "minecraft:attack_speed",
           "operation": "add_multiplied_base"

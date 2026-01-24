@@ -1,0 +1,3 @@
+setblock ~ ~ ~ minecraft:fire replace #jongs:ranged_weapons/dashable destroy
+summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:20,DurationOnUse:0,potion_contents:{custom_effects:[{id:"minecraft:wither",duration:100,amplifier:1,ambient:false,show_particles:true,show_icon:false}]},custom_particle:{type:"minecraft:lava"},potion_duration_scale:1,Radius:1,RadiusOnUse:0,RadiusPerTick:0,ReapplicationDelay:3,WaitTime:0}
+return run kill @s

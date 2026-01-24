@@ -1,3 +1,3 @@
-fill ^ ^ ^ ^ ^ ^2 minecraft:fire replace #jongs:ranged_weapons/dashable destroy
-summon minecraft:area_effect_cloud ^ ^ ^1 {Age:0,Duration:20,DurationOnUse:0,potion_contents:{custom_effects:[{id:"minecraft:wither",duration:100,amplifier:1,ambient:false,show_particles:true,show_icon:false}]},custom_particle:{type:"minecraft:smoke"},potion_duration_scale:1,Radius:1.5,RadiusOnUse:0,RadiusPerTick:0,ReapplicationDelay:3,WaitTime:0}
+fill ^-0.5 ^-0.5 ^ ^0.5 ^0.5 ^2 minecraft:fire replace #jongs:ranged_weapons/dashable destroy
+summon minecraft:area_effect_cloud ^ ^ ^1 {Age:0,Duration:20,DurationOnUse:0,potion_contents:{custom_effects:[{id:"minecraft:wither",duration:100,amplifier:1,ambient:false,show_particles:true,show_icon:false},{id:"minecraft:slowness",duration:100,amplifier:1,ambient:false,show_particles:false,show_icon:true}]},custom_particle:{type:"minecraft:smoke"},potion_duration_scale:1,Radius:1.5,RadiusOnUse:0,RadiusPerTick:0,ReapplicationDelay:3,WaitTime:0}
 return run kill @s

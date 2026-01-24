@@ -1,2 +1,0 @@
-execute as @s[tag=jongs.ranged_weapons.flamethrower,predicate=jongs:ranged_weapons/no_vehicle] run return run function jongs:ranged_weapons/flamethrower/burning
-execute as @s[tag=jongs.ranged_weapons.grenade_launcher] run return run function jongs:ranged_weapons/grenade_launcher/process/check

@@ -1,3 +1,3 @@
-$summon minecraft:snowball ^ ^ ^0.5 {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:fire_charge},Passengers:[{id:"minecraft:marker",data:{jongs:[{purpose:"ranged_weapons.shot_grenade",shooter:$(UUID)}]},Tags:["jongs.ranged_weapons.summoned","jongs.ranged_weapons.grenade_launcher","jongs.ranged_weapons.temp"]}]}
-rotate @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.temp] ~ ~
-return run tag @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.temp] remove jongs.ranged_weapons.temp
+$summon minecraft:snowball ^ ^ ^0.5 {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:fire_charge},Passengers:[{id:"minecraft:marker",data:{jongs:[{purpose:"ranged_weapons.shot_grenade",shooter:$(UUID)}]},Tags:["jongs.ranged_weapons.summoned","jongs.ranged_weapons.grenade_launcher"]}]}
+rotate @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.summoned] ~ ~
+return run tag @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.summoned] remove jongs.ranged_weapons.summoned

@@ -19,6 +19,8 @@
     "minecraft:marker",
     "minecraft:painting",
     "minecraft:tnt",
-    "minecraft:shulker_bullet"
+    "minecraft:shulker_bullet",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion"
   ]
 }

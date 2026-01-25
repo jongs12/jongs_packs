@@ -55,5 +55,5 @@ scoreboard players set #짝수확인 jongs.ranged_weapons.distance 1
 scoreboard players set #공격성공 jongs.ranged_weapons.success 0
 scoreboard players set @s jongs.ranged_weapons.distance -80
 execute anchored eyes positioned ^ ^ ^ anchored feet run function jongs:ranged_weapons/shotgun/process with storage jongs:ranged_weapons
-execute as @e[scores={jongs.ranged_weapons.hit=1..}] run function jongs:ranged_weapons/shotgun/damage_store
+execute as @e[scores={jongs.ranged_weapons.hit=1..}] run function jongs:ranged_weapons/shotgun/damage/store
 return run tag @s remove jongs.ranged_weapons.loaded

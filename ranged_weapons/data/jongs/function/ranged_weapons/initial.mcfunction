@@ -3,7 +3,6 @@ scoreboard objectives add jongs.ranged_weapons.reload dummy
 scoreboard objectives add jongs.ranged_weapons.refill.sticky_mine dummy
 scoreboard objectives add jongs.ranged_weapons.success dummy
 scoreboard objectives add jongs.ranged_weapons.hit dummy
-scoreboard objectives add jongs.ranged_weapons.hurt_time dummy
 scoreboard objectives add jongs.ranged_weapons.click dummy
 scoreboard objectives add jongs.ranged_weapons.hold dummy
 scoreboard objectives add jongs.ranged_weapons.cooldown.assault_rifle dummy

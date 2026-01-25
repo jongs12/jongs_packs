@@ -1,5 +1,5 @@
 scoreboard players set @s jongs.ranged_weapons.reload 0
-scoreboard players set @s jongs.ranged_weapons.cooldown.sticky_mine 18
+scoreboard players set @s jongs.ranged_weapons.cooldown.sticky_mine 16
 playsound minecraft:entity.snowball.throw player @a ~ ~ ~ 1 0.5
 data modify storage jongs:ranged_weapons UUID set from entity @s UUID
 execute store result score #위치.x jongs.ranged_weapons.click run data get entity @s Pos[0] 100

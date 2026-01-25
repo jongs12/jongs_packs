@@ -1,5 +1,5 @@
 scoreboard players set @s jongs.ranged_weapons.reload 0
-scoreboard players set @s jongs.ranged_weapons.cooldown.grenade_launcher 24
+scoreboard players set @s jongs.ranged_weapons.cooldown.grenade_launcher 20
 playsound minecraft:entity.item.pickup player @a ~ ~ ~ 3 0.6
 data modify storage jongs:ranged_weapons UUID set from entity @s UUID
 execute store result score #위치.x jongs.ranged_weapons.click run data get entity @s Pos[0] 100

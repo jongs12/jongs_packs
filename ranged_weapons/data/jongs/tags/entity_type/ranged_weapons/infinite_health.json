@@ -20,7 +20,7 @@
     "minecraft:painting",
     "minecraft:tnt",
     "minecraft:shulker_bullet",
-    "minecraft:item",
-    "minecraft:experience_orb"
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion"
   ]
 }

@@ -1,4 +1,4 @@
-execute as @e[type=minecraft:marker,tag=jongs.water_bucket_release.fill] if predicate jongs:water_bucket_release/no_vehicle at @s run function jongs:water_bucket_release/bucket/replace
+execute as @e[type=minecraft:marker,tag=jongs.water_bucket_release.fill,predicate=jongs:water_bucket_release/no_vehicle] at @s run function jongs:water_bucket_release/bucket/replace
 execute as @a run scoreboard players operation @s jongs.water_bucket_release.x.pre = @s jongs.water_bucket_release.x.cur
 execute as @a store result score @s jongs.water_bucket_release.x.cur run data get entity @s Pos[0] 100
 execute as @a run scoreboard players operation @s jongs.water_bucket_release.z.pre = @s jongs.water_bucket_release.z.cur

@@ -1,2 +1,2 @@
 execute store result storage jongs:ranged_weapons damage int 1 run scoreboard players get @s jongs.ranged_weapons.hit
-function jongs:ranged_weapons/shotgun/damage_deal with storage jongs:ranged_weapons
+return run function jongs:ranged_weapons/shotgun/damage/deal with storage jongs:ranged_weapons

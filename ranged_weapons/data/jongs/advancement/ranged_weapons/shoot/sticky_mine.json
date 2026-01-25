@@ -1,0 +1,40 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"sticky_mine":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.sticky_mine"}]}
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"ranged_weapons.sticky_mine"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/sticky_mine/check"
+	}
+}

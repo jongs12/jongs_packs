@@ -1,5 +1,5 @@
-execute unless data entity @s equipment.head.components."minecraft:custom_data".jongs[{purpose:"rinne.head"}] run return run function jongs:rinne/boom/back_to_owner
-attribute @s minecraft:gravity modifier add jongs:rinne -1 add_multiplied_total
+execute unless data entity @s equipment.head.components."minecraft:custom_data".jongs[{purpose:"rinne.face"}] run return run function jongs:rinne/boom/back_to_owner
+attribute @s minecraft:gravity modifier add jongs:rinne.command.gravity -1 add_multiplied_total
 particle minecraft:explosion ~ ~ ~ 1 1 1 1 5 normal
 playsound minecraft:entity.breeze.wind_burst player @a ~ ~ ~ 2 0.5 0
 effect give @e[distance=0.001..9] minecraft:glowing 6 0 true

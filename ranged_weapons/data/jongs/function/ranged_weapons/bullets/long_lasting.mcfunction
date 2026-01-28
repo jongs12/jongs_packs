@@ -1,0 +1,1 @@
+execute as @s[tag=jongs.ranged_weapons.shot_grenade] run return run function jongs:ranged_weapons/grenade_launcher/process/prepare

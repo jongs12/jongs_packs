@@ -5,11 +5,13 @@
     "A": "minecraft:iron_ingot",
     "B": "minecraft:iron_block",
     "C": "minecraft:tripwire_hook",
+    "D": "minecraft:piston",
     "E": "minecraft:iron_trapdoor"
   },
   "pattern": [
     "AAA",
-    "EBC"
+    "EBC",
+    " D "
   ],
   "result": {
     "count": 1,

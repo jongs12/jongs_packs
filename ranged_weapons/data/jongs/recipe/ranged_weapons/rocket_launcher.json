@@ -4,11 +4,14 @@
   "key": {
     "A": "minecraft:iron_ingot",
     "B": "minecraft:iron_block",
-    "C": "minecraft:tripwire_hook"
+    "C": "minecraft:tripwire_hook",
+    "D": "minecraft:saddle",
+    "E": "minecraft:glass"
   },
   "pattern": [
+    " E ",
     "BBB",
-    "A C"
+    "ADC"
   ],
   "result": {
     "count": 1,

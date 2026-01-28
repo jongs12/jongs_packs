@@ -11,7 +11,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:clock",
+    "id": "minecraft:music_disc_chirp",
     "components": {
       "minecraft:attribute_modifiers": [
         {
@@ -36,6 +36,7 @@
           "operation": "add_multiplied_base"
         }
       ],
+      "!minecraft:jukebox_playable": {},
       "minecraft:max_damage": 17,
       "minecraft:damage": 0,
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},

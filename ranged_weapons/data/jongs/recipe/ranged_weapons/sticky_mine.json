@@ -12,8 +12,9 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:clock",
+    "id": "minecraft:music_disc_otherside",
     "components": {
+      "!minecraft:jukebox_playable": {},
       "minecraft:max_damage": 3,
       "minecraft:damage": 0,
       "minecraft:item_model": "jongs:ranged_weapons/sticky_mine",

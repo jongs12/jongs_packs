@@ -1,0 +1,3 @@
+tag @s add jongs.ranged_weapons.shooter
+execute as @e[type=minecraft:marker,tag=jongs.ranged_weapons.thrown_mine] if score @s jongs.ranged_weapons.player_id = @a[tag=jongs.ranged_weapons.shooter,limit=1] jongs.ranged_weapons.player_id run tag @s add jongs.ranged_weapons.shooting
+execute as @e[type=minecraft:marker,tag=jongs.ranged_weapons.shooting] run return run function jongs:ranged_weapons/sticky_mine/enabled/explosion

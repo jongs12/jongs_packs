@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:black_stained_glass",
+    "A": "minecraft:tinted_glass",
     "B": "minecraft:fire_charge"
   },
   "pattern": [

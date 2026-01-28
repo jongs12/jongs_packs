@@ -8,5 +8,5 @@ give @s minecraft:lead
 give @s minecraft:lever 2
 give @s minecraft:iron_trapdoor 2
 give @s minecraft:glass 2
-give @s minecraft:black_stained_glass 4
+give @s minecraft:tinted_glass 4
 give @s minecraft:fire_charge

@@ -1,3 +1,5 @@
+execute store result score @s jongs.ranged_weapons.success on vehicle run data get entity @s Health
+execute if score @s jongs.ranged_weapons.success matches 0 run return run ride @s dismount
 scoreboard players set @s jongs.ranged_weapons.success 0
 tag @s add jongs.ranged_weapons.owner
 execute on vehicle run tag @s add jongs.ranged_weapons.shooting

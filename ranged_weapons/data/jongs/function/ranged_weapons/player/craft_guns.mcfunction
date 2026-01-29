@@ -10,7 +10,7 @@ give @s minecraft:piston
 give @s minecraft:saddle
 give @s minecraft:iron_trapdoor 2
 give @s minecraft:glass 3
-give @s minecraft:redstone 3
+give @s minecraft:redstone 4
 give @s minecraft:tinted_glass 4
 give @s minecraft:fire_charge
 give @s minecraft:dispenser

@@ -7,9 +7,9 @@
     "C": "minecraft:fire_charge"
   },
   "pattern": [
-    "BAB",
-    " C ",
-    "B B"
+    "ABA",
+    "BCB",
+    " B "
   ],
   "result": {
     "count": 1,

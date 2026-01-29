@@ -2,7 +2,7 @@
 "parent": "minecraft:recipes/root",
 "criteria": 
 	{
-	"sticky_mine":
+	"sentry_gun":
 		{
 		"trigger": "minecraft:using_item",
 		"conditions":
@@ -12,9 +12,9 @@
 				"predicates":
 					{
 					"minecraft:custom_data":
-						{
-						"jongs": [{"purpose":"ranged_weapons.sticky_mine"}]
-						}
+                        {
+                        "jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
+                        }
 					}
 				},
 			"player":
@@ -27,7 +27,7 @@
 							{
 							"minecraft:custom_data":
 								{
-								"jongs": [{"purpose":"ranged_weapons.sticky_mine"}]
+								"jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
 								}
 							}
 						}
@@ -38,6 +38,6 @@
 	},
 "rewards":
 	{
-	"function": "jongs:ranged_weapons/sticky_mine/check"
+	"function": "jongs:ranged_weapons/sentry_gun/check"
 	}
 }

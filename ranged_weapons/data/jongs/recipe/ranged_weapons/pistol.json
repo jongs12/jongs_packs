@@ -37,7 +37,7 @@
         }
       ],
       "!minecraft:jukebox_playable": {},
-      "minecraft:max_damage": 17,
+      "minecraft:max_damage": 20,
       "minecraft:damage": 0,
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1},

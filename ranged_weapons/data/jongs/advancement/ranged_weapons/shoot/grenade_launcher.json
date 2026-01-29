@@ -11,7 +11,10 @@
 				{
 				"predicates":
 					{
-					"minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.grenade_launcher"}]}
+					"minecraft:custom_data":
+						{
+						"jongs": [{"purpose":"ranged_weapons.grenade_launcher"}]
+						}
 					}
 				},
 			"player":

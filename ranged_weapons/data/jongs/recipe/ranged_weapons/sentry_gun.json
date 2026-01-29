@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:dispenser",
+    "A": "minecraft:redstone",
     "B": "minecraft:iron_ingot",
-    "C": "minecraft:observer"
+    "C": "minecraft:dispenser"
   },
   "pattern": [
-    " CA",
-    " B ",
+    " C ",
+    "ABA",
     "B B"
   ],
   "result": {

@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:fire_charge",
-    "B": "minecraft:tinted_glass"
+    "A": "minecraft:redstone",
+    "B": "minecraft:tinted_glass",
+    "C": "minecraft:fire_charge"
   },
   "pattern": [
-    " B ",
     "BAB",
-    " B "
+    " C ",
+    "B B"
   ],
   "result": {
     "count": 1,

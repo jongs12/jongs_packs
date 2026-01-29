@@ -1,0 +1,43 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"sentry_gun":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data":
+                        {
+                        "jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
+                        }
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:ranged_weapons/sentry_gun/check"
+	}
+}

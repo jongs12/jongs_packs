@@ -9,9 +9,9 @@
 			{
 			"predicates":
 				{
-				"minecraft:damage":
+				"minecraft:custom_data":
 					{
-					"damage": 0
+					"jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
 					}
 				}
 			}

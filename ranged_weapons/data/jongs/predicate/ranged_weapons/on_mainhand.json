@@ -35,7 +35,7 @@
 						{
 						"minecraft:custom_data":
 							{
-							"jongs": [{"purpose":"ranged_weapons.no_reload"}]
+							"jongs": [{"purpose":"ranged_weapons.throwables"}]
 							}
 						}
 					}

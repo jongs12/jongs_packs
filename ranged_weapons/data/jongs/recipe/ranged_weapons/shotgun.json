@@ -37,7 +37,7 @@
       "minecraft:damage": 0,
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
       "minecraft:item_model": "jongs:ranged_weapons/shotgun",
-      "minecraft:item_name": {"translate":"jongs.ranged_weapons.shotgun","color":"#80FF80","shadow_color":[0,0,0,1]},
+      "minecraft:item_name": {"translate":"jongs.ranged_weapons.shotgun","color":"#80FF80","bold":true,"shadow_color":[0,0,0,1]},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.shotgun.desc","color":"#55AA55"}],
       "minecraft:max_stack_size": 1,
       "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spear","sound":{"sound_id":""},"has_consume_particles":false},

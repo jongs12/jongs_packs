@@ -12,5 +12,3 @@ scoreboard objectives add jongs.ranged_weapons.cooldown.shotgun dummy
 scoreboard objectives add jongs.ranged_weapons.cooldown.sniper_rifle dummy
 scoreboard objectives add jongs.ranged_weapons.cooldown.rocket_launcher dummy
 scoreboard objectives add jongs.ranged_weapons.cooldown.grenade_launcher dummy
-scoreboard objectives add jongs.ranged_weapons.cooldown.sticky_mine dummy
-scoreboard objectives add jongs.ranged_weapons.cooldown.sentry_gun dummy

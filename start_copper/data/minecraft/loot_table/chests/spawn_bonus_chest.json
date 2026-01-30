@@ -14,7 +14,10 @@
                 "minecraft:potion_contents": {
                   "custom_name": "harming",
                   "custom_color": 0,
-                  "custom_effects": [{"id":"minecraft:instant_health","amplifier":29}]
+                  "custom_effects": [
+                    {"id":"minecraft:instant_health","amplifier":29},
+                    {"id":"minecraft:instant_damage","amplifier":29}
+                  ]
                 }
               }
             }

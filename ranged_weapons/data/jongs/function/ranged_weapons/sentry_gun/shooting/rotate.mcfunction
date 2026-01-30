@@ -1,6 +1,3 @@
-tag @s add jongs.ranged_weapons.shooting
-execute as @a if score @s jongs.ranged_weapons.player_id = @e[type=minecraft:block_display,tag=jongs.ranged_weapons.shooting,limit=1] jongs.ranged_weapons.player_id run tag @s add jongs.ranged_weapons.shooter
-execute store success score @s jongs.ranged_weapons.success as @n[distance=..25,tag=!jongs.ranged_weapons.shooter,type=!#jongs:ranged_weapons/no_throwable_target] at @s anchored eyes positioned ^ ^ ^ run rotate @e[type=minecraft:block_display,tag=jongs.ranged_weapons.shooting,limit=1] facing ~ ~ ~
-execute if score @s jongs.ranged_weapons.success matches 1 run playsound minecraft:block.grindstone.use player @a ~ ~ ~ 0.7 0.8
-tag @s remove jongs.ranged_weapons.shooting
-return run tag @a[tag=jongs.ranged_weapons.shooter,limit=1] remove jongs.ranged_weapons.shooter
+playsound minecraft:entity.firework_rocket.blast_far player @a ~ ~ ~ 3 0.9
+rotate @s facing entity @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] eyes
+$function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:$(limit)}

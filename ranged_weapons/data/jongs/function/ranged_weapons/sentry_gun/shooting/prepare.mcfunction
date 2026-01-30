@@ -42,4 +42,28 @@ scoreboard players set @s jongs.ranged_weapons.success 0
 execute on vehicle run scoreboard players set @s jongs.ranged_weapons.distance 26
 execute positioned ^ ^ ^ facing entity @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] eyes on vehicle run function jongs:ranged_weapons/sentry_gun/shooting/in_progress
 execute if score @s jongs.ranged_weapons.success matches 1 run return run function jongs:ranged_weapons/sentry_gun/shooting/rotate {limit:5}
-return run function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:5}
+tag @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] add jongs.ranged_weapons.blocked
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute store success score @s jongs.ranged_weapons.success positioned ~-15 ~-15 ~-15 as @e[dx=29,dy=29,dz=29,tag=!jongs.ranged_weapons.shooter,type=!#jongs:ranged_weapons/no_throwable_target,tag=!jongs.ranged_weapons.blocked,limit=1] run tag @s add jongs.ranged_weapons.target
+execute if score @s jongs.ranged_weapons.success matches 0 run return run function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:6}
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute on vehicle run scoreboard players set @s jongs.ranged_weapons.distance 26
+execute positioned ^ ^ ^ facing entity @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] eyes on vehicle run function jongs:ranged_weapons/sentry_gun/shooting/in_progress
+execute if score @s jongs.ranged_weapons.success matches 1 run return run function jongs:ranged_weapons/sentry_gun/shooting/rotate {limit:6}
+tag @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] add jongs.ranged_weapons.blocked
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute store success score @s jongs.ranged_weapons.success positioned ~-15 ~-15 ~-15 as @e[dx=29,dy=29,dz=29,tag=!jongs.ranged_weapons.shooter,type=!#jongs:ranged_weapons/no_throwable_target,tag=!jongs.ranged_weapons.blocked,limit=1] run tag @s add jongs.ranged_weapons.target
+execute if score @s jongs.ranged_weapons.success matches 0 run return run function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:7}
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute on vehicle run scoreboard players set @s jongs.ranged_weapons.distance 26
+execute positioned ^ ^ ^ facing entity @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] eyes on vehicle run function jongs:ranged_weapons/sentry_gun/shooting/in_progress
+execute if score @s jongs.ranged_weapons.success matches 1 run return run function jongs:ranged_weapons/sentry_gun/shooting/rotate {limit:7}
+tag @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] add jongs.ranged_weapons.blocked
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute store success score @s jongs.ranged_weapons.success positioned ~-15 ~-15 ~-15 as @e[dx=29,dy=29,dz=29,tag=!jongs.ranged_weapons.shooter,type=!#jongs:ranged_weapons/no_throwable_target,tag=!jongs.ranged_weapons.blocked,limit=1] run tag @s add jongs.ranged_weapons.target
+execute if score @s jongs.ranged_weapons.success matches 0 run return run function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:8}
+scoreboard players set @s jongs.ranged_weapons.success 0
+execute on vehicle run scoreboard players set @s jongs.ranged_weapons.distance 26
+execute positioned ^ ^ ^ facing entity @e[tag=jongs.ranged_weapons.target,tag=!jongs.ranged_weapons.blocked,limit=1] eyes on vehicle run function jongs:ranged_weapons/sentry_gun/shooting/in_progress
+execute if score @s jongs.ranged_weapons.success matches 1 run return run function jongs:ranged_weapons/sentry_gun/shooting/rotate {limit:8}
+return run function jongs:ranged_weapons/sentry_gun/shooting/remove_tags {limit:8}

@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "custom_name": "instant_damage",
+                  "custom_name": "harming",
                   "custom_color": 0,
                   "custom_effects": [{"id":"minecraft:instant_health","amplifier":29}]
                 }

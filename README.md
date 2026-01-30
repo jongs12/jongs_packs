@@ -50,7 +50,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 - 횃불 24~36개
 - 참나무 판자 16~32개
 
-아, 기존의 보너스 상자는 비어 있습니다. [작고 하얀 개](https://youtu.be/EWP9Nr7IxUU)만이 남아있을 뿐이죠.
+아, 기존의 보너스 상자는 비어 있습니다. 아마도요? 굳이 활성화할 필요는 없겠죠.
 
 # raycasting
 <img width="128" height="128" alt="raycasting" src="https://github.com/user-attachments/assets/ba5923e1-f652-40e1-9ea8-47828e482a9b" />

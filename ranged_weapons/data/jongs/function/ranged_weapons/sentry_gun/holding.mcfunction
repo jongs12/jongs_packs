@@ -1,2 +1,2 @@
-execute unless items entity @s weapon.mainhand *[minecraft:damage~{damage:0}] if score @s jongs.ranged_weapons.refill.sentry_gun matches 1.. run function jongs:ranged_weapons/sentry_gun/refill
+execute unless items entity @s weapon.mainhand *[minecraft:damage~{damage:0}] if score @s jongs.ranged_weapons.refill.sentry_gun matches 1.. run return run function jongs:ranged_weapons/sentry_gun/refill
 return 0

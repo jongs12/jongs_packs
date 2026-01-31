@@ -2,27 +2,29 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:black_stained_glass",
-    "B": "minecraft:fire_charge"
+    "A": "minecraft:redstone",
+    "B": "minecraft:tinted_glass",
+    "C": "minecraft:fire_charge"
   },
   "pattern": [
-    " A ",
     "ABA",
-    " A "
+    "BCB",
+    " B "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:clock",
+    "id": "minecraft:music_disc_otherside",
     "components": {
+      "!minecraft:jukebox_playable": {},
       "minecraft:max_damage": 3,
       "minecraft:damage": 0,
       "minecraft:item_model": "jongs:ranged_weapons/sticky_mine",
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.sticky_mine","color":"#000000","bold":true,"shadow_color":[1,1,1,1]},
-      "minecraft:lore": [{"translate":"jongs.ranged_weapons.sticky_mine.desc","color":"#FFFFFF"}],
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.sticky_mine.desc","color":"#FFFFFF","italic":false}],
       "minecraft:max_stack_size": 1,
       "minecraft:consumable": {"consume_seconds":2147483647,"animation":"spyglass","sound":{"sound_id":""},"has_consume_particles":false},
       "minecraft:rarity": "epic",
-      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.no_reload"},{"purpose":"ranged_weapons.sticky_mine"}]}
+      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.throwables"},{"purpose":"ranged_weapons.sticky_mine"}]}
     }
   }
 }

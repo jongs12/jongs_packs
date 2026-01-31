@@ -5,16 +5,13 @@
 	{
 	"slots":
 		{
-		"weapon.mainhand":
+		"weapon.offhand":
 			{
 			"predicates":
 				{
-				"minecraft:damage":
+				"minecraft:custom_data":
 					{
-					"durability":
-						{
-						"min": 1
-						}
+					"jongs": [{"purpose":"ranged_weapons.sentry_gun"}]
 					}
 				}
 			}

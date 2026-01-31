@@ -1,2 +1,2 @@
-execute as @a if score @s jongs.raycasting.cooldown.rangefinder matches 1 run advancement revoke @s only jongs:raycasting/start_rangefinding
-execute as @a if score @s jongs.raycasting.cooldown.rangefinder matches 1.. run scoreboard players remove @s jongs.raycasting.cooldown.rangefinder 1
+execute as @a[scores={jongs.raycasting.cooldown.rangefinder=1}] run advancement revoke @s only jongs:raycasting/start_rangefinding
+execute as @a[scores={jongs.raycasting.cooldown.rangefinder=1..}] run scoreboard players remove @s jongs.raycasting.cooldown.rangefinder 1

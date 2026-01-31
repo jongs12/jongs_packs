@@ -1,4 +1,4 @@
 $summon minecraft:small_fireball ^ ^ ^1 {Motion:[$(x),$(y),$(z)],Item:{id:fire_charge,components:{item_model:"jongs:ranged_weapons/nothing"}},acceleration_power:-0.02,Passengers:[{id:"minecraft:marker",Tags:["jongs.ranged_weapons.summoned","jongs.ranged_weapons.limit_duration"]}]}
-scoreboard players set @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.summoned] jongs.ranged_weapons.distance 30
-rotate @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.summoned] ~ ~
-return run tag @e[type=minecraft:marker,limit=1,tag=jongs.ranged_weapons.summoned] remove jongs.ranged_weapons.summoned
+scoreboard players set @e[type=minecraft:marker,tag=jongs.ranged_weapons.summoned,limit=1] jongs.ranged_weapons.distance 30
+rotate @e[type=minecraft:marker,tag=jongs.ranged_weapons.summoned,limit=1] ~ ~
+return run tag @e[type=minecraft:marker,tag=jongs.ranged_weapons.summoned,limit=1] remove jongs.ranged_weapons.summoned

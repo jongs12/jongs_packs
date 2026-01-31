@@ -6,7 +6,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wolf_spawn_egg"
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_name": "harming",
+                  "custom_color": 0,
+                  "custom_effects": [
+                    {"id":"minecraft:instant_health","amplifier":29},
+                    {"id":"minecraft:instant_damage","amplifier":29}
+                  ]
+                }
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

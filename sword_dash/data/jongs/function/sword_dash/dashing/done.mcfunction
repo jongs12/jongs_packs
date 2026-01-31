@@ -1,4 +1,4 @@
-tp @s ^ ^ ^-0.1
+tp @s ^ ^ ^
 playsound minecraft:item.trident.riptide_1 player @a ~ ~ ~ 1 1.2 0
 execute store result score #피해량.값 jongs.sword_dash.done run attribute @s minecraft:attack_damage get 10
 $scoreboard players set #피해량.배수 jongs.sword_dash.done $(damage)

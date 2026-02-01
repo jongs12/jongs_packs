@@ -1,0 +1,1 @@
+$summon minecraft:snowball ^ ^ ^0.5 {Motion:[$(x),$(y),$(z)],Item:{id:music_disc_5},Passengers:[{id:"minecraft:marker",Tags:["jongs.orbital_strike.pager"]}]}

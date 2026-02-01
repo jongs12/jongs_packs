@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:marker,tag=jongs.orbital_strike.pager] at @s run function jongs:orbital_strike/pager/process
+execute as @e[type=minecraft:block_display,tag=jongs.orbital_strike.limit_duration] at @s run function jongs:orbital_strike/pager/calling/moving

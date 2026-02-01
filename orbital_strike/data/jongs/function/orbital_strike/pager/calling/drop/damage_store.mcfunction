@@ -1,0 +1,2 @@
+execute store result storage jongs:orbital_strike damage float 0.16 run scoreboard players get @s jongs.orbital_strike.damage
+return run function jongs:orbital_strike/pager/calling/drop/damage_deal with storage jongs:orbital_strike

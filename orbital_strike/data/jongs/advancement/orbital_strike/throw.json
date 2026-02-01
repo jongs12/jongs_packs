@@ -1,0 +1,43 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"pager":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data":
+						{
+						"jongs": [{"purpose":"orbital_strike.pager"}]
+						}
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"orbital_strike.pager"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:orbital_strike/pager/start"
+	}
+}

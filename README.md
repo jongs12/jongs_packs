@@ -18,7 +18,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 그 외에 아이템 마법부여 시 레벨 255까지 정상적으로 출력되도록 해 줍니다.
 
 # start_copper
-<img width="128" height="128" alt="start_copper" src="/start_copper/pack.png" />
+<img width="128" height="128" alt="start_copper" src="/jongs_textures/pack.png" />
 
 지원하는 버전: `1.21.10`, `1.21.11`
 
@@ -54,7 +54,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 아, 기존의 보너스 상자는 비어 있습니다. 아마도요? 굳이 활성화할 필요는 없겠죠.
 
 # raycasting
-<img width="128" height="128" alt="raycasting" src="/raycasting/pack.png" />
+<img width="128" height="128" alt="raycasting" src="/jongs_textures/pack.png" />
 
 **리소스 팩 필요**
 
@@ -71,7 +71,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 거리 제한은 200블록이며, 렌더링 거리가 그보다 작을 경우 더 짧아질 수 있습니다.
 
 # sword_dash
-<img width="128" height="128" alt="sword_dash" src="/sword_dash/pack.png" />
+<img width="128" height="128" alt="sword_dash" src="/jongs_textures/pack.png" />
 
 지원하는 버전: `1.21.10`, `1.21.11`
 
@@ -96,7 +96,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 대시가 가능한 검으로 우클릭을 누르고 있는 동안에는 낙하 피해를 받지 않습니다.
 
 # water_bucket_release
-<img width="128" height="128" alt="water_bucket_release" src="/water_bucket_release/pack.png" />
+<img width="128" height="128" alt="water_bucket_release" src="/jongs_textures/pack.png" />
 
 **실험적 기능 사용**
 
@@ -112,7 +112,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 날아간 물이 블록에 닿으면 해당 지점(블록에 닿기 직전 위치)의 블록을 물로 바꿉니다.
 
 # rinne
-<img width="128" height="128" alt="rinne" src="/rinne/pack.png" />
+<img width="128" height="128" alt="rinne" src="/jongs_textures/pack.png" />
 
 **리소스 팩 필요**
 
@@ -145,7 +145,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 *변신* 상태의 방어구에는 귀속 저주와 소실 저주가 붙어 있어 서바이벌 플레이어가 해당 방어구를 장착 해제하거나 다른 플레이어에게 넘겨줄 수는 없습니다.
 
 # ranged_weapons
-<img width="128" height="128" alt="ranged_weapons" src="/ranged_weapons/pack.png" />
+<img width="128" height="128" alt="ranged_weapons" src="/jongs_textures/pack.png" />
 
 **리소스 팩 필요**
 

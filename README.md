@@ -9,6 +9,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 가능하면 지원하는 가장 최신 버전으로 플레이해 주세요.
 
 # jongs_textures
+<img width="128" height="128" alt="jongs_textures" src="/jongs_textures/pack.png" />
 
 지원하는 버전: `1.21.10`, `1.21.11`
 
@@ -17,7 +18,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 그 외에 아이템 마법부여 시 레벨 255까지 정상적으로 출력되도록 해 줍니다.
 
 # start_copper
-<img width="128" height="128" alt="start_copper" src="https://github.com/user-attachments/assets/7679f591-0cb4-4a5e-998b-2c53437f8067" />
+<img width="128" height="128" alt="start_copper" src="/start_copper/pack.png" />
 
 지원하는 버전: `1.21.10`, `1.21.11`
 
@@ -53,7 +54,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 아, 기존의 보너스 상자는 비어 있습니다. 아마도요? 굳이 활성화할 필요는 없겠죠.
 
 # raycasting
-<img width="128" height="128" alt="raycasting" src="https://github.com/user-attachments/assets/ba5923e1-f652-40e1-9ea8-47828e482a9b" />
+<img width="128" height="128" alt="raycasting" src="/raycasting/pack.png" />
 
 **리소스 팩 필요**
 
@@ -70,7 +71,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 거리 제한은 200블록이며, 렌더링 거리가 그보다 작을 경우 더 짧아질 수 있습니다.
 
 # sword_dash
-<img width="128" height="128" alt="sword_dash" src="https://github.com/user-attachments/assets/8cf94e6b-fb54-43ed-a9e1-ebbd94377ebf" />
+<img width="128" height="128" alt="sword_dash" src="/sword_dash/pack.png" />
 
 지원하는 버전: `1.21.10`, `1.21.11`
 
@@ -95,7 +96,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 대시가 가능한 검으로 우클릭을 누르고 있는 동안에는 낙하 피해를 받지 않습니다.
 
 # water_bucket_release
-<img width="128" height="128" alt="water_bucket_release" src="https://github.com/user-attachments/assets/78473444-10c5-4eed-8e89-6201fe70c003" />
+<img width="128" height="128" alt="water_bucket_release" src="/water_bucket_release/pack.png" />
 
 **실험적 기능 사용**
 
@@ -111,7 +112,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 날아간 물이 블록에 닿으면 해당 지점(블록에 닿기 직전 위치)의 블록을 물로 바꿉니다.
 
 # rinne
-<img width="128" height="128" alt="rinne" src="https://github.com/user-attachments/assets/6802177c-40b2-4232-9346-d936bf76beda" />
+<img width="128" height="128" alt="rinne" src="/rinne/pack.png" />
 
 **리소스 팩 필요**
 
@@ -144,7 +145,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 *변신* 상태의 방어구에는 귀속 저주와 소실 저주가 붙어 있어 서바이벌 플레이어가 해당 방어구를 장착 해제하거나 다른 플레이어에게 넘겨줄 수는 없습니다.
 
 # ranged_weapons
-<img width="128" height="128" alt="ranged_weapons" src="https://github.com/user-attachments/assets/fcce9897-3f60-4ebb-9ecd-ecaca7ec41c3" />
+<img width="128" height="128" alt="ranged_weapons" src="/ranged_weapons/pack.png" />
 
 **리소스 팩 필요**
 

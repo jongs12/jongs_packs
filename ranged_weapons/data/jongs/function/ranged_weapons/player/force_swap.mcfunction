@@ -5,4 +5,4 @@ summon minecraft:item ~ ~ ~ {Invulnerable:true,PickupDelay:0,Tags:["jongs.ranged
 item replace entity @e[limit=1,type=item,tag=jongs.ranged_weapons.temp] contents from entity @s weapon.mainhand
 tag @e[limit=1,type=item,tag=jongs.ranged_weapons.temp] remove jongs.ranged_weapons.temp
 item replace entity @s weapon.mainhand from entity @s weapon.offhand
-return run item replace entity @s weapon.offhand with air
+return run item replace entity @s weapon.offhand with minecraft:air

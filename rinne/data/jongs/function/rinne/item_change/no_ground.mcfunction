@@ -1,2 +1,2 @@
 execute if score @s jongs.rinne.ground matches 1 if predicate jongs:rinne/wand/mainhand run return run function jongs:rinne/item_change/to_mace
-return run scoreboard players remove @s jongs.rinne.ground 1
+execute if score @s jongs.rinne.ground matches 2.. run return run scoreboard players remove @s jongs.rinne.ground 1

@@ -12,4 +12,4 @@ item replace entity @s armor.legs with iron_leggings[custom_data={jongs:[{purpos
 execute if predicate jongs:rinne/exclusive/feet run item replace entity @s armor.feet with air
 function jongs:rinne/metamorphosis/item_copy {slot:"armor.feet"}
 item replace entity @s armor.feet with leather_boots[custom_data={jongs:[{purpose:"rinne.exclusive"}]},item_name={"translate":"item.minecraft.leather_boots","obfuscated":true},dyed_color=16732368,attribute_modifiers=[{amount:2.0d,id:"jongs:rinne.feet.movement_speed",slot:"feet",type:"minecraft:movement_speed",operation:"add_multiplied_base"}, {amount:0.5d,id:"jongs:rinne.feet.jump_strength",slot:"feet",type:"minecraft:jump_strength",operation:"add_multiplied_base"}, {amount:1.0d,id:"jongs:rinne.feet.step_height",slot:"feet",type:"minecraft:step_height",operation:"add_multiplied_base"}],unbreakable={},tooltip_display={hide_tooltip: 1b},enchantments={"minecraft:binding_curse":1, "minecraft:vanishing_curse":1},damage_resistant={types:"#jongs:rinne/all"},trim={material:gold,pattern:bolt}]
-return run scoreboard players set @s jongs.rinne.click -2
+return run scoreboard players set @s jongs.rinne.delay -2

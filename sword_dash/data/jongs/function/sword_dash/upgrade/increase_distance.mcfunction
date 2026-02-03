@@ -1,4 +1,4 @@
-execute unless data entity @s Item.components."minecraft:blocks_attacks" run data modify entity @s Item.components."minecraft:blocks_attacks" set value {disable_cooldown_scale:0,damage_reductions:[{type:fall,base:0,factor:1,horizontal_blocking_angle:180}],item_damage:{base:0,factor:0,threshold:0},block_sound:"entity.zombie.attack_wooden_door"}
+execute if items entity @s contents *[!minecraft:blocks_attacks]  run data modify entity @s Item.components."minecraft:blocks_attacks" set value {disable_cooldown_scale:0,damage_reductions:[{type:fall,base:0,factor:1,horizontal_blocking_angle:180}],item_damage:{base:0,factor:0,threshold:0},block_sound:"entity.zombie.attack_wooden_door"}
 execute unless predicate jongs:sword_dash/is_dashing_sword run data modify entity @s Item.components."minecraft:custom_data".jongs append value {purpose:"sword_dash", levels:{distance:95,damage:10}}
 data modify entity @s Item.components."minecraft:enchantment_glint_override" set value true
 execute store result score #현재값 jongs.sword_dash.click run data get entity @s Item.components."minecraft:custom_data".jongs[{purpose:"sword_dash"}].levels.distance

@@ -1,4 +1,4 @@
-execute unless data entity @s equipment.head.components."minecraft:custom_data".jongs[{purpose:"rinne.face"}] run return run function jongs:rinne/boom/back_to_owner
+execute unless predicate jongs:rinne/face/head run return run function jongs:rinne/boom/back_to_owner
 particle minecraft:gust_emitter_small ~ ~ ~ 0 0 0 1 1 normal
 playsound minecraft:entity.breeze.wind_burst player @a ~ ~ ~ 2 0.5 0
 effect give @e[distance=0.001..9] minecraft:glowing 6 0 true

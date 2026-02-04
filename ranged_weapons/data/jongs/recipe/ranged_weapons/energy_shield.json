@@ -28,11 +28,13 @@
         "block_delay_seconds": 0,
         "disable_cooldown_scale": 0,
         "damage_reductions": [
-
+          {"type":"#jongs:ranged_weapons/can_block","base":0,"factor":0.5,"horizontal_blocking_angle":120},
+          {"type":"#minecraft:is_explosion","base":5,"factor":0.1,"horizontal_blocking_angle":120},
+          {"type":"#minecraft:bypasses_shield","base":1.5,"factor":0.1,"horizontal_blocking_angle":120}
         ],
         "item_damage": {"threshold":0,"base":0,"factor":0},
         "block_sound": {"sound_id": ""},
-        "bypassed_by": ""
+        "bypassed_by": "#minecraft:bypasses_invulnerability"
       },
       "minecraft:rarity": "epic",
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.throwables"},{"purpose":"ranged_weapons.energy_shield"}]}

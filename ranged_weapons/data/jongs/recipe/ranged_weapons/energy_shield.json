@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:amethyst_shard",
+    "C": "minecraft:lightning_rod"
+  },
+  "pattern": [
+    "ACA",
+    " B ",
+    "A A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:attribute_modifiers": [],
+      "minecraft:max_damage": 60,
+      "minecraft:damage": 0,
+      "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers"]},
+      "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1},
+      "minecraft:item_model": "jongs:ranged_weapons/energy_shield",
+      "minecraft:item_name": {"translate":"jongs.ranged_weapons.energy_shield","color":"#AAAAAA","bold":true,"shadow_color":[0,0,0,1]},
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.energy_shield.desc","color":"#909090","italic":false}],
+      "minecraft:max_stack_size": 1,
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0,
+        "disable_cooldown_scale": 0,
+        "damage_reductions": [
+
+        ],
+        "item_damage": {"threshold":0,"base":0,"factor":0},
+        "block_sound": {"sound_id": ""},
+        "bypassed_by": ""
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.throwables"},{"purpose":"ranged_weapons.energy_shield"}]}
+    }
+  }
+}

@@ -5,7 +5,7 @@
     [
         {
         "attribute": "minecraft:movement_speed",
-        "operation": "add_value",
+        "operation": "add_multiplied_base",
         "amount": 1,
         "id": "jongs:ranged_weapons.mainhand.movement_speed",
         "slot": "mainhand"

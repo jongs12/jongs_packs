@@ -1,0 +1,14 @@
+{
+"function": "set_attributes",
+"replace": true,
+"modifiers":
+    [
+        {
+        "attribute": "minecraft:movement_speed",
+        "operation": "add_value",
+        "amount": 1,
+        "id": "jongs:ranged_weapons.mainhand.movement_speed",
+        "slot": "mainhand"
+        }
+    ]
+}

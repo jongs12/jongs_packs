@@ -1,1 +1,2 @@
-say testing_mainhand
+execute if items entity @s weapon.mainhand *[attribute_modifiers~{modifiers:{contains:[{id:"jongs:ranged_weapons.mainhand.movement_speed"}]}}] run return run function jongs:ranged_weapons/energy_shield/charging
+return run item modify entity @s weapon.mainhand jongs:ranged_weapons/throwables/refill

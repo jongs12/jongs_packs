@@ -24,6 +24,14 @@
       "minecraft:item_name": {"translate":"jongs.ranged_weapons.energy_shield","color":"#AAAAAA","bold":true,"shadow_color":[0,0,0,1]},
       "minecraft:lore": [{"translate":"jongs.ranged_weapons.energy_shield.desc","color":"#808080","italic":false}],
       "minecraft:max_stack_size": 1,
+      "minecraft:base_color": "cyan",
+      "minecraft:banner_patterns": [
+        {"color":"white","pattern":"gradient_up"},
+        {"color":"light_blue","pattern":"gradient"},
+        {"color":"cyan","pattern":"straight_cross"},
+        {"color":"orange","pattern":"circle"},
+        {"color":"light_gray","pattern":"flower"}
+      ],
       "minecraft:blocks_attacks": {
         "block_delay_seconds": 0,
         "disable_cooldown_scale": 0,
@@ -33,8 +41,16 @@
           {"type":"#minecraft:bypasses_shield","base":1.5,"factor":0.1,"horizontal_blocking_angle":120}
         ],
         "item_damage": {"threshold":0,"base":0,"factor":0},
-        "block_sound": {"sound_id": "minecraft:block.bell.use"},
+        "block_sound": {"sound_id": "minecraft:block.amethyst_block.break"},
         "bypassed_by": "#minecraft:bypasses_invulnerability"
+      },
+      "minecraft:kinetic_weapon": {
+        "delay_ticks": 0,
+        "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":8},
+        "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":8},
+        "knockback_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":0},
+        "damage_multiplier": 0.5,
+        "hit_sound": {"sound_id": "minecraft:block.bell.use"}
       },
       "minecraft:rarity": "epic",
       "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.throwables"},{"purpose":"ranged_weapons.energy_shield"}]}

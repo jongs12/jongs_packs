@@ -26,6 +26,14 @@
 			{
     		"recipe": "jongs:ranged_weapons/sentry_gun"
       		}
+    	},
+	"has_the_recipe_3":
+		{
+		"trigger": "minecraft:recipe_unlocked",
+    	"conditions":
+			{
+    		"recipe": "jongs:ranged_weapons/energy_shield"
+      		}
     	}
 	},
 "requirements":
@@ -33,7 +41,8 @@
     	[
 		"got_the_item",
     	"has_the_recipe_1",
-    	"has_the_recipe_2"
+    	"has_the_recipe_2",
+    	"has_the_recipe_3"
     	]
 	],
 "rewards":
@@ -41,7 +50,8 @@
 	"recipes":
 		[
     	"jongs:ranged_weapons/sticky_mine",
-		"jongs:ranged_weapons/sentry_gun"
+		"jongs:ranged_weapons/sentry_gun",
+		"jongs:ranged_weapons/energy_shield"
     	]
 	}
 }

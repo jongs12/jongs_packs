@@ -1,0 +1,48 @@
+{
+    "gui_light": "front",
+    "textures": {
+        "particle": "block/diamond_block"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 6, -10 ],
+            "scale": [ 1.6, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 6, 16 ],
+            "scale": [ 1.6, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 1 ],
+            "translation": [ -20, -2, -10 ],
+            "scale": [ 2, 1.25, 1.25 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 2 ],
+            "translation": [ 15, -3, -10 ],
+            "scale": [ 2, 1.25, 1.25 ]
+        },
+        "gui": {
+            "rotation": [ 15, -25, 0 ],
+            "translation": [ 5, 3, 0 ],
+            "scale": [ 1, 0.65, 0.65 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ -7, 4.5, -5],
+            "scale":[ 0.88, 0.55, 0.55]
+        },
+        "on_shelf": {
+          "rotation": [ 0, 0, 0 ],
+          "translation": [ 11, 18.5, 8.7 ],
+          "scale": [ 1.4, 0.9, 1.4 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 2, 4, 2],
+            "scale":[ 0.4, 0.25, 0.25]
+        }
+    }
+}

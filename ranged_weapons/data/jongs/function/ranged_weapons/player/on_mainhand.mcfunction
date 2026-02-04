@@ -1,9 +1,10 @@
-execute as @s[predicate=jongs:ranged_weapons/holding/assault_rifle] run return run function jongs:ranged_weapons/assault_rifle/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/pistol] run return run function jongs:ranged_weapons/pistol/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/shotgun] run return run function jongs:ranged_weapons/shotgun/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/sniper_rifle] run return run function jongs:ranged_weapons/sniper_rifle/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/flamethrower] run return run function jongs:ranged_weapons/flamethrower/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/rocket_launcher] run return run function jongs:ranged_weapons/rocket_launcher/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/grenade_launcher] run return run function jongs:ranged_weapons/grenade_launcher/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/sticky_mine] run return run function jongs:ranged_weapons/sticky_mine/holding
-execute as @s[predicate=jongs:ranged_weapons/holding/sentry_gun] run return run function jongs:ranged_weapons/sentry_gun/holding
+execute if predicate jongs:ranged_weapons/holding/assault_rifle run return run function jongs:ranged_weapons/assault_rifle/holding
+execute if predicate jongs:ranged_weapons/holding/pistol run return run function jongs:ranged_weapons/pistol/holding
+execute if predicate jongs:ranged_weapons/holding/shotgun run return run function jongs:ranged_weapons/shotgun/holding
+execute if predicate jongs:ranged_weapons/holding/sniper_rifle run return run function jongs:ranged_weapons/sniper_rifle/holding
+execute if predicate jongs:ranged_weapons/holding/flamethrower run return run function jongs:ranged_weapons/flamethrower/holding
+execute if predicate jongs:ranged_weapons/holding/rocket_launcher run return run function jongs:ranged_weapons/rocket_launcher/holding
+execute if predicate jongs:ranged_weapons/holding/grenade_launcher run return run function jongs:ranged_weapons/grenade_launcher/holding
+execute if predicate jongs:ranged_weapons/holding/sticky_mine run return run function jongs:ranged_weapons/sticky_mine/holding
+execute if predicate jongs:ranged_weapons/holding/sentry_gun run return run function jongs:ranged_weapons/sentry_gun/holding
+execute if predicate jongs:ranged_weapons/holding/energy_shield run return run function jongs:ranged_weapons/energy_shield/holding

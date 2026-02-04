@@ -50,7 +50,7 @@
         "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":4},
         "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":4},
         "knockback_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":0},
-        "damage_multiplier": 0.5,
+        "damage_multiplier": 0.4,
         "hit_sound": {"sound_id": "minecraft:item.shield.block"}
       },
       "minecraft:rarity": "epic",

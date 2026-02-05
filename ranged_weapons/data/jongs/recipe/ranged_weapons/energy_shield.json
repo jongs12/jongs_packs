@@ -53,7 +53,7 @@
         "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
         "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
         "knockback_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":0},
-        "damage_multiplier": 0.4,
+        "damage_multiplier": 0.3,
         "hit_sound": {"sound_id": "minecraft:block.bell.use"}
       },
       "minecraft:rarity": "epic",

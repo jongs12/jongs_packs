@@ -9,6 +9,13 @@
         "amount": 2,
         "id": "jongs:ranged_weapons.mainhand.movement_speed",
         "slot": "mainhand"
+        },
+        {
+        "attribute": "minecraft:step_height",
+        "operation": "add_multiplied_base",
+        "amount": 1,
+        "id": "jongs:ranged_weapons.mainhand.step_height",
+        "slot": "mainhand"
         }
     ]
 }

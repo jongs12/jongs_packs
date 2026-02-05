@@ -18,8 +18,8 @@
     "components": {
       "minecraft:attribute_modifiers": [],
       "minecraft:attack_range": {
-        "min_reach":0, "max_reach":4.5,
-        "min_creative_reach":0, "max_creative_reach":6.5,
+        "min_reach":0, "max_reach":3,
+        "min_creative_reach":0, "max_creative_reach":5,
         "hitbox_margin":0.125
       },
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers","minecraft:banner_patterns"]},

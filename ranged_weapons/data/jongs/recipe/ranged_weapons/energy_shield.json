@@ -17,6 +17,11 @@
     "id": "minecraft:shield",
     "components": {
       "minecraft:attribute_modifiers": [],
+      "minecraft:attack_range": {
+        "min_reach":0, "max_reach":4.5,
+        "min_creative_reach":0, "max_creative_reach":6.5,
+        "hitbox_margin":0.125
+      },
       "minecraft:max_damage": 60,
       "minecraft:damage": 0,
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers","minecraft:banner_patterns"]},
@@ -47,8 +52,8 @@
       },
       "minecraft:kinetic_weapon": {
         "delay_ticks": 0,
-        "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":4},
-        "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":4},
+        "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
+        "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
         "knockback_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":0},
         "damage_multiplier": 0.4,
         "hit_sound": {"sound_id": "minecraft:block.bell.use"}

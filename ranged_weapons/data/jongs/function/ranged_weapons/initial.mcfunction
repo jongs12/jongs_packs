@@ -3,6 +3,7 @@ scoreboard objectives add jongs.ranged_weapons.distance dummy
 scoreboard objectives add jongs.ranged_weapons.reload dummy
 scoreboard objectives add jongs.ranged_weapons.refill.sticky_mine dummy
 scoreboard objectives add jongs.ranged_weapons.refill.sentry_gun dummy
+scoreboard objectives add jongs.ranged_weapons.refill.energy_shield dummy
 scoreboard objectives add jongs.ranged_weapons.success dummy
 scoreboard objectives add jongs.ranged_weapons.hit dummy
 scoreboard objectives add jongs.ranged_weapons.click dummy

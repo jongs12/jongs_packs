@@ -22,8 +22,6 @@
         "min_creative_reach":0, "max_creative_reach":6.5,
         "hitbox_margin":0.125
       },
-      "minecraft:max_damage": 60,
-      "minecraft:damage": 0,
       "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers","minecraft:banner_patterns"]},
       "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1},
       "minecraft:item_model": "jongs:ranged_weapons/energy_shield",

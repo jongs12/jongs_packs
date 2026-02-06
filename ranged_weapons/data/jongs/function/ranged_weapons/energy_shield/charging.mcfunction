@@ -1,0 +1,2 @@
+execute if score @s jongs.ranged_weapons.cooldown.energy_shield matches ..59 run return run item modify entity @s weapon.mainhand jongs:ranged_weapons/throwables/remove_boost
+return run particle minecraft:soul_fire_flame ~ ~ ~ 0.2 0.2 0.2 0.1 2 normal

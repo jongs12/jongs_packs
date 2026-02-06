@@ -1,0 +1,35 @@
+{
+"function": "set_attributes",
+"replace": true,
+"modifiers":
+    [
+        {
+        "attribute": "minecraft:movement_speed",
+        "operation": "add_multiplied_base",
+        "amount": 4,
+        "id": "jongs:ranged_weapons.mainhand.movement_speed",
+        "slot": "mainhand"
+        },
+        {
+        "attribute": "minecraft:step_height",
+        "operation": "add_multiplied_base",
+        "amount": 1,
+        "id": "jongs:ranged_weapons.mainhand.step_height",
+        "slot": "mainhand"
+        },
+        {
+        "attribute": "minecraft:movement_efficiency",
+        "operation": "add_value",
+        "amount": 1,
+        "id": "jongs:ranged_weapons.mainhand.movement_efficiency",
+        "slot": "mainhand"
+        },
+        {
+        "attribute": "minecraft:water_movement_efficiency",
+        "operation": "add_value",
+        "amount": 1,
+        "id": "jongs:ranged_weapons.mainhand.water_movement_efficiency",
+        "slot": "mainhand"
+        }
+    ]
+}

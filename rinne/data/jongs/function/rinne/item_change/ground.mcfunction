@@ -1,2 +1,2 @@
-execute if score @s jongs.rinne.ground matches 0 if data entity @s SelectedItem.components."minecraft:custom_data".jongs[{purpose:"rinne.wand"}] run function jongs:rinne/item_change/to_sword
-execute if score @s jongs.rinne.ground matches -1 run scoreboard players set @s jongs.rinne.ground 0
+execute if score @s jongs.rinne.ground matches 0 if predicate jongs:rinne/wand/mainhand run return run function jongs:rinne/item_change/to_sword
+execute if score @s jongs.rinne.ground matches ..-1 run return run scoreboard players add @s jongs.rinne.ground 1

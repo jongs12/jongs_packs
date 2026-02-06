@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:iron_ingot",
+    "C": "minecraft:amethyst_shard",
+    "D": "#minecraft:lightning_rods"
+  },
+  "pattern": [
+    "BDB",
+    "ACA",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:attribute_modifiers": [],
+      "minecraft:attack_range": {
+        "min_reach":0, "max_reach":3,
+        "min_creative_reach":0, "max_creative_reach":5,
+        "hitbox_margin":0.125
+      },
+      "minecraft:tooltip_display": {"hidden_components":["minecraft:attribute_modifiers","minecraft:banner_patterns"]},
+      "minecraft:use_effects": {"can_sprint":true, "speed_multiplier":1},
+      "minecraft:item_model": "jongs:ranged_weapons/energy_shield",
+      "minecraft:custom_name": {"translate":"jongs.ranged_weapons.energy_shield","color":"#AAAAAA","bold":true,"italic":false,"shadow_color":[0,0,0,1]},
+      "minecraft:lore": [{"translate":"jongs.ranged_weapons.energy_shield.desc","color":"#717171","italic":false}],
+      "minecraft:max_stack_size": 1,
+      "minecraft:base_color": "cyan",
+      "minecraft:banner_patterns": [
+        {"color":"white","pattern":"gradient_up"},
+        {"color":"light_blue","pattern":"gradient"},
+        {"color":"cyan","pattern":"straight_cross"},
+        {"color":"orange","pattern":"circle"},
+        {"color":"light_gray","pattern":"flower"}
+      ],
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0,
+        "disable_cooldown_scale": 0,
+        "damage_reductions": [
+          {"type":"#jongs:ranged_weapons/can_block","base":0,"factor":1,"horizontal_blocking_angle":120},
+          {"type":"#minecraft:is_explosion","base":5,"factor":0.1,"horizontal_blocking_angle":120},
+          {"type":"#minecraft:bypasses_shield","base":1.5,"factor":0.1,"horizontal_blocking_angle":120}
+        ],
+        "item_damage": {"threshold":0,"base":0,"factor":0},
+        "block_sound": {"sound_id": "minecraft:item.shield.block"},
+        "bypassed_by": "#minecraft:bypasses_invulnerability"
+      },
+      "minecraft:kinetic_weapon": {
+        "delay_ticks": 0,
+        "damage_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
+        "dismount_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":5},
+        "knockback_conditions": {"max_duration_ticks":2147483647,"min_speed":8,"min_relative_speed":0},
+        "damage_multiplier": 0.3,
+        "hit_sound": {"sound_id": "minecraft:item.spear.hit"}
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {"jongs":[{"purpose":"ranged_weapons.throwables"},{"purpose":"ranged_weapons.energy_shield"}]}
+    }
+  }
+}

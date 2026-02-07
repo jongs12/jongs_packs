@@ -1,0 +1,1 @@
+execute as @a[tag=jongs.rinne.no_wand] at @s run function jongs:rinne/metamorphosis/wand

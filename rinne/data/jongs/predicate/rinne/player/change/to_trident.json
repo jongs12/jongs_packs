@@ -16,15 +16,28 @@
       }
     },
     {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "location": {
-          "fluid": {
-            "fluids": "#minecraft:water"
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            }
           }
+        },
+        {
+          "condition": "all_of",
+          "terms": [
+            {
+              
+            }
+          ]
         }
-      }
+      ]
     },
     {
       "condition": "entity_properties",

@@ -19,4 +19,4 @@ execute store result storage jongs:water_bucket_release x float 0.01 run scorebo
 execute store result storage jongs:water_bucket_release y float 0.01 run scoreboard players operation #변화.y jongs.water_bucket_release.main += #위치.y jongs.water_bucket_release.main 
 execute store result storage jongs:water_bucket_release z float 0.01 run scoreboard players operation #변화.z jongs.water_bucket_release.main += #위치.z jongs.water_bucket_release.main 
 execute anchored eyes positioned ^ ^ ^ run function jongs:water_bucket_release/bucket/summon with storage jongs:water_bucket_release
-execute as @s[gamemode=!creative] run function jongs:water_bucket_release/bucket/clear
+execute if entity @s[gamemode=!creative] run function jongs:water_bucket_release/bucket/clear

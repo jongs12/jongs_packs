@@ -1,4 +1,4 @@
 execute if score @e[type=minecraft:block_display,tag=jongs.ranged_weapons.owner,limit=1] jongs.ranged_weapons.success matches 1 run return 0
 rotate @e[type=minecraft:block_display,tag=jongs.ranged_weapons.owner,limit=1] facing entity @s eyes
-execute as @s[type=!minecraft:player] store success score @e[type=minecraft:block_display,tag=jongs.ranged_weapons.owner,limit=1] jongs.ranged_weapons.success run return run damage @s 5.5 minecraft:player_attack by @e[type=minecraft:mannequin,tag=jongs.ranged_weapons.shooting,limit=1]
+execute if entity @s[type=!minecraft:player] store success score @e[type=minecraft:block_display,tag=jongs.ranged_weapons.owner,limit=1] jongs.ranged_weapons.success run return run damage @s 5.5 minecraft:player_attack by @e[type=minecraft:mannequin,tag=jongs.ranged_weapons.shooting,limit=1]
 execute store success score @e[type=minecraft:block_display,tag=jongs.ranged_weapons.owner,limit=1] jongs.ranged_weapons.success run return run damage @s 5.5 minecraft:player_attack by @e[type=minecraft:mannequin,tag=jongs.ranged_weapons.shooting,limit=1] from @a[tag=jongs.ranged_weapons.shooter,limit=1]

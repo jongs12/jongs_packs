@@ -1,0 +1,43 @@
+{
+"parent": "minecraft:recipes/root",
+"criteria": 
+	{
+	"use_wand":
+		{
+		"trigger": "minecraft:using_item",
+		"conditions":
+			{
+			"item":
+				{
+				"predicates":
+					{
+					"minecraft:custom_data":
+                        {
+                        "jongs": [{"purpose":"rinne.wand"}]
+                        }
+					}
+				},
+			"player":
+				{
+				"slots":
+					{
+					"weapon.mainhand":
+						{
+						"predicates":
+							{
+							"minecraft:custom_data":
+								{
+								"jongs": [{"purpose":"rinne.wand"}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+"rewards":
+	{
+	"function": "jongs:rinne/use_item/on_mainhand/check"
+	}
+}

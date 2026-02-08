@@ -1,0 +1,68 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "#minecraft:swords"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_ground": true
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sprinting": false
+        }
+      }
+    },
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sneaking": false
+        }
+      }
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "jongs.rinne.click": 0,
+        "jongs.rinne.hold": 0
+      }
+    }
+  ]
+}

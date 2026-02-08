@@ -19,8 +19,11 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "flags": {
-          "is_on_ground": false
+        "type_specific": {
+          "type": "player",
+          "input": {
+            "jump": true
+          }
         }
       }
     },
@@ -49,20 +52,6 @@
           }
         }
       ]
-    },
-    {
-      "condition": "inverted",
-      "term": {
-        "condition": "entity_properties",
-        "entity": "this",
-        "predicate": {
-          "location": {
-            "fluid": {
-              "fluids": "#minecraft:water"
-            }
-          }
-        }
-      }
     },
     {
       "condition": "entity_properties",

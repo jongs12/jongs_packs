@@ -120,7 +120,7 @@ README에서 큰 글씨로 쓰여진 이름들이 각각 데이터/리소스 팩
 
 [なきそ](https://x.com/7kiso_nakiso)가 작곡하고 [channel](https://x.com/x_cast_x)이 뮤직비디오를 제작한 곡
 [いますぐ輪廻](https://youtu.be/3iUgKH8c7p4)
-<sub>[이용 규약](https://www.dropbox.com/scl/fo/jaydvnvg5n2og1rj69ai8/AEgKvWQTDZ7s3XRYmUi1e00?preview=%E3%80%90%E5%BF%85%E3%81%9A%E3%81%8A%E8%AA%AD%E3%81%BF%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%91.txt&rlkey=egiboem4i7849cf6vqufvr1sz)(Shift-JIS 인코딩</sub>)를 패러디한 데이터팩입니다.
+<sub>[이용 규약](https://www.dropbox.com/scl/fo/jaydvnvg5n2og1rj69ai8/AEgKvWQTDZ7s3XRYmUi1e00?preview=%E3%80%90%E5%BF%85%E3%81%9A%E3%81%8A%E8%AA%AD%E3%81%BF%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%91.txt&rlkey=egiboem4i7849cf6vqufvr1sz)(Shift-JIS 인코딩)</sub>를 패러디한 데이터팩입니다.
 
 불사의 토템과 네더의 별을 조합하여 별 모양 토템을 만들고, 해당 토템을 발동시키면
 기존에 입고 있던 방어구는 강제로 인벤토리에 되돌아오면서 *변신*하게 됩니다.

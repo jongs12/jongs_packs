@@ -1,8 +1,8 @@
 {
-"condition": "entity_properties",
-"entity": "this",
-"predicate": {
-  "slots": {
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
       "weapon.mainhand": {
         "predicates": {
           "minecraft:custom_data": {

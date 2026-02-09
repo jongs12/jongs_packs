@@ -1,8 +1,8 @@
 {
-"condition": "entity_properties",
-"entity": "this",
-"predicate": {
-  "slots": {
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
       "armor.head": {
         "predicates": {
           "minecraft:custom_data": {

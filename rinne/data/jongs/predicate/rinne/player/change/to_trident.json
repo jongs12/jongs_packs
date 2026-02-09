@@ -51,6 +51,7 @@
                   }
                 },
                 "location": {
+                  "dimension": "overworld",
                   "can_see_sky": true
                 }
               }

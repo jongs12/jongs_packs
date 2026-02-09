@@ -20,47 +20,18 @@
       "entity": "this",
       "predicate": {
         "flags": {
-          "is_on_ground": true
-        }
-      }
-    },
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
+          "is_on_ground": true,
+          "is_sprinting": false
+        },
         "type_specific": {
           "type": "player",
           "input": {
-            "jump": false
+            "jump": false,
+            "sprint": false,
+            "sneak": false
           }
         }
       }
-    },
-    {
-      "condition": "all_of",
-      "terms": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_sprinting": false
-            }
-          }
-        },
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "input": {
-                "sprint": false
-              }
-            }
-          }
-        }
-      ]
     },
     {
       "condition": "inverted",
@@ -93,18 +64,6 @@
           }
         }
       ]
-    },
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "input": {
-            "sneak": false
-          }
-        }
-      }
     },
     {
       "condition": "entity_scores",

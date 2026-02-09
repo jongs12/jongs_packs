@@ -19,47 +19,14 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "type_specific": {
-          "type": "player",
-          "input": {
-            "jump": true
-          }
-        }
-      }
-    },
-    {
-      "condition": "all_of",
-      "terms": [
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_sprinting": false
-            }
-          }
+        "flags": {
+          "is_sprinting": false
         },
-        {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "player",
-              "input": {
-                "sprint": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
         "type_specific": {
           "type": "player",
           "input": {
+            "jump": true,
+            "sprint": false,
             "sneak": false
           }
         }

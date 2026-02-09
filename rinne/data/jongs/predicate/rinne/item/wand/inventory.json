@@ -1,20 +1,15 @@
 {
 "condition": "entity_properties",
 "entity": "this",
-"predicate":
-	{
-	"slots":
-		{
-		"container.*":
-			{
-			"predicates":
-				{
-				"minecraft:custom_data":
-					{
-					"jongs": [{"purpose":"rinne.wand"}]
-					}
-				}
-			}
-		}
-	}
+"predicate": {
+  "slots": {
+      "container.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "jongs": [{"purpose":"rinne.wand"}]
+          }
+        }
+      }
+    }
+  }
 }

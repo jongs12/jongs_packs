@@ -40,45 +40,20 @@
               "condition": "entity_properties",
               "entity": "this",
               "predicate": {
+                "flags": {
+                  "is_on_ground": true,
+                  "is_sprinting": false
+                },
+                "type_specific": {
+                  "type": "player",
+                  "input": {
+                    "sprint": false
+                  }
+                },
                 "location": {
                   "can_see_sky": true
                 }
               }
-            },
-            {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "flags": {
-                  "is_on_ground": true
-                }
-              }
-            },
-            {
-              "condition": "all_of",
-              "terms": [
-                {
-                  "condition": "entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_sprinting": false
-                    }
-                  }
-                },
-                {
-                  "condition": "entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "type_specific": {
-                      "type": "player",
-                      "input": {
-                        "sprint": false
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -91,18 +66,7 @@
         "type_specific": {
           "type": "player",
           "input": {
-            "jump": false
-          }
-        }
-      }
-    },
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "input": {
+            "jump": false,
             "sneak": false
           }
         }

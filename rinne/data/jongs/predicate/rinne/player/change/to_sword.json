@@ -56,6 +56,20 @@
           "predicate": {
             "can_see_sky": false
           }
+        },
+        {
+          "condition": "location_check",
+          "predicate": {
+            "biomes": "#jongs:rinne/no_rain"
+          }
+        },
+        {
+          "condition": "location_check",
+          "predicate": {
+            "position": {
+              "y": {"min": 101}
+            }
+          }
         }
       ]
     },

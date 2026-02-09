@@ -48,7 +48,6 @@
                   }
                 },
                 "location": {
-                  "dimension": "overworld",
                   "position": {
                     "y": {"max": 100}
                   },

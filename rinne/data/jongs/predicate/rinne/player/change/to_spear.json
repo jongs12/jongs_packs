@@ -21,6 +21,12 @@
       "predicate": {
         "flags": {
           "is_on_ground": true
+        },
+        "type_specific": {
+          "type": "player",
+          "input": {
+            "sneak": false
+          }
         }
       }
     },
@@ -60,18 +66,6 @@
             "fluid": {
               "fluids": "#minecraft:water"
             }
-          }
-        }
-      }
-    },
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "input": {
-            "sneak": false
           }
         }
       }

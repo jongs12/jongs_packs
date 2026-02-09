@@ -19,13 +19,10 @@
       "condition": "any_of",
       "terms": [
         {
-          "condition": "entity_properties",
-          "entity": "this",
+          "condition": "location_check",
           "predicate": {
-            "location": {
-              "fluid": {
-                "fluids": "#minecraft:water"
-              }
+            "fluid": {
+              "fluids": "#minecraft:water"
             }
           }
         },
@@ -62,12 +59,9 @@
             {
               "condition": "inverted",
               "term": {
-                "condition": "entity_properties",
-                "entity": "this",
+                "condition": "location_check",
                 "predicate": {
-                  "location": {
-                    "biomes": "#jongs:rinne/no_rain"
-                  }
+                  "biomes": "#jongs:rinne/no_rain"
                 }
               }
             }

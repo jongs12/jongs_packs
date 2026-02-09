@@ -52,7 +52,22 @@
                 },
                 "location": {
                   "dimension": "overworld",
+                  "position": {
+                    "y": {"max": 100}
+                  },
                   "can_see_sky": true
+                }
+              }
+            },
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biomes": "#jongs:rinne/no_rain"
+                  }
                 }
               }
             }

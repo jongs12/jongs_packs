@@ -3,3 +3,4 @@ execute as @a[scores={jongs.rinne.click=0}] run function jongs:rinne/use_item/on
 execute as @a run scoreboard players set @s jongs.rinne.click 0
 execute as @a[predicate=jongs:rinne/item/wand/mainhand] at @s run function jongs:rinne/metamorphosis/change
 execute as @a[predicate=jongs:rinne/item/wand/offhand] at @s run function jongs:rinne/use_item/on_offhand
+execute as @e[type=minecraft:spectral_arrow,tag=jongs.rinne.magic_arrow,predicate=jongs:rinne/thrown/too_slow] at @s run function jongs:rinne/use_item/on_mainhand/sword/remove

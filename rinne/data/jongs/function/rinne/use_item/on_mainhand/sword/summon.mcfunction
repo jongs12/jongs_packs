@@ -1,0 +1,1 @@
+$summon minecraft:firework_rocket ~ ~ ~ {Motion:[$(x),$(y),$(z)],LifeTime:50,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[[1,1,0],[1,1,1],[1,0.33,1],[0.33,1,1]],has_twinkle:true}],flight_duration:3},"minecraft:intangible_projectile":{},"minecraft:item_model":"jongs:rinne/metamorphose"},count:1,id:"minecraft:firework_rocket"},Life:0}

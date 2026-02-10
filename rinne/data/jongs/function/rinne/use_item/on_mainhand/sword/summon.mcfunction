@@ -1,2 +1,2 @@
-$summon minecraft:firework_rocket ^ ^ ^0.5 {Owner:$(UUID),Motion:[$(x),$(y),$(z)],LifeTime:50,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[16776960,16777215,16745983,8781823],has_twinkle:true}],flight_duration:3},"minecraft:intangible_projectile":{},"minecraft:item_model":"jongs:rinne/metamorphose"},count:1,id:"minecraft:firework_rocket"},ShotAtAngle:true,Life:0}
+$summon minecraft:spectral_arrow ^ ^ ^0.5 {Owner:$(UUID),Motion:[$(x),$(y),$(z)],pickup:0,Duration:200,NoGravity:true}
 return run scoreboard players set @s jongs.rinne.hold 1

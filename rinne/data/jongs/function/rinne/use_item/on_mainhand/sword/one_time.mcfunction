@@ -1,4 +1,3 @@
-playsound minecraft:entity.firework_rocket.launch player @a ~ ~ ~ 2 0.9
 execute store result score #위치.x jongs.rinne.click run data get entity @s Pos[0] 100
 execute store result score #위치.y jongs.rinne.click run data get entity @s Pos[1] 100
 execute store result score #위치.z jongs.rinne.click run data get entity @s Pos[2] 100

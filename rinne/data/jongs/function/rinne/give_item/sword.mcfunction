@@ -14,6 +14,6 @@ minecraft:enchantments={"minecraft:sweeping_edge":9,"minecraft:looting":3,"minec
 minecraft:use_effects={can_sprint:true,speed_multiplier:1},\
 minecraft:weapon={item_damage_per_attack:0, disable_blocking_for_seconds:10},\
 \
-minecraft:custom_name=[{"text":"☆","color":"yellow","italic":false,"click_event":{"action":"open_url","url":"https://youtu.be/3iUgKH8c7p4"}}, {"translate":"jongs.rinne.i","color":"light_purple"}, {"translate":"jongs.rinne.ma","color":"white"}, {"translate":"jongs.rinne.su","color":"light_purple"}, {"translate":"jongs.rinne.gu","color":"white"}, {"translate":"jongs.rinne.rin","color":"light_purple"}, {"translate":"jongs.rinne.ne","color":"white"}, {"text":"♡","color":"yellow"}],\
+minecraft:custom_name=[{"text":"☆","color":"yellow","italic":false,"click_event":{"action":"open_url","url":"https://youtu.be/3iUgKH8c7p4"}}, {"translate":"jongs.rinne.i","color":"light_purple"}, {"translate":"jongs.rinne.ma","color":"white"}, {"translate":"jongs.rinne.su","color":"light_purple"}, {"translate":"jongs.rinne.gu","color":"white"}, {"translate":"jongs.rinne.rin","color":"light_purple"}, {"translate":"jongs.rinne.ne","color":"white"}, {"text":"▽","color":"yellow"}],\
 minecraft:consumable={consume_seconds:2147483647,animation:bow,sound:{sound_id:""},has_consume_particles:false}\
 ]

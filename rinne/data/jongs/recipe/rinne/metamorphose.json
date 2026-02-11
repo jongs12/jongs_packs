@@ -23,9 +23,8 @@
             "effects": [
               {"id":"minecraft:saturation","amplifier":19,"duration":1,"ambient":true,"show_particles":false,"show_icon":false},
               {"id":"minecraft:instant_health","amplifier":1,"duration":50,"ambient":true,"show_particles":false,"show_icon":false},
+              {"id":"minecraft:resistance","amplifier":4,"duration":50,"ambient":true,"show_particles":false,"show_icon":true},
               {"id":"minecraft:fire_resistance","amplifier":0,"duration":1200,"ambient":false,"show_particles":false,"show_icon":true},
-              {"id":"minecraft:resistance","amplifier":2,"duration":200,"ambient":false,"show_particles":false,"show_icon":true},
-              {"id":"minecraft:night_vision","amplifier":0,"duration":400,"ambient":false,"show_particles":false,"show_icon":true},
               {"id":"minecraft:water_breathing","amplifier":0,"duration":200,"ambient":false,"show_particles":false,"show_icon":true}
             ]
           },

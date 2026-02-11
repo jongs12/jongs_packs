@@ -47,15 +47,31 @@
           }
         },
         {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "movement": {
-              "fall_distance": {
-                "min": 1.5
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "fall_distance": {
+                    "min": 1.5
+                  }
+                }
+              }
+            },
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "fluid": {
+                    "fluids": "#minecraft:water"
+                  }
+                }
               }
             }
-          }
+          ]
         }
       ]
     },

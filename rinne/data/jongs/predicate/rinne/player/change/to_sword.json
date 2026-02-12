@@ -48,13 +48,23 @@
       "condition": "any_of",
       "terms": [
         {
-          "condition": "weather_check",
-          "raining": false
-        },
-        {
-          "condition": "location_check",
-          "predicate": {
-            "can_see_sky": false
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "items": "minecraft:trident"
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {"max": 100}
+                },
+                "can_see_sky": true
+              }
+            }
           }
         },
         {
@@ -64,12 +74,8 @@
           }
         },
         {
-          "condition": "location_check",
-          "predicate": {
-            "position": {
-              "y": {"min": 101}
-            }
-          }
+          "condition": "weather_check",
+          "raining": false
         }
       ]
     },

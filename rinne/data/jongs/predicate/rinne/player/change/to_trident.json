@@ -16,57 +16,12 @@
       }
     },
     {
-      "condition": "any_of",
-      "terms": [
-        {
-          "condition": "location_check",
-          "predicate": {
-            "fluid": {
-              "fluids": "#minecraft:water"
-            }
-          }
-        },
-        {
-          "condition": "all_of",
-          "terms": [
-            {
-              "condition": "weather_check",
-              "raining": true
-            },
-            {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "flags": {
-                  "is_on_ground": true,
-                  "is_sprinting": false
-                },
-                "type_specific": {
-                  "type": "player",
-                  "input": {
-                    "sprint": false
-                  }
-                },
-                "location": {
-                  "position": {
-                    "y": {"max": 100}
-                  },
-                  "can_see_sky": true
-                }
-              }
-            },
-            {
-              "condition": "inverted",
-              "term": {
-                "condition": "location_check",
-                "predicate": {
-                  "biomes": "#jongs:rinne/no_rain"
-                }
-              }
-            }
-          ]
+      "condition": "location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
         }
-      ]
+      }
     },
     {
       "condition": "entity_properties",

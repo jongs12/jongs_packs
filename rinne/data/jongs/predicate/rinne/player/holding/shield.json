@@ -4,11 +4,7 @@
   "predicate": {
     "slots": {
       "weapon.mainhand": {
-        "predicates": {
-          "minecraft:custom_data": {
-            "jongs": [{"purpose":"rinne.wand"}]
-          }
-        }
+        "items": "#minecraft:pickaxes"
       }
     }
   }

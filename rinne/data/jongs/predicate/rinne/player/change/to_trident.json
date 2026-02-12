@@ -16,13 +16,10 @@
       }
     },
     {
-      "condition": "entity_properties",
-      "entity": "this",
+      "condition": "location_check",
       "predicate": {
-        "location": {
-          "fluid": {
-            "fluids": "#minecraft:water"
-          }
+        "fluid": {
+          "fluids": "#minecraft:water"
         }
       }
     },
@@ -30,8 +27,12 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "flags": {
-          "is_sneaking": false
+        "type_specific": {
+          "type": "player",
+          "input": {
+            "jump": false,
+            "sneak": false
+          }
         }
       }
     },

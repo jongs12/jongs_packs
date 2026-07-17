@@ -1,0 +1,12 @@
+{
+  "music.menu": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "weight":1
+      }
+    ]
+  }
+}

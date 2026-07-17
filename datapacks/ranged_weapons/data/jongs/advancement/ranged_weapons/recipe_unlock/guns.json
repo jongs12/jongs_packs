@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tripwire_hook"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "jongs:ranged_weapons/assault_rifle/light",
+      "jongs:ranged_weapons/assault_rifle/medium",
+      "jongs:ranged_weapons/assault_rifle/heavy",
+      "jongs:ranged_weapons/pistol/light",
+      "jongs:ranged_weapons/pistol/medium",
+      "jongs:ranged_weapons/pistol/heavy",
+      "jongs:ranged_weapons/shotgun/light",
+      "jongs:ranged_weapons/shotgun/medium",
+      "jongs:ranged_weapons/shotgun/heavy",
+      "jongs:ranged_weapons/sniper_rifle/light",
+      "jongs:ranged_weapons/sniper_rifle/medium",
+      "jongs:ranged_weapons/sniper_rifle/heavy",
+      "jongs:ranged_weapons/light_machine_gun/light",
+      "jongs:ranged_weapons/light_machine_gun/medium",
+      "jongs:ranged_weapons/light_machine_gun/heavy",
+      "jongs:ranged_weapons/flamethrower/light",
+      "jongs:ranged_weapons/flamethrower/medium",
+      "jongs:ranged_weapons/flamethrower/heavy",
+      "jongs:ranged_weapons/grenade_launcher/light",
+      "jongs:ranged_weapons/grenade_launcher/medium",
+      "jongs:ranged_weapons/grenade_launcher/heavy",
+      "jongs:ranged_weapons/rocket_launcher/light",
+      "jongs:ranged_weapons/rocket_launcher/medium",
+      "jongs:ranged_weapons/rocket_launcher/heavy"
+    ]
+  }
+}

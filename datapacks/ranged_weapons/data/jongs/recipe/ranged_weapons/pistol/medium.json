@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "jongs.ranged_weapons.regular",
+  "key": {
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:dispenser",
+    "D": "minecraft:bucket",
+    "E": "minecraft:tripwire_hook"
+  },
+  "pattern": [
+    "AB",
+    "ED"
+  ],
+  "result": {
+    "id": "minecraft:music_disc_cat",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "jongs:ranged_weapons/pistol/medium",
+      "minecraft:item_name": {
+        "translate": "jongs.ranged_weapons.pistol.medium",
+        "color": "#80FFFF", "bold": true, "shadow_color": [0,0,0,1]
+      },
+      "minecraft:max_damage": 20,
+      "minecraft:custom_data": {
+        "jongs": [
+          {
+            "purpose": "ranged_weapons.guns",
+            "auto_fire": 0,
+            "ammo_use": 0.06,
+            "sound_name": "minecraft:entity.firework_rocket.blast",
+            "sound_pitch": 0.85,
+            "attack_time": 2,
+            "load_sound": 0
+          },
+          {
+            "purpose": "ranged_weapons.have_bullet",
+            "fire_type": "single",
+            "attack_range": 1,
+            "attack_damage": 55,
+            "damage_type": 1,
+            "pierce_level": 1
+          },
+          {
+            "purpose": "ranged_weapons.can_reload",
+            "weapon_type": 22,
+            "reload_time": 25,
+            "reload_amount": 1,
+            "start_sound": "minecraft:block.chain.place"
+          }
+        ]
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:attribute_modifiers": [
+        {
+          "amount": 2,
+          "id": "jongs:ranged_weapons.mainhand.attack_damage",
+          "slot": "mainhand",
+          "type": "minecraft:attack_damage",
+          "operation": "add_value"
+        },
+        {
+          "amount": -0.5,
+          "id": "jongs:ranged_weapons.mainhand.attack_speed",
+          "slot": "mainhand",
+          "type": "minecraft:attack_speed",
+          "operation": "add_multiplied_base"
+        }
+      ],
+      "minecraft:use_effects": {
+        "can_sprint": true,
+        "speed_multiplier": 1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "spear",
+        "sound": {"sound_id": ""},
+        "has_consume_particles": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 0,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:lore": [
+        {
+          "translate": "jongs.ranged_weapons.howto",
+          "color": "gray", "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:attribute_modifiers"]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jongs.ranged_weapons.special",
+  "key": {
+    "A": "minecraft:redstone",
+    "B": "minecraft:observer",
+    "C": "minecraft:smooth_stone_slab",
+    "D": "minecraft:dispenser",
+    "E": "minecraft:iron_door"
+  },
+  "pattern": [
+    "ADA",
+    "EBE",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:music_disc_chirp",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "jongs:ranged_weapons/throwables/sentry_gun",
+      "minecraft:item_name": {
+        "translate": "jongs.ranged_weapons.throwables.sentry_gun",
+        "color": "#000000", "bold": true, "shadow_color": [1,1,1,1]
+      },
+      "minecraft:max_damage": 4,
+      "minecraft:custom_data": {
+        "jongs": [
+          {
+            "purpose": "ranged_weapons.launcher",
+            "auto_fire": 0,
+            "ammo_use": 0.3,
+            "sound_name": "minecraft:entity.snowball.throw",
+            "sound_pitch": 1.5,
+            "attack_time": 20,
+            "load_sound": 0,
+            "initial_speed": 0.5,
+            "summon_type": "display"
+          },
+          {
+            "purpose": "ranged_weapons.have_bomb",
+            "item_name": "sentry_gun",
+            "block_light": 3,
+            "sky_light": 15
+          },
+          {
+            "purpose": "ranged_weapons.can_reload",
+            "weapon_type": 92,
+            "reload_time": -1,
+            "reload_amount": 0,
+            "start_sound": "minecraft:block.amethyst_block.fall"
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:observer"
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:use_effects": {
+        "can_sprint": true,
+        "speed_multiplier": 1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "spyglass",
+        "sound": {"sound_id": ""},
+        "has_consume_particles": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 0,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:lore": [
+        {
+          "translate": "jongs.ranged_weapons.howto",
+          "color": "gray", "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:attribute_modifiers"]
+      }
+    }
+  }
+}

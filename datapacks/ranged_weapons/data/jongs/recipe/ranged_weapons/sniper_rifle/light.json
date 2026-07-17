@@ -1,0 +1,115 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "jongs.ranged_weapons.regular",
+  "key": {
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:dispenser",
+    "C": "minecraft:saddle",
+    "D": "minecraft:hopper",
+    "E": "minecraft:tripwire_hook",
+    "F": "#minecraft:bars",
+    "G": "minecraft:amethyst_shard",
+    "H": "#minecraft:lightning_rods"
+  },
+  "pattern": [
+    "GH ",
+    "ABC",
+    "FED"
+  ],
+  "result": {
+    "id": "minecraft:spyglass",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle/light",
+      "minecraft:item_name": {
+        "translate": "jongs.ranged_weapons.sniper_rifle.light",
+        "color": "#FFFFFF", "bold": true, "shadow_color": [0,0,0,1]
+      },
+      "minecraft:max_damage": 15,
+      "minecraft:custom_data": {
+        "jongs": [
+          {
+            "purpose": "ranged_weapons.guns",
+            "auto_fire": 1,
+            "ammo_use": 0.07,
+            "sound_name": "minecraft:entity.iron_golem.repair",
+            "sound_pitch": 0.85,
+            "attack_time": 8,
+            "load_sound": 0
+          },
+          {
+            "purpose": "ranged_weapons.have_bullet",
+            "fire_type": "single",
+            "attack_range": 4,
+            "attack_damage": 105,
+            "damage_type": 1,
+            "pierce_level": 1
+          },
+          {
+            "purpose": "ranged_weapons.can_reload",
+            "weapon_type": 41,
+            "reload_time": 45,
+            "reload_amount": 1,
+            "start_sound": "minecraft:block.chain.place"
+          }
+        ]
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:attribute_modifiers": [
+        {
+          "amount": 4,
+          "id": "jongs:ranged_weapons.mainhand.attack_damage",
+          "slot": "mainhand",
+          "type": "minecraft:attack_damage",
+          "operation": "add_value"
+        },
+        {
+          "amount": -0.7,
+          "id": "jongs:ranged_weapons.mainhand.attack_speed",
+          "slot": "mainhand",
+          "type": "minecraft:attack_speed",
+          "operation": "add_multiplied_base"
+        },
+        {
+          "amount": 0.3,
+          "id": "jongs:ranged_weapons.mainhand.attack_knockback",
+          "slot": "mainhand",
+          "type": "minecraft:attack_knockback",
+          "operation": "add_value"
+        },
+        {
+          "amount": -0.1,
+          "id": "jongs:ranged_weapons.mainhand.movement_speed",
+          "slot": "mainhand",
+          "type": "minecraft:movement_speed",
+          "operation": "add_multiplied_base"
+        }
+      ],
+      "minecraft:tool": {
+        "damage_per_block": 0,
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 1.5, "correct_for_drops": false
+          }
+        ]
+      },
+      "minecraft:use_effects": {
+        "can_sprint": true,
+        "speed_multiplier": 1
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 0,
+      "minecraft:lore": [
+        {
+          "translate": "jongs.ranged_weapons.howto",
+          "color": "gray", "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:attribute_modifiers"]
+      }
+    }
+  }
+}

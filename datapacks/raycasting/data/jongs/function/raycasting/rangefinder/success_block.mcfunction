@@ -1,0 +1,3 @@
+particle minecraft:dust_color_transition{from_color:[0.333,1,0.333],to_color:[0.667,0,0.667],scale:2} ~ ~ ~ 0.05 0.05 0.05 0 3
+function jongs:raycasting/calculate
+tellraw @s [{"translate":"jongs.raycasting.the_distance_to_the","color":"aqua","with":[ {"translate":"jongs.raycasting.block","color":"light_purple"}, [{"score":{"name":"#정수","objective":"jongs.raycasting.distance"},"color":"gold","bold":true}, {"text":"."}, {"score":{"name":"#소수","objective":"jongs.raycasting.distance"}}, {"text":" m","bold":false}] ]}]

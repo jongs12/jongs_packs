@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "jongs:ranged_weapons/throwables/sticky_mine",
+      "jongs:ranged_weapons/throwables/sentry_gun",
+      "jongs:ranged_weapons/throwables/orbital_strike"
+    ]
+  }
+}

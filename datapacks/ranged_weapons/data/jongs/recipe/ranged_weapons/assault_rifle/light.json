@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "jongs.ranged_weapons.regular",
+  "key": {
+    "A": "minecraft:iron_ingot",
+    "B": "minecraft:dispenser",
+    "C": "minecraft:saddle",
+    "D": "minecraft:hopper",
+    "E": "minecraft:tripwire_hook",
+    "F": "#minecraft:bars"
+  },
+  "pattern": [
+    " F ",
+    "ABC",
+    " ED"
+  ],
+  "result": {
+    "id": "minecraft:music_disc_cat",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "jongs:ranged_weapons/assault_rifle/light",
+      "minecraft:item_name": {
+        "translate": "jongs.ranged_weapons.assault_rifle.light",
+        "color": "#8080FF", "bold": true, "shadow_color": [0,0,0,1]
+      },
+      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+        "jongs": [
+          {
+            "purpose": "ranged_weapons.guns",
+            "auto_fire": 2,
+            "ammo_use": 0.04,
+            "sound_name": "minecraft:entity.firework_rocket.large_blast",
+            "sound_pitch": 1.7,
+            "attack_time": 3,
+            "load_sound": 0
+          },
+          {
+            "purpose": "ranged_weapons.have_bullet",
+            "fire_type": "single",
+            "attack_range": 3,
+            "attack_damage": 40,
+            "damage_type": 0,
+            "pierce_level": 0
+          },
+          {
+            "purpose": "ranged_weapons.can_reload",
+            "weapon_type": 11,
+            "reload_time": 45,
+            "reload_amount": 1,
+            "start_sound": "minecraft:block.chain.place"
+          }
+        ]
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:attribute_modifiers": [
+        {
+          "amount": 3,
+          "id": "jongs:ranged_weapons.mainhand.attack_damage",
+          "slot": "mainhand",
+          "type": "minecraft:attack_damage",
+          "operation": "add_value"
+        },
+        {
+          "amount": -0.6,
+          "id": "jongs:ranged_weapons.mainhand.attack_speed",
+          "slot": "mainhand",
+          "type": "minecraft:attack_speed",
+          "operation": "add_multiplied_base"
+        },
+        {
+          "amount": 0.2,
+          "id": "jongs:ranged_weapons.mainhand.attack_knockback",
+          "slot": "mainhand",
+          "type": "minecraft:attack_knockback",
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:tool": {
+        "damage_per_block": 0,
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 2, "correct_for_drops": false
+          }
+        ]
+      },
+      "minecraft:use_effects": {
+        "can_sprint": true,
+        "speed_multiplier": 1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "spear",
+        "sound": {"sound_id": ""},
+        "has_consume_particles": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 0,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:lore": [
+        {
+          "translate": "jongs.ranged_weapons.howto",
+          "color": "gray", "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:attribute_modifiers"]
+      }
+    }
+  }
+}

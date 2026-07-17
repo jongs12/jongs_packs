@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 60, -90, 55 ],
+      "translation": [ 0, 3, -2.5 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 60, 90, -55 ],
+      "translation": [ 0, 3, -2.5 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 30, -90, 25 ],
+      "translation": [ 1.13, 3, 0.5 ],
+      "scale": [ 0.9, 0.9, 0.9 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 30, 90, -25 ],
+      "translation": [ 1.13, 3, 0.5 ],
+      "scale": [ 0.9, 0.9, 0.9 ]
+    }
+  },
+  "textures": {
+    "layer0": "jongs:item/ranged_weapons/rocket_launcher/light"
+  }
+}

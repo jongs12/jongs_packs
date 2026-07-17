@@ -1,0 +1,1 @@
+$return run summon minecraft:snowball ~ ~ ~ {Owner:$(UUID),Motion:[$(x),$(y),$(z)],Item:{id:water_bucket,components:{enchantment_glint_override:true}},Passengers:[{id:"minecraft:marker",Tags:["jongs.water_bucket_release.fill"]}]}

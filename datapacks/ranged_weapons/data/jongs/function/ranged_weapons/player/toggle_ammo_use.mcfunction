@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[unbreakable={}] run return run item modify entity @s weapon.mainhand {function:set_components,components:{"!minecraft:unbreakable":{},"minecraft:enchantment_glint_override":false}}
+return run item modify entity @s weapon.mainhand {function:set_components,components:{"minecraft:unbreakable":{},"minecraft:enchantment_glint_override":true}}

@@ -10,8 +10,20 @@
           }
         ]
       }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "jongs:ranged_weapons/assault_rifle/medium"
+      }
     }
   },
+  "requirements": [
+    [
+      "got_the_item",
+      "has_the_recipe"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "jongs:ranged_weapons/assault_rifle/light",

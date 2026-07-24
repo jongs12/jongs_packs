@@ -1,9 +1,15 @@
 {
   "values": [
-    "#minecraft:rails",
     "#minecraft:air",
     "minecraft:bamboo_sapling",
-    "#minecraft:wall_post_override",
+    "#minecraft:banners",
+    "#minecraft:pressure_plates",
+    "#minecraft:signs",
+    "minecraft:cactus_flower",
+    "minecraft:copper_torch",
+    "minecraft:redstone_torch",
+    "minecraft:soul_torch",
+    "minecraft:torch",
     "#minecraft:all_hanging_signs",
     "minecraft:redstone_wall_torch",
     "minecraft:wall_torch",
@@ -14,7 +20,6 @@
     "#minecraft:buttons",
     "#minecraft:can_glide_through",
     "minecraft:cave_vines_plant",
-    "minecraft:cobweb",
     "#minecraft:underwater_bonemeals",
     "minecraft:dead_brain_coral",
     "minecraft:dead_brain_coral_fan",
@@ -75,8 +80,6 @@
     "minecraft:pale_hanging_moss",
     "minecraft:pink_petals",
     "minecraft:leaf_litter",
-    "minecraft:snow",
-    "minecraft:powder_snow",
     "minecraft:redstone_wire",
     "minecraft:resin_clump",
     "minecraft:crimson_roots",
@@ -96,7 +99,6 @@
     "minecraft:sugar_cane",
     "minecraft:sweet_berry_bush",
     "minecraft:water",
-    "minecraft:bubble_column",
-    "minecraft:scaffolding"
+    "minecraft:bubble_column"
   ]
 }

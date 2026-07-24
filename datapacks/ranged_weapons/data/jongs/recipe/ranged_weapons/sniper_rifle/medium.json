@@ -43,7 +43,7 @@
             "purpose": "ranged_weapons.have_bullet",
             "fire_type": "single",
             "attack_range": 7,
-            "attack_damage": 260,
+            "attack_damage": 270,
             "damage_type": 2,
             "pierce_level": 10
           },

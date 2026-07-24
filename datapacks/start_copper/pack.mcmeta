@@ -1,8 +1,8 @@
 {
     "pack": {
         "description": "Each player start with copper tools. Datapack made by jongs.",
-	    "pack_format": 94.0,
+	    "pack_format": 107.1,
         "min_format": 88.0,
-        "max_format": 101.1
+        "max_format": 107.1
     }
 }

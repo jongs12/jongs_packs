@@ -4,6 +4,6 @@ $summon minecraft:snowball ^ ^ ^ {Owner:$(UUID),Item:{id:"minecraft:copper_nugge
 Tags:["jongs.ranged_weapons.summoned","jongs.ranged_weapons.from_weapons","jongs.ranged_weapons.$(item_name)"],item:{id:"minecraft:stone",count:1,components:{item_model:"jongs:ranged_weapons/throwables/$(item_name)"}}, \
 brightness:{block:$(block_light),sky:$(sky_light)},transformation:{right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],left_rotation:[0,0,0,1],translation:[0,0,0]} }] }
 scoreboard players operation @e[type=minecraft:item_display,tag=jongs.ranged_weapons.summoned,limit=1] jongs.ranged_weapons.player_id = @s jongs.ranged_weapons.player_id
-scoreboard players set @e[type=minecraft:item_display,tag=jongs.ranged_weapons.summoned,limit=1] jongs.ranged_weapons.hold 10
+scoreboard players set @e[type=minecraft:item_display,tag=jongs.ranged_weapons.summoned,limit=1] jongs.ranged_weapons.hold 20
 rotate @e[type=minecraft:item_display,tag=jongs.ranged_weapons.summoned,limit=1] ~ ~
 return run tag @e[type=minecraft:item_display,tag=jongs.ranged_weapons.summoned,limit=1] remove jongs.ranged_weapons.summoned

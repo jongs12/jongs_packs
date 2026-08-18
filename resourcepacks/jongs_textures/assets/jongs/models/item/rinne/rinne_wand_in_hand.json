@@ -1,0 +1,6 @@
+{
+  "parent": "jongs:item/rinne/wand_in_hand",
+  "textures": {
+    "layer0": "jongs:item/rinne/rinne_wand_in_hand"
+  }
+}

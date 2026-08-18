@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:totem_of_undying",
+    "minecraft:blaze_powder",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_relic",
+    "components": {
+      "!minecraft:jukebox_playable": {},
+      "minecraft:custom_data": {
+        "jongs": [
+          {
+            "purpose": "rinne.metamorphosis"
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_name": [
+        {
+          "text": "『",
+          "color": "aqua"
+        },
+        {
+          "translate": "jongs.rinne.totem",
+          "color": "yellow"
+        },
+        {
+          "text": "』",
+          "color": "aqua"
+        }
+      ],
+      "minecraft:damage_resistant": {
+        "types": "#jongs:rinne/all"
+      },
+      "minecraft:item_model": "jongs:rinne/metamorphose",
+      "minecraft:rarity": "rare",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:saturation",
+                "amplifier": 19,
+                "duration": 1,
+                "ambient": true,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 2,
+                "duration": 64,
+                "ambient": true,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 4,
+                "duration": 64,
+                "ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 600,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:water_breathing",
+                "amplifier": 0,
+                "duration": 200,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          },
+          {
+            "type": "remove_effects",
+            "effects": [
+              "minecraft:slowness",
+              "minecraft:mining_fatigue",
+              "minecraft:instant_damage",
+              "minecraft:nausea",
+              "minecraft:blindness",
+              "minecraft:hunger",
+              "minecraft:weakness",
+              "minecraft:poison",
+              "minecraft:wither",
+              "minecraft:unluck",
+              "minecraft:darkness",
+              "minecraft:wind_charged",
+              "minecraft:weaving",
+              "minecraft:oozing",
+              "minecraft:infested",
+              "minecraft:levitation",
+              "minecraft:slow_falling"
+            ]
+          },
+          {
+            "type": "play_sound",
+            "sound": {
+              "sound_id": "jongs:rinne.ima_sugu_rinne"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

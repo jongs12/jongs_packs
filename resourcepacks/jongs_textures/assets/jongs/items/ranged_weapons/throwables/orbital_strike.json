@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jongs:block/ranged_weapons/throwables/orbital_strike"
+  }
+}

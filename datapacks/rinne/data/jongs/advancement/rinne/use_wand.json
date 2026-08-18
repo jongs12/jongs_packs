@@ -16,15 +16,19 @@
           }
         },
         "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "jongs": [
-                    {
-                      "purpose": "rinne.wand"
-                    }
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "jongs": [
+                      {
+                        "purpose": "rinne.wand"
+                      }
+                    ]
+                  }
                 }
               }
             }

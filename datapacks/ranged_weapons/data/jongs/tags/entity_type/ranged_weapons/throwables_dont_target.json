@@ -4,6 +4,7 @@
     "minecraft:item",
     "minecraft:experience_orb",
     "minecraft:armor_stand",
-    "minecraft:mannequin"
+    "minecraft:mannequin",
+    "minecraft:cushion"
   ]
 }

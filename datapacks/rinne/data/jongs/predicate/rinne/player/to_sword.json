@@ -1,0 +1,90 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:diamond_sword"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_ground": true,
+          "is_sprinting": false
+        },
+        "type_specific": {
+          "type": "player",
+          "input": {
+            "jump": false,
+            "sprint": false,
+            "sneak": false
+          }
+        }
+      }
+    },
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "location_check",
+        "predicate": {
+          "fluid": {
+            "fluids": "#minecraft:water"
+          }
+        }
+      }
+    },
+    {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "items": "minecraft:trident"
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {"max": 100}
+                },
+                "can_see_sky": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "predicate": {
+            "biomes": "#jongs:rinne/no_rain"
+          }
+        },
+        {
+          "condition": "weather_check",
+          "raining": false
+        }
+      ]
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "jongs.rinne.hold": 0
+      }
+    }
+  ]
+}

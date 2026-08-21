@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "jongs:ranged_weapons/no_pierce",
+    "jongs:ranged_weapons/mini_pierce",
+    "jongs:ranged_weapons/full_pierce"
+  ]
+}

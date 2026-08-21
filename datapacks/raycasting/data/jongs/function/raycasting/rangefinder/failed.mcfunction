@@ -1,0 +1,2 @@
+function jongs:raycasting/calculate
+tellraw @s [{"translate":"jongs.raycasting.too_far","color":"dark_red","with":[ [{"score":{"name":"#정수","objective":"jongs.raycasting.distance"}}, {"text":"."}, {"score":{"name":"#소수","objective":"jongs.raycasting.distance"}}, {"text":" m"}] ]}]

@@ -1,0 +1,2 @@
+tag @e[type=!#jongs:ranged_weapons/bullets_dont_target,tag=!jongs.ranged_weapons.shooter,tag=jongs.ranged_weapons.do_not_target] remove jongs.ranged_weapons.do_not_target
+return run tag @s remove jongs.ranged_weapons.shooter

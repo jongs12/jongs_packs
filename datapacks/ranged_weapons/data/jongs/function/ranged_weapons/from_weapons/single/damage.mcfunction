@@ -1,0 +1,2 @@
+$damage @s $(amount) jongs:ranged_weapons/$(type) by @e[type=minecraft:marker,tag=jongs.ranged_weapons.shooting,limit=1] from @a[tag=jongs.ranged_weapons.shooter,limit=1]
+return run tag @s remove jongs.ranged_weapons.hit

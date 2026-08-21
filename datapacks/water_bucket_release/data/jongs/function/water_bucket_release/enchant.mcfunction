@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[!minecraft:piercing_weapon] run item modify entity @s weapon.mainhand {"function":"set_components","components":{"minecraft:piercing_weapon":{}}}
+execute unless items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantment:"jongs:water_bucket_release/release"}]] run return run enchant @s jongs:water_bucket_release/release

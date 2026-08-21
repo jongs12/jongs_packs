@@ -1,0 +1,2 @@
+$damage @s $(amount) jongs:ranged_weapons/no_pierce by @e[type=minecraft:block_display,tag=jongs.ranged_weapons.shooting,limit=1] from @a[tag=jongs.ranged_weapons.shooter,limit=1]
+return run scoreboard players set #피해여부 jongs.ranged_weapons.click 1

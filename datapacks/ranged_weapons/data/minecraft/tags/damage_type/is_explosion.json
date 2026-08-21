@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "jongs:ranged_weapons/explosion",
+    "jongs:ranged_weapons/fire_explode"
+  ]
+}

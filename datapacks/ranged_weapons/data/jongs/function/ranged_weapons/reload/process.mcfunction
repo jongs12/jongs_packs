@@ -1,0 +1,3 @@
+execute unless score @s jongs.ranged_weapons.reload_time matches 0 run return run scoreboard players remove @s jongs.ranged_weapons.reload_time 1
+execute unless items entity @s weapon.mainhand #jongs:ranged_weapons/guns[minecraft:damage~{damage:{min:1}}] run return 0
+return run function jongs:ranged_weapons/reload/end with entity @s SelectedItem.components."minecraft:custom_data".jongs[{"purpose":"ranged_weapons.can_reload"}]

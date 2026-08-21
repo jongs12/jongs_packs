@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 70, -90, 55 ],
+      "translation": [ 0, 4.0, -1.0 ],
+      "scale": [ 0.95, 0.95, 0.95 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 70, 90, -55 ],
+      "translation": [ 0, 4.0, -1.0 ],
+      "scale": [ 0.95, 0.95, 0.95 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 30, -90, 25 ],
+      "translation": [ 1.13, 3.2, 0 ],
+      "scale": [ 0.8, 0.8, 0.8 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 30, 90, -25 ],
+      "translation": [ 1.13, 3.2, 0 ],
+      "scale": [ 0.8, 0.8, 0.8 ]
+    }
+  },
+  "textures": {
+    "layer0": "jongs:item/ranged_weapons/flamethrower/medium"
+  }
+}

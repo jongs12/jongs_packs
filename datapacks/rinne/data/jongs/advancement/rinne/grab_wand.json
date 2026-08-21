@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "grab_wand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword",
+              "minecraft:mace",
+              "minecraft:diamond_spear",
+              "minecraft:trident",
+              "minecraft:diamond_pickaxe",
+              "minecraft:player_head",
+              "minecraft:leather_chestplate",
+              "minecraft:iron_leggings",
+              "minecraft:leather_boots"
+            ],
+            "predicates": {
+              "minecraft:custom_data": {
+                "jongs": [
+                  {
+                    "purpose": "rinne.exclusive"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "jongs:rinne/use_item/check_permission"
+  }
+}

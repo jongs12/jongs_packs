@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "shooting": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass",
+          "predicates": {
+            "minecraft:custom_data": {
+              "jongs": [
+                {
+                  "purpose": "ranged_weapons.guns"
+                }
+              ]
+            }
+          }
+        },
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:spyglass",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "jongs": [
+                    {
+                      "purpose": "ranged_weapons.guns"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:time_since_death",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jongs:ranged_weapons/shooting/sniper/check"
+  }
+}

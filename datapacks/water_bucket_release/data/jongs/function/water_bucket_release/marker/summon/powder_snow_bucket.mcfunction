@@ -1,0 +1,1 @@
+return run setblock ~ ~ ~ minecraft:powder_snow destroy

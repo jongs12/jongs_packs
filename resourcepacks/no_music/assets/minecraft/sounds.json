@@ -144,6 +144,11 @@
     "sounds": [
     ]
   },
+  "music.overworld.sulfur_caves": {
+    "replace": true,
+    "sounds": [
+    ]
+  },
   "music.overworld.swamp": {
     "replace": true,
     "sounds": [

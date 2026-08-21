@@ -68,7 +68,7 @@
     "#minecraft:lightning_rods",
     "minecraft:piston_head",
     "minecraft:moving_piston",
-    "minecraft:pointed_dripstone",
+    "#minecraft:speleothems",
     "#minecraft:wooden_shelves",
     "minecraft:comparator",
     "minecraft:repeater",

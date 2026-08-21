@@ -5,7 +5,7 @@
     "minecraft:medium_amethyst_bud",
     "minecraft:large_amethyst_bud",
     "minecraft:amethyst_cluster",
-    "minecraft:pointed_dripstone",
+    "#minecraft:speleothems",
     "#minecraft:rails",
     "minecraft:tripwire",
     "minecraft:cobweb",

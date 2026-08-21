@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:marker,tag=jongs.water_bucket_release.fill,predicate=jongs:water_bucket_release/no_vehicle] at @s run function jongs:water_bucket_release/marker/fill
+execute as @a if items entity @s weapon.mainhand minecraft:water_bucket run function jongs:water_bucket_release/enchant

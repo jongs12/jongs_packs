@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "jongs.ranged_weapons.challenge.title"
+    },
+    "description": {
+      "translate": "jongs.ranged_weapons.challenge.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "lol": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

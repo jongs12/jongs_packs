@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Custom textures used in datapacks made by jongs.",
+    "min_format": [84,0],
+    "max_format": [104,0]
+  }
+}

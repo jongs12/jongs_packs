@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds modern ranged weapon items. Datapack made by jongs.",
+    "min_format": [101,1],
+    "max_format": [101,1]
+  }
+}

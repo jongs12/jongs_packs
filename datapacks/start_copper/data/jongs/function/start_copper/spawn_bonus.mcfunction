@@ -1,0 +1,1 @@
+loot give @s loot jongs:start_copper/spawn_bonus

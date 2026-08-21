@@ -1,0 +1,38 @@
+name: Build and Release All Packs #GitHub의 Actions 탭에 표시될 작업(워크플로우)의 이름
+
+on:
+  push:
+    tags:
+      - '*' #저장소에 태그가 푸시될 때마다 이 자동화를 실행
+
+permissions:
+  contents: write #자동화 봇이 저장소에 릴리스를 생성하고 파일을 업로드할 수 있도록 쓰기 권한을 부여
+
+jobs:
+  build:
+    runs-on: ubuntu-latest #GitHub에서 제공하는 가상의 최신 리눅스(Ubuntu) 서버 환경에서 작업을 실행
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7 #내 GitHub 저장소에 올라가 있는 코드와 폴더들을 가상 서버로 다운로드
+
+      - name: Zip all packs
+        run: |
+          mkdir -p dist #완성된 zip 파일들을 임시로 모아둘 dist 폴더를 생성
+          for dir in datapacks/*/ resourcepacks/*/; do #datapacks, resourcepacks 폴더 내 모든 하위 폴더를 하나씩 확인
+            if [ -f "${dir}pack.mcmeta" ]; then #해당 폴더 안에 pack.mcmeta 파일이 실제로 들어 있는지 확인
+              pack_name=$(basename "$dir") #폴더 앞뒤 경로를 제거해 순수 폴더 이름만 추출
+              (cd "$dir" && zip -r "../../dist/${pack_name}-${{ github.ref_name }}.zip" . -x ".*")
+            fi #해당 팩 폴더 안으로 들어간 뒤, 폴더 자체가 아닌 내부 파일들만 압축하여 dist 폴더 안에 폴더이름-태그이름.zip 형태로 저장
+          done
+
+      - name: Create or Update Release
+        uses: softprops/action-gh-release@v3 #태그 이름과 동일한 릴리스 페이지를 만들고,
+        with:
+          files: dist/*.zip # dist 폴더 안의 모든 zip 파일을 릴리스에 첨부
+          generate_release_notes: false # 커밋 내역으로 릴리스 노트 자동 작성(append) 여부
+
+#유의사항:
+#"uses:"에서 출처가 불분명한 액션 사용 금지
+#"run:"에 알 수 없는 주소로부터 스크립트를 실행하는 코드(curl, wget)가 있다면 사용 금지
+#write 권한이 켜져 있는 상태에서 잘못된 명령어가 실행되면 저장소 손상 우려
+#"파일 수정 -> 워크플로우 실행 -> 워크플로우가 다시 파일 수정 -> 재실행" 등 무한 루프 주의

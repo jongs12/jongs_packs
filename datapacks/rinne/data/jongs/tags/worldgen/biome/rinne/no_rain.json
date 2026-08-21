@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:frozen_river",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:grove",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:desert",
+    "minecraft:windswept_savanna",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "#minecraft:is_nether",
+    "#minecraft:is_end",
+    "minecraft:the_void"
+  ]
+}

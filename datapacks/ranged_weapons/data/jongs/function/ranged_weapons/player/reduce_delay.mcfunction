@@ -1,0 +1,2 @@
+execute if score @s jongs.ranged_weapons.delay matches 1 if score @s jongs.ranged_weapons.load_sound matches 1 at @s run playsound minecraft:block.iron_door.open player @a ~ ~ ~ 2 1
+return run scoreboard players remove @s jongs.ranged_weapons.delay 1

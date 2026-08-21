@@ -1,0 +1,7 @@
+{
+  "message_id": "jongs.ranged_weapons.fire_explode",
+  "exhaustion": 0.0,
+  "scaling": "never",
+  "effects": "burning",
+  "death_message_type": "default"
+}

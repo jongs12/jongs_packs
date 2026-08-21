@@ -1,0 +1,1 @@
+$return run function jongs:ranged_weapons/from_weapons/$(path)/check

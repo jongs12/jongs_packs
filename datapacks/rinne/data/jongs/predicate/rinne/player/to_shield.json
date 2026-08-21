@@ -1,0 +1,31 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:diamond_pickaxe"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "input": {
+            "sneak": true
+          }
+        }
+      }
+    }
+  ]
+}

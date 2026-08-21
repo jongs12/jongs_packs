@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jongs:block/ranged_weapons/throwables/beam/core_top",
+    "side": "jongs:block/ranged_weapons/throwables/beam/core_side"
+  }
+}

@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "jongs:ranged_weapons/assault_rifle/medium"
+        "recipes": "jongs:ranged_weapons/assault_rifle/medium"
       }
     }
   },

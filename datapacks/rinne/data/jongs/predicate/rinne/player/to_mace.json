@@ -1,10 +1,10 @@
 {
-  "condition": "all_of",
+  "type": "all_of",
   "terms": [
     {
-      "condition": "inverted",
+      "type": "inverted",
       "term": {
-        "condition": "entity_properties",
+        "type": "entity_properties",
         "entity": "this",
         "predicate": {
           "slots": {
@@ -16,9 +16,9 @@
       }
     },
     {
-      "condition": "inverted",
+      "type": "inverted",
       "term": {
-        "condition": "entity_properties",
+        "type": "entity_properties",
         "entity": "this",
         "predicate": {
           "slots": {
@@ -33,7 +33,7 @@
       }
     },
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "type_specific/player": {
@@ -45,10 +45,10 @@
       }
     },
     {
-      "condition": "any_of",
+      "type": "any_of",
       "terms": [
         {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "type_specific/player": {
@@ -59,10 +59,10 @@
           }
         },
         {
-          "condition": "all_of",
+          "type": "all_of",
           "terms": [
             {
-              "condition": "entity_properties",
+              "type": "entity_properties",
               "entity": "this",
               "predicate": {
                 "movement": {
@@ -73,9 +73,9 @@
               }
             },
             {
-              "condition": "inverted",
+              "type": "inverted",
               "term": {
-                "condition": "location_check",
+                "type": "location_check",
                 "predicate": {
                   "fluid": {
                     "fluids": "#minecraft:water"
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "condition": "entity_scores",
+      "type": "entity_scores",
       "entity": "this",
       "scores": {
         "jongs.rinne.hold": 0

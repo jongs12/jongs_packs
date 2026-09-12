@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/assault_rifle/heavy",
                 "minecraft:item_name": {
@@ -130,9 +130,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/assault_rifle/light",
                 "minecraft:item_name": {
@@ -253,9 +253,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/assault_rifle/medium",
                 "minecraft:item_name": {
@@ -376,9 +376,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/flamethrower/heavy",
                 "minecraft:item_name": {
@@ -483,9 +483,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/flamethrower/light",
                 "minecraft:item_name": {
@@ -590,9 +590,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/flamethrower/medium",
                 "minecraft:item_name": {
@@ -697,9 +697,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/grenade_launcher/heavy",
                 "minecraft:item_name": {
@@ -826,9 +826,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/grenade_launcher/light",
                 "minecraft:item_name": {
@@ -948,9 +948,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/grenade_launcher/medium",
                 "minecraft:item_name": {
@@ -1070,9 +1070,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/light_machine_gun/heavy",
                 "minecraft:item_name": {
@@ -1200,9 +1200,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_far",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/light_machine_gun/light",
                 "minecraft:item_name": {
@@ -1306,9 +1306,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/light_machine_gun/medium",
                 "minecraft:item_name": {
@@ -1436,9 +1436,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/pistol/heavy",
                 "minecraft:item_name": {
@@ -1542,9 +1542,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/pistol/light",
                 "minecraft:item_name": {
@@ -1648,9 +1648,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/pistol/medium",
                 "minecraft:item_name": {
@@ -1754,9 +1754,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/rocket_launcher/heavy",
                 "minecraft:item_name": {
@@ -1874,9 +1874,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/rocket_launcher/light",
                 "minecraft:item_name": {
@@ -1997,9 +1997,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/rocket_launcher/medium",
                 "minecraft:item_name": {
@@ -2117,9 +2117,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/shotgun/heavy",
                 "minecraft:item_name": {
@@ -2240,9 +2240,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/shotgun/light",
                 "minecraft:item_name": {
@@ -2363,9 +2363,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/shotgun/medium",
                 "minecraft:item_name": {
@@ -2486,9 +2486,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spyglass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle/heavy",
                 "minecraft:item_name": {
@@ -2607,9 +2607,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spyglass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle/light",
                 "minecraft:item_name": {
@@ -2728,9 +2728,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spyglass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/sniper_rifle/medium",
                 "minecraft:item_name": {
@@ -2849,9 +2849,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/throwables/orbital_strike",
                 "minecraft:item_name": {
@@ -2939,9 +2939,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/throwables/sentry_gun",
                 "minecraft:item_name": {
@@ -3032,9 +3032,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "jongs:ranged_weapons/throwables/sticky_mine",
                 "minecraft:item_name": {

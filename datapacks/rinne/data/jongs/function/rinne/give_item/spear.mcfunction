@@ -16,7 +16,7 @@ minecraft:weapon={item_damage_per_attack:0, disable_blocking_for_seconds:10},\
 minecraft:tool={default_mining_speed:1,damage_per_block:0,can_destroy_blocks_in_creative:false,rules:[]},\
 \
 minecraft:custom_name=[{"text":"『","color":"aqua"},{"translate":"jongs.rinne.spear","color":"light_purple","bold":true,"click_event":{"action":"open_url","url":"https://youtu.be/3iUgKH8c7p4"}, "with":[{"text":"★","color":"yellow","bold":false}] },{"text":"』","color":"aqua"}],\
-minecraft:swing_animation={type:stab,duration:10},\
+minecraft:attack_animation={type:stab,duration:9},\
 minecraft:piercing_weapon={deals_knockback:true,dismounts:true,sound:{sound_id:"minecraft:block.amethyst_cluster.hit"},hit_sound:{sound_id:"minecraft:block.amethyst_cluster.break"}},\
 minecraft:kinetic_weapon={delay_ticks:0,damage_conditions:{max_duration_ticks:2147483647,min_speed:5,min_relative_speed:5},dismount_conditions:{max_duration_ticks:2147483647,min_speed:5,min_relative_speed:5},knockback_conditions:{max_duration_ticks:2147483647,min_speed:5,min_relative_speed:5},damage_multiplier:1.2,sound:{sound_id:"minecraft:block.amethyst_cluster.hit"},hit_sound:{sound_id:"minecraft:block.amethyst_cluster.break"}}\
 ]

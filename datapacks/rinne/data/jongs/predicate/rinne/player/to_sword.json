@@ -1,10 +1,10 @@
 {
-  "condition": "all_of",
+  "type": "all_of",
   "terms": [
     {
-      "condition": "inverted",
+      "type": "inverted",
       "term": {
-        "condition": "entity_properties",
+        "type": "entity_properties",
         "entity": "this",
         "predicate": {
           "slots": {
@@ -16,7 +16,7 @@
       }
     },
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "flags": {
@@ -33,9 +33,9 @@
       }
     },
     {
-      "condition": "inverted",
+      "type": "inverted",
       "term": {
-        "condition": "location_check",
+        "type": "location_check",
         "predicate": {
           "fluid": {
             "fluids": "#minecraft:water"
@@ -44,12 +44,12 @@
       }
     },
     {
-      "condition": "any_of",
+      "type": "any_of",
       "terms": [
         {
-          "condition": "inverted",
+          "type": "inverted",
           "term": {
-            "condition": "entity_properties",
+            "type": "entity_properties",
             "entity": "this",
             "predicate": {
               "slots": {
@@ -67,19 +67,19 @@
           }
         },
         {
-          "condition": "location_check",
+          "type": "location_check",
           "predicate": {
             "biomes": "#jongs:rinne/no_rain"
           }
         },
         {
-          "condition": "weather_check",
+          "type": "weather_check",
           "raining": false
         }
       ]
     },
     {
-      "condition": "entity_scores",
+      "type": "entity_scores",
       "entity": "this",
       "scores": {
         "jongs.rinne.hold": 0

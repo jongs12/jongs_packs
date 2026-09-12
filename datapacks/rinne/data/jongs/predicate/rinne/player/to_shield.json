@@ -1,10 +1,10 @@
 {
-  "condition": "all_of",
+  "type": "all_of",
   "terms": [
     {
-      "condition": "inverted",
+      "type": "inverted",
       "term": {
-        "condition": "entity_properties",
+        "type": "entity_properties",
         "entity": "this",
         "predicate": {
           "slots": {
@@ -16,7 +16,7 @@
       }
     },
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "type_specific/player": {

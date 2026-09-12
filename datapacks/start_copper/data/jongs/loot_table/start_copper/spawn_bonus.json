@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:sharpness": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_sword",
@@ -19,13 +19,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:looting": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_sword",
@@ -33,13 +33,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:knockback": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_sword",
@@ -47,13 +47,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:unbreaking": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_sword",
@@ -61,7 +61,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
@@ -70,13 +70,13 @@
                 "minecraft:unbreaking": 3,
                 "minecraft:mending": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             },
             {
               "components": {
                 "minecraft:rarity": "epic"
               },
-              "function": "minecraft:set_components"
+              "type": "minecraft:set_components"
             }
           ],
           "name": "minecraft:copper_sword",
@@ -90,13 +90,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:efficiency": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_axe",
@@ -104,13 +104,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:sharpness": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_axe",
@@ -118,13 +118,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:unbreaking": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_axe",
@@ -138,13 +138,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:efficiency": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_pickaxe",
@@ -152,13 +152,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:fortune": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_pickaxe",
@@ -166,13 +166,13 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
                 "minecraft:unbreaking": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:copper_pickaxe",
@@ -186,7 +186,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -194,7 +194,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cooked_chicken",
@@ -202,7 +202,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -210,7 +210,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:baked_potato",
@@ -218,7 +218,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -226,7 +226,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:bread",
@@ -234,7 +234,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -242,7 +242,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cooked_cod",
@@ -250,7 +250,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -258,7 +258,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cooked_rabbit",
@@ -266,7 +266,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -274,7 +274,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:apple",
@@ -282,7 +282,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -290,7 +290,7 @@
                 "max": 12.0,
                 "min": 8.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:carrot",
@@ -304,7 +304,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -312,7 +312,7 @@
                 "max": 36.0,
                 "min": 24.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:torch",
@@ -326,7 +326,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -334,7 +334,7 @@
                 "max": 32.0,
                 "min": 16.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:oak_planks",

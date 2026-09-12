@@ -17,16 +17,20 @@
           }
         },
         "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "items": "minecraft:music_disc_far",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "jongs": [
-                    {
-                      "purpose": "ranged_weapons.can_reload"
-                    }
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:music_disc_far",
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "jongs": [
+                      {
+                        "purpose": "ranged_weapons.can_reload"
+                      }
+                    ]
+                  }
                 }
               }
             }

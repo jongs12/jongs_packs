@@ -3,6 +3,7 @@
     "#jongs:ranged_weapons/dashable",
     "#jongs:ranged_weapons/small_blocks",
     "minecraft:ice",
+    "minecraft:brittle_ice",
     "minecraft:frosted_ice",
     "#minecraft:leaves",
     "minecraft:snow_block",
